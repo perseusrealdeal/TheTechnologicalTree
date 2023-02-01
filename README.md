@@ -1,4 +1,8 @@
-# Xcode template project
+# macOS App — Xcode 10.1
+
+This is the Xcode 10.1 project configured to make easy start for developing macOS app.
+
+# Start configuration
 
 # Requirements
 

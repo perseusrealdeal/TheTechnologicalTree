@@ -35,3 +35,17 @@ class MainWindowController: NSWindowController {
         super.windowDidLoad()
     }
 }
+
+extension MainWindowController {
+
+    class func storyboardInstance() -> MainWindowController {
+
+        let storyboard = NSStoryboard(name: String(describing: self), bundle: nil)
+        let screen = storyboard.instantiateInitialController() as? MainWindowController
+
+        // Do default setup; don't set any parameter causing loadView up, breaks unit tests
+        // screen?.modalTransitionStyle = UIModalTransitionStyle.partialCurl
+        // screen?.view.backgroundColor = UIColor.yellow
+        return screen ?? MainWindowController()
+    }
+}
