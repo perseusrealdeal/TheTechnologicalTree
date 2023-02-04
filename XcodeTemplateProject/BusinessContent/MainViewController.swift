@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ViewController.swift, MainViewController.storyboard
 //  XcodeTemplateProject
 //
 //  Created by Mikhail Zhigulin in 7531.
