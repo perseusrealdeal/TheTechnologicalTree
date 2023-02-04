@@ -1,5 +1,5 @@
 //
-//  MainWindowController.swift
+//  MainWindowController.swift, MainWindowController.storyboard
 //  XcodeTemplateProject
 //
 //  Created by Mikhail Zhigulin in 7531.

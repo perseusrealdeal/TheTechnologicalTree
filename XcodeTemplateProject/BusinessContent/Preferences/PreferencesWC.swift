@@ -1,5 +1,5 @@
 //
-//  PreferencesWC.swift
+//  PreferencesWC.swift, Preferences.storyboard
 //  XcodeTemplateProject
 //
 //  Created by Mikhail Zhigulin in 7531.
