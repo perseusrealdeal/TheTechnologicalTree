@@ -1,5 +1,5 @@
 //
-//  TheMenu.swift, MainMenu.storyboard
+//  TheMenu.swift, MainMenu.xib
 //  XcodeTemplateProject
 //
 //  Created by Mikhail Zhigulin in 7531.
