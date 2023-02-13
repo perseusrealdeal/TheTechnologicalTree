@@ -50,7 +50,7 @@ class SettingsBundleTests: XCTestCase {
         let expected = ["2", "1", "0"]
         let actual = DARK_MODE_SETTINGS_KEY.valuesFromSettings
 
-        let tell_not_equal = "Dark Mode values doesn't meet requirement!"
+        let tell_not_equal = "Dark Mode value doesn't meet requirement!"
 
         XCTAssertEqual(expected, actual, tell_not_equal)
     }

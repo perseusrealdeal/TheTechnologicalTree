@@ -58,12 +58,8 @@ class MainViewController: UIViewController {
 
         actualDarkModeValueLabel.text = "^_^ \(AppearanceService.DarkModeUserChoice)"
 
-        switch DarkMode.style {
-        case .light:
-            self.view.backgroundColor = .yellow
-        case .dark:
-            self.view.backgroundColor = .gray
-        }
+        // self.view.backgroundColor = DarkMode.style == .light ? .yellow : .gray
+        self.view.backgroundColor = UIColor.perseusBlue
     }
 
     private func localizeContent() {
