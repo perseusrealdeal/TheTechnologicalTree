@@ -42,8 +42,8 @@ Idea to use:
 - Preconfigured GitHub CI, .gitignore, README, and LICENSE
 
 # License
-- All files from this repository is under license based on MIT. 
-- Have a look at [LICENSE](/LICENSE) for details.
+- All files from this repository is under license based on MIT
+- Have a look at [LICENSE](/LICENSE) for details
 
-# Editor, prepared by
+# Editors, prepared by
 Mikhail Zhigulin, mzhigulin@gmail.com
