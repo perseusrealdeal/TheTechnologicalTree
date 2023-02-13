@@ -46,5 +46,5 @@ Idea to use:
 - All files from this repository is under license based on MIT
 - Have a look at [LICENSE](/LICENSE) for details
 
-# Editor, prepared by
+# Editors, prepared by
 Mikhail Zhigulin, mzhigulin@gmail.com
