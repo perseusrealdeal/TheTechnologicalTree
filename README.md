@@ -32,8 +32,17 @@ Idea to use:
 
 - [SwiftLint](https://github.com/realm/SwiftLint) / [0.31.0: Busy Laundromat](https://github.com/realm/SwiftLint/releases/tag/0.31.0) for macOS High Sierra
 
+# Points taken into account
+
+- Explicit start point placed in main.swift file
+- Explicit app delegate with test bundle
+- Settings bundle with Dark Mode option and release number sections
+- Localization test schemes for EN and RU as well
+- SwiftLint shell script
+- Preconfigured GitHub CI, .gitignore, README, and LICENSE
+
 # License
-- All files from this repository is under the special license based on MIT. 
+- All files from this repository is under license based on MIT. 
 - Have a look at [LICENSE](/LICENSE) for details.
 
 # Editor, prepared by
