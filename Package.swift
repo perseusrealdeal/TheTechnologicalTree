@@ -21,7 +21,7 @@ let package = Package(
     products: [
         .library(
             name: "XcodeTemplateProject",
-            targets: ["XcodeTemplateProject"]),
+            targets: ["XcodeTemplateProject"])
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -33,6 +33,6 @@ let package = Package(
             dependencies: []),
         .testTarget(
             name: "XcodeTemplateProjectTests",
-            dependencies: ["XcodeTemplateProject"]),
+            dependencies: ["XcodeTemplateProject"])
     ]
 )
