@@ -2,9 +2,9 @@ name: Build & Tests
 
 on:
   push:
-    branches: [ Xcode-10.1-iOS-App ]
+    branches: [ main ]
   pull_request:
-    branches: [ Xcode-10.1-iOS-App ]
+    branches: [ main ]
 #  schedule:
 #    - cron: '30 5 * * 5'
 
