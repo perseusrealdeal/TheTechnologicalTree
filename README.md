@@ -19,9 +19,9 @@
 
 `step 1:` make a copy of repository as a template
 
-`step 2:` rebase the main branch with `Xcode-10.1-macOS-App` for the first initial preconfigured commit
+`step 2:` rebase the main branch with `Xcode-10.1-iOS-App` for the first initial preconfigured commit
 
-`step 3:` rename the branch `Xcode-10.1-macOS-App` > `v0.0.1`
+`step 3:` rename the branch `Xcode-10.1-iOS-App` > `v0.0.1`
 
 `step 4:` update the branch `v0.0.1` for the project specifics
 
