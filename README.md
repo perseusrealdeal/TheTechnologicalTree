@@ -24,7 +24,7 @@ Idea to use:
 
 `step 2:` rebase the main branch with `Xcode-10.1-Component` for the first initial preconfigured commit
 
-`step 3:` rename branch `Xcode-10.1-Component` > `v0.0.1`
+`step 3:` rename the branch `Xcode-10.1-Component` > `v0.0.1`
 
 `step 4:` update the branch `v0.0.1` for the project specifics
 
