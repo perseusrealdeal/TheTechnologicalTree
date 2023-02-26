@@ -1,14 +1,18 @@
 # Xcode template project
 
-# Requirements
+> This tree with branches repesents a set of Xcode project templates to make easy start of development process.
 
-# First-party software
+`branch 1:` [Xcode-10.1-Component](https://github.com/perseusrealdeal/XcodeTemplateProject/tree/Xcode-10.1-Component)
 
-# Third-party software
+`branch 2:` [Xcode-10.1-iOS-App](https://github.com/perseusrealdeal/XcodeTemplateProject/tree/Xcode-10.1-iOS-App)
 
-# License
-- All files from this repository is under the special license based on MIT. 
-- Have a look at [LICENSE](https://github.com/perseusrealdeal/XcodeProjectTemplates/blob/4e36b963c11eac712716e7852a81b5c367538a65/LICENSE) for details.
+`branch 3:` [Xcode-10.1-macOS-App](https://github.com/perseusrealdeal/XcodeTemplateProject/tree/Xcode-10.1-macOS-App)
+
+# License MIT
+
+- All files from this repository is under license based on MIT
+- Have a look at [LICENSE](/LICENSE) for details
 
 # Editor, prepared by
-Mikhail Zhigulin, mzhigulin@gmail.com
+
+> Mikhail Zhigulin, mzhigulin@gmail.com
