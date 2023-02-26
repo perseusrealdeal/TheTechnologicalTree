@@ -54,7 +54,7 @@ Idea to use:
 - Preconfigured GitHub config [.gitignore] file
 - README and LICENSE
 
-# License
+# License MIT
 
 - All files from this repository is under license based on MIT
 - Have a look at [LICENSE](/LICENSE) for details
