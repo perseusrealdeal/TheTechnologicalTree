@@ -31,10 +31,10 @@
 
 # Requirements
 
-- [macOS High Sierra 10.13.6](https://apps.apple.com/us/app/macos-high-sierra/id1246284741?ls=1)
-- [Xcode 10.1](https://stackoverflow.com/questions/10335747/how-to-download-xcode-dmg-or-xip-file)
+- [macOS 10.13.6+](https://apps.apple.com/us/app/macos-high-sierra/id1246284741?ls=1)
+- [Xcode 10.1+](https://stackoverflow.com/questions/10335747/how-to-download-xcode-dmg-or-xip-file)
 - Swift 4.2+
-- UIKit SDK
+- macOS: 10.9+, AppKit SDK
 
 # First-party software
 
@@ -62,4 +62,5 @@
 - Have a look at [LICENSE](/LICENSE) for details
 
 # Editors, prepared by
-Mikhail Zhigulin, mzhigulin@gmail.com
+
+> Mikhail Zhigulin, mzhigulin@gmail.com
