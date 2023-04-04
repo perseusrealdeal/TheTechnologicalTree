@@ -55,7 +55,7 @@
 - Preferences\Settings screen with Dark Mode option
 - Localization test schemes for EN and RU as well
 - SwiftLint shell script as a build phase
-- Preconfigured GitHub CI, .gitignore, SwiftLint, README, and LICENSE
+- Light-weight Logger 
 
 # License MIT
 
