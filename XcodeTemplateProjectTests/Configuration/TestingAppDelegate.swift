@@ -11,6 +11,7 @@
 //
 
 import XCTest
+@testable import XcodeTemplateProject
 
 // MARK: - The Testing Matter Application Delegate
 
@@ -20,8 +21,8 @@ class TestingAppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions
         launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 
-        print("<< Launching with testing matter purpose")
-        print("<< \(type(of: self)) " + #function)
+        PerseusLogger.message("Launching with testing matter purpose", .info)
+        PerseusLogger.message("[\(type(of: self))].\(#function)")
 
         return true
     }

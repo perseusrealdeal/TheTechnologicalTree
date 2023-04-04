@@ -14,11 +14,7 @@ import UIKit
 
 class MainViewController: UIViewController {
 
-    deinit {
-        #if DEBUG
-        print("\(type(of: self)).deinit")
-        #endif
-    }
+    deinit { PerseusLogger.message("\(type(of: self)).deinit") }
 
     @IBOutlet private(set) weak var greetingsLabel: UILabel!
     @IBOutlet private weak var actualDarkModeValueLabel: UILabel!
@@ -52,9 +48,7 @@ class MainViewController: UIViewController {
     }
 
     @objc private func makeUp() {
-        #if DEBUG
-        print(">> [\(type(of: self))]." + #function)
-        #endif
+        PerseusLogger.message("[\(type(of: self))].\(#function)")
 
         actualDarkModeValueLabel.text = "^_^ \(AppearanceService.DarkModeUserChoice)"
 

@@ -12,6 +12,11 @@
 
 import UIKit
 
+// MARK: - Logger
+
+PerseusLogger.turned = .off
+PerseusLogger.level = .info
+
 // MARK: - Make the app run
 
 let appDelegateClass: AnyClass = NSClassFromString("TestingAppDelegate") ?? AppDelegate.self

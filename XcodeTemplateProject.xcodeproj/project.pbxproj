@@ -21,6 +21,7 @@
 		4B5A9BC62915193C002062AC /* main.yml in Resources */ = {isa = PBXBuildFile; fileRef = 4B5A9BC52915193C002062AC /* main.yml */; };
 		4B5A9BC8291525D6002062AC /* TestingAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5A9BC7291525D6002062AC /* TestingAppDelegate.swift */; };
 		4B5A9BCA29156EC2002062AC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5A9BC929156EC2002062AC /* main.swift */; };
+		4B62FA7829DC3FDC00DF6B85 /* PerseusLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B62FA7729DC3FDC00DF6B85 /* PerseusLogger.swift */; };
 		4B6F985F2923CB3A00ADB03A /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 4B6F985E2923CB3A00ADB03A /* .swiftlint.yml */; };
 		4B831560292C181A0080DAEC /* DarkModeSwitching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B83155F292C181A0080DAEC /* DarkModeSwitching.swift */; };
 		4BA0C755291E3B5F0011D359 /* UserPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA0C754291E3B5F0011D359 /* UserPreferences.swift */; };
@@ -65,6 +66,7 @@
 		4B5A9BC52915193C002062AC /* main.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = main.yml; path = .github/workflows/main.yml; sourceTree = "<group>"; };
 		4B5A9BC7291525D6002062AC /* TestingAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingAppDelegate.swift; sourceTree = "<group>"; };
 		4B5A9BC929156EC2002062AC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		4B62FA7729DC3FDC00DF6B85 /* PerseusLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerseusLogger.swift; sourceTree = "<group>"; };
 		4B6F985E2923CB3A00ADB03A /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = "<group>"; };
 		4B83155F292C181A0080DAEC /* DarkModeSwitching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeSwitching.swift; sourceTree = "<group>"; };
 		4BA0C754291E3B5F0011D359 /* UserPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserPreferences.swift; path = XcodeTemplateProject/Configuration/FirstPartyCode/UserPreferences.swift; sourceTree = SOURCE_ROOT; };
@@ -195,6 +197,7 @@
 				4BA0C76B291F7F5D0011D359 /* LocalizationExtentions.swift */,
 				4B4B3191293E293D0001262E /* PerseusUISystemKitSingle.swift */,
 				4B83155F292C181A0080DAEC /* DarkModeSwitching.swift */,
+				4B62FA7729DC3FDC00DF6B85 /* PerseusLogger.swift */,
 			);
 			path = FirstPartyCode;
 			sourceTree = "<group>";
@@ -356,6 +359,7 @@
 				4B831560292C181A0080DAEC /* DarkModeSwitching.swift in Sources */,
 				4B5A9B95291393CD002062AC /* AppDelegate.swift in Sources */,
 				4B4B3192293E293D0001262E /* PerseusUISystemKitSingle.swift in Sources */,
+				4B62FA7829DC3FDC00DF6B85 /* PerseusLogger.swift in Sources */,
 				4B5A9BCA29156EC2002062AC /* main.swift in Sources */,
 				4BA0C76C291F7F5D0011D359 /* LocalizationExtentions.swift in Sources */,
 			);

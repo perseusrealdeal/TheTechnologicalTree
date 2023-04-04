@@ -22,7 +22,7 @@ class SettingsBundleTests: XCTestCase {
     override class func setUp() {
         super.setUp()
 
-        print(">> [\(type(of: self))]." + #function)
+        PerseusLogger.message("[\(type(of: self))].\(#function)")
 
         UserPreferences.setVersionNumber()
         UserPreferences.setBuildNumber()
