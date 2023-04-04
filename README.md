@@ -1,6 +1,6 @@
 # Xcode template project
 
-> This tree with branches repesents a set of Xcode project templates to make easy start of development process.
+> This tree with branches represents a set of Xcode project templates to make easy start of development process.
 
 `branch 1:` [Xcode-10.1-Component](https://github.com/perseusrealdeal/XcodeTemplateProject/tree/Xcode-10.1-Component)
 
