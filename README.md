@@ -55,7 +55,7 @@ Idea to use:
 - Preconfigured GitHub CI
 - Preconfigured GitHub config [.gitignore] file
 - README and LICENSE
-- PerseusLogger
+- Light-weight Logger
 
 # License MIT
 
