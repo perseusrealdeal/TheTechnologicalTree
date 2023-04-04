@@ -14,7 +14,6 @@ import UIKit
 
 // MARK: - Logger
 
-PerseusLogger.turned = .off
 PerseusLogger.level = .info
 
 // MARK: - Make the app run
