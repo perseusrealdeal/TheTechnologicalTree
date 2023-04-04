@@ -11,13 +11,14 @@
 //
 
 import XCTest
+@testable import XcodeTemplateProject
 
 // MARK: - The Testing Application Delegate
 
 @objc(TestingAppDelegate)
 class TestingAppDelegate: NSResponder, NSApplicationDelegate {
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        print("<< Launching with testing matter purpose")
-        print("<< \(type(of: self)) " + #function)
+        PerseusLogger.message("Launching with testing matter purpose", .info)
+        PerseusLogger.message("[\(type(of: self))].\(#function)")
     }
 }

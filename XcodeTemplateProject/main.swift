@@ -12,6 +12,11 @@
 
 import Cocoa
 
+// MARK: - Logger
+
+PerseusLogger.turned = .off
+PerseusLogger.level = .info
+
 // MARK: - Construct the app's top elements
 
 let app = NSApplication.shared

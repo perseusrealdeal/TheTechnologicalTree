@@ -14,11 +14,7 @@ import Cocoa
 
 class MainWindowController: NSWindowController {
 
-    deinit {
-        #if DEBUG
-        print("\(type(of: self)).deinit")
-        #endif
-    }
+    deinit { PerseusLogger.message("\(type(of: self)).deinit") }
 
     private lazy var preferencesController = { () -> NSWindowController in
         let storyboard = NSStoryboard(name: NSStoryboard.Name("Preferences"), bundle: nil)

@@ -22,7 +22,7 @@ class LocalizationTests: XCTestCase {
     override class func setUp() {
         super.setUp()
 
-        print(">> [\(type(of: self))]." + #function)
+        PerseusLogger.message("[\(type(of: self))].\(#function)")
     }
 
     // func test_zero() { XCTFail("Tests not yet implemented in \(type(of: self)).") }
