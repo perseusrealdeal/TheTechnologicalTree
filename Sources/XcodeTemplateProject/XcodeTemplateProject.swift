@@ -12,4 +12,8 @@
 
 struct XcodeTemplateProject {
     var text = "Hello, World!"
+
+    init() {
+        PerseusLogger.message("[\(type(of: self))].\(#function)")
+    }
 }

@@ -15,6 +15,12 @@ import XCTest
 
 final class XcodeTemplateProjectTests: XCTestCase {
 
+    override func setUp() {
+        super.setUp()
+
+        PerseusLogger.message("[\(type(of: self))].\(#function)")
+    }
+
     // func test_zero() { XCTFail("Tests not yet implemented in \(type(of: self)).") }
 
     func test_the_first_success() { XCTAssertTrue(true, "It's done!") }

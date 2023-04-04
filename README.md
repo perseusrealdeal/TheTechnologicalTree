@@ -41,6 +41,8 @@ Idea to use:
 
 # First-party software
 
+- [PerseusLogger](https://gist.github.com/perseusrealdeal/df456a9825fcface44eca738056eb6d5)
+
 # Third-party software
 
 - [SwiftLint](https://github.com/realm/SwiftLint) / [0.31.0: Busy Laundromat](https://github.com/realm/SwiftLint/releases/tag/0.31.0) for macOS High Sierra
@@ -53,6 +55,7 @@ Idea to use:
 - Preconfigured GitHub CI
 - Preconfigured GitHub config [.gitignore] file
 - README and LICENSE
+- PerseusLogger
 
 # License MIT
 
