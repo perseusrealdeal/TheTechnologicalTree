@@ -63,4 +63,5 @@ Idea to use:
 - Have a look at [LICENSE](/LICENSE) for details
 
 # Editors, prepared by
-Mikhail Zhigulin, mzhigulin@gmail.com
+
+> Mikhail Zhigulin, mzhigulin@gmail.com
