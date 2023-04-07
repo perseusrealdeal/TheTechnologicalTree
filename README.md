@@ -45,6 +45,7 @@ Idea to use:
 
 # Third-party software
 
+- [SwiftLint Shell Script Runner](/SucceedsPostAction.sh)
 - [SwiftLint](https://github.com/realm/SwiftLint) / [0.31.0: Busy Laundromat](https://github.com/realm/SwiftLint/releases/tag/0.31.0) for macOS High Sierra
 
 # Points taken into account
