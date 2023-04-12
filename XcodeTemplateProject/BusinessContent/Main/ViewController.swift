@@ -14,7 +14,7 @@ import Cocoa
 
 class ViewController: NSViewController {
 
-    deinit { PerseusLogger.message("\(type(of: self)).deinit") }
+    deinit { log.message("\(type(of: self)).deinit") }
 
     @IBOutlet private(set) weak var greetingsLabel: NSTextField!
 
@@ -28,7 +28,7 @@ class ViewController: NSViewController {
     }
 
     @objc private func makeUp() {
-        PerseusLogger.message("[\(type(of: self))].\(#function), DarkMode: \(DarkMode.style)")
+        log.message("[\(type(of: self))].\(#function), DarkMode: \(DarkMode.style)")
 
         greetingsLabel.textColor = .perseusYellow
         view.layer?.backgroundColor = NSColor.perseusBlue.cgColor

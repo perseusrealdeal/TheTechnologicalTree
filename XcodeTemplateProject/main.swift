@@ -14,7 +14,7 @@ import Cocoa
 
 // MARK: - Logger
 
-PerseusLogger.level = .info
+log.level = .info
 
 // MARK: - Construct the app's top elements
 
