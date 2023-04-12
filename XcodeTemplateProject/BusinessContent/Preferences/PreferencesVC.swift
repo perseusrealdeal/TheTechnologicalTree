@@ -27,6 +27,13 @@ class PreferencesViewController: NSViewController {
                                            height: self.view.frame.size.height)
     }
 
+    override func viewDidAppear() {
+        super.viewDidAppear()
+
+        self.parent?.view.window?.title = self.title!
+        updateDarkModeOption()
+    }
+
     private func updateDarkModeOption() {
         switch AppearanceService.DarkModeUserChoice {
         case .auto:
