@@ -1,4 +1,4 @@
-# macOS App — Xcode 10.1
+# <App's Name> — macOS App — Xcode 10.1+
 
 > This is the Xcode 10.1 project configured to make easy start for developing macOS app.
 
@@ -55,7 +55,7 @@
 - Preferences\Settings screen with Dark Mode option
 - Localization test schemes for EN and RU as well
 - SwiftLint shell script as a build phase
-- Light-weight Logger 
+- Light-weight logger 
 
 # License MIT
 
