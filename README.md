@@ -1,4 +1,4 @@
-# App Component — Xcode 10.1
+# <Component's Name> — App Component — Xcode 10.1+
 
 > This is the Xcode 10.1 project configured to make easy start for developing App component.
 
@@ -56,7 +56,7 @@ Idea to use:
 - Preconfigured GitHub CI
 - Preconfigured GitHub config [.gitignore] file
 - README and LICENSE
-- Light-weight Logger
+- Light-weight logger
 
 # License MIT
 
