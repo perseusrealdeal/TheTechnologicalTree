@@ -22,7 +22,7 @@ class TestingAppDelegate: UIResponder, UIApplicationDelegate {
         launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 
         log.message("Launching with testing matter purpose", .info)
-        log.message("[\(type(of: self))].\(#function)", .info)
+        log.message("[\(type(of: self))].\(#function)")
 
         return true
     }

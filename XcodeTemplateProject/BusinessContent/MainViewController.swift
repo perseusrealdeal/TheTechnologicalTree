@@ -14,7 +14,7 @@ import UIKit
 
 class MainViewController: UIViewController {
 
-    deinit { log.message("\(type(of: self)).deinit", .info) }
+    deinit { log.message("\(type(of: self)).deinit") }
 
     @IBOutlet private(set) weak var greetingsLabel: UILabel!
     @IBOutlet private weak var actualDarkModeValueLabel: UILabel!
@@ -48,7 +48,7 @@ class MainViewController: UIViewController {
     }
 
     @objc private func makeUp() {
-        log.message("[\(type(of: self))].\(#function)", .info)
+        log.message("[\(type(of: self))].\(#function)")
 
         actualDarkModeValueLabel.text = "^_^ \(AppearanceService.DarkModeUserChoice)"
 

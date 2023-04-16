@@ -22,7 +22,7 @@ class LocalizationTests: XCTestCase {
     override class func setUp() {
         super.setUp()
 
-        log.message("[\(type(of: self))].\(#function)", .info)
+        log.message("[\(type(of: self))].\(#function)")
 
         UserPreferences.setVersionNumber()
         UserPreferences.setBuildNumber()

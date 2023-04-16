@@ -22,7 +22,7 @@ extension AppDelegate: UIApplicationDelegate {
         launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 
         log.message("Launching with business matter purpose", .info)
-        log.message("[\(type(of: self))].\(#function)", .info)
+        log.message("[\(type(of: self))].\(#function)")
 
         // Settings bundle
 
@@ -50,7 +50,7 @@ extension AppDelegate: UIApplicationDelegate {
 
     func applicationDidBecomeActive(_ application: UIApplication) {
 
-        log.message("[\(type(of: self))].\(#function)", .info)
+        log.message("[\(type(of: self))].\(#function)")
 
         // Update Dark Mode from Settings
         if let choice = isDarkModeSettingsChanged() {
@@ -62,18 +62,18 @@ extension AppDelegate: UIApplicationDelegate {
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
-        log.message("[\(type(of: self))].\(#function)", .info)
+        log.message("[\(type(of: self))].\(#function)")
     }
 
     func applicationDidEnterBackground(_ application: UIApplication) {
-        log.message("[\(type(of: self))].\(#function)", .info)
+        log.message("[\(type(of: self))].\(#function)")
     }
 
     func applicationWillEnterForeground(_ application: UIApplication) {
-        log.message("[\(type(of: self))].\(#function)", .info)
+        log.message("[\(type(of: self))].\(#function)")
     }
 
     func applicationWillTerminate(_ application: UIApplication) {
-        log.message("[\(type(of: self))].\(#function)", .info)
+        log.message("[\(type(of: self))].\(#function)")
     }
 }
