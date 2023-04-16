@@ -14,7 +14,7 @@ import UIKit
 
 // MARK: - Logger
 
-PerseusLogger.level = .info
+log.level = .info
 
 // MARK: - Make the app run
 

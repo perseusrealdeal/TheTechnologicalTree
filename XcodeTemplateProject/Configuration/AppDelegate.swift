@@ -21,8 +21,8 @@ extension AppDelegate: UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions
         launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 
-        PerseusLogger.message("Launching with business matter purpose", .info)
-        PerseusLogger.message("[\(type(of: self))].\(#function)")
+        log.message("Launching with business matter purpose", .info)
+        log.message("[\(type(of: self))].\(#function)", .info)
 
         // Settings bundle
 
@@ -50,7 +50,7 @@ extension AppDelegate: UIApplicationDelegate {
 
     func applicationDidBecomeActive(_ application: UIApplication) {
 
-        PerseusLogger.message("[\(type(of: self))].\(#function)")
+        log.message("[\(type(of: self))].\(#function)", .info)
 
         // Update Dark Mode from Settings
         if let choice = isDarkModeSettingsChanged() {
@@ -62,18 +62,18 @@ extension AppDelegate: UIApplicationDelegate {
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
-        PerseusLogger.message("[\(type(of: self))].\(#function)")
+        log.message("[\(type(of: self))].\(#function)", .info)
     }
 
     func applicationDidEnterBackground(_ application: UIApplication) {
-        PerseusLogger.message("[\(type(of: self))].\(#function)")
+        log.message("[\(type(of: self))].\(#function)", .info)
     }
 
     func applicationWillEnterForeground(_ application: UIApplication) {
-        PerseusLogger.message("[\(type(of: self))].\(#function)")
+        log.message("[\(type(of: self))].\(#function)", .info)
     }
 
     func applicationWillTerminate(_ application: UIApplication) {
-        PerseusLogger.message("[\(type(of: self))].\(#function)")
+        log.message("[\(type(of: self))].\(#function)", .info)
     }
 }

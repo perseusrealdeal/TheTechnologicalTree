@@ -21,8 +21,8 @@ class TestingAppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions
         launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 
-        PerseusLogger.message("Launching with testing matter purpose", .info)
-        PerseusLogger.message("[\(type(of: self))].\(#function)")
+        log.message("Launching with testing matter purpose", .info)
+        log.message("[\(type(of: self))].\(#function)", .info)
 
         return true
     }
