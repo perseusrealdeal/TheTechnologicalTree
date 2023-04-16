@@ -1,4 +1,4 @@
-# iOS App — Xcode 10.1
+# <App's Name> — iOS App — Xcode 10.1+
 
 > This is the Xcode 10.1 project configured to make easy start for developing iOS app.
 
@@ -55,7 +55,7 @@
 - Localization test schemes for EN and RU as well
 - SwiftLint shell script as a build phase
 - Preconfigured GitHub CI, .gitignore, SwiftLint, README, and LICENSE
-- Light-weight Logger
+- Light-weight logger
 
 # License MIT
 
