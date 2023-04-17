@@ -30,6 +30,11 @@ class SettingsBundleTests: XCTestCase {
         UserPreferences.registerSettingsBundle(with: Settings.bundleParams)
     }
 
+    override class func tearDown() {
+        log.message("[\(type(of: self))].\(#function)")
+        super.tearDown()
+    }
+
     // func test_zero() { XCTFail("Tests not yet implemented in \(type(of: self)).") }
     // func test_the_first_success() { XCTAssertTrue(true, "It's done!") }
 

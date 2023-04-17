@@ -15,6 +15,7 @@ import UIKit
 // MARK: - Logger
 
 log.level = .info
+log.message("The app's start point...", .info)
 
 // MARK: - Make the app run
 
