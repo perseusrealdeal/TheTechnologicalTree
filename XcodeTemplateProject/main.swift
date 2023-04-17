@@ -15,6 +15,7 @@ import Cocoa
 // MARK: - Logger
 
 log.level = .info
+log.message("The app's start point...", .info)
 
 // MARK: - Construct the app's top elements
 

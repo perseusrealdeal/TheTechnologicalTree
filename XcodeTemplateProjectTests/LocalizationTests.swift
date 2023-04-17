@@ -21,8 +21,12 @@ class LocalizationTests: XCTestCase {
 
     override class func setUp() {
         super.setUp()
-
         log.message("[\(type(of: self))].\(#function)")
+    }
+
+    override class func tearDown() {
+        log.message("[\(type(of: self))].\(#function)")
+        super.tearDown()
     }
 
     // func test_zero() { XCTFail("Tests not yet implemented in \(type(of: self)).") }
