@@ -1,6 +1,6 @@
-# <App's Name> — macOS App — Xcode 10.1+
+# <App's Name> — Xcode 10.1+
 
-> This is the Xcode 10.1 project configured to make easy start for developing macOS app.
+> This is the macOS app.
 
 [![Actions Status](https://github.com/perseusrealdeal/XcodeTemplateProject/actions/workflows/main.yml/badge.svg)](https://github.com/perseusrealdeal/XcodeTemplateProject/actions)
 ![Version](https://img.shields.io/badge/Version-0.0.1-green.svg)
@@ -15,7 +15,11 @@
 [![PerseusDarkMode](http://img.shields.io/:PerseusDarkMode-1.1.4-green.svg)](https://github.com/perseusrealdeal/PerseusDarkMode/tree/1.1.4)
 [![PerseusUISystemKit](http://img.shields.io/:PerseusUISystemKit-1.1.3-green.svg)](https://github.com/perseusrealdeal/PerseusUISystemKit/tree/1.1.3)
 
-# In brief > Idea to use
+# In brief 
+
+> This is the Xcode 10.1 project configured to make easy start for developing macOS app.
+
+Idea to use
 
 `step 1:` make a copy of repository as a template
 
