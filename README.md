@@ -1,6 +1,6 @@
-# <Component's Name> — App Component — Xcode 10.1+
+# <Component's Name> — Xcode 10.1+
 
-> This is the Xcode 10.1 project configured to make easy start for developing App component.
+> This is the component for macOS and iOS apps.
 
 [![Actions Status](https://github.com/perseusrealdeal/XcodeTemplateProject/actions/workflows/main.yml/badge.svg)](https://github.com/perseusrealdeal/XcodeTemplateProject/actions)
 ![Version](https://img.shields.io/badge/Version-0.0.1-green.svg)
@@ -17,6 +17,9 @@
 [![CocoaPods manager](https://img.shields.io/badge/CocoaPods-compatible-4BC51D.svg)](https://cocoapods.org)
 [![Swift Package Manager compatible](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-4BC51D.svg)](https://github.com/apple/swift-package-manager)
 
+# In Brief
+
+> This is the Xcode 10.1 project configured to make easy start for developing App component.
 
 Idea to use: 
 
