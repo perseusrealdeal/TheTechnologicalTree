@@ -70,7 +70,7 @@
 		4B62FA7729DC3FDC00DF6B85 /* PerseusLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerseusLogger.swift; sourceTree = "<group>"; };
 		4B6F985E2923CB3A00ADB03A /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = "<group>"; };
 		4B83155F292C181A0080DAEC /* DarkModeSwitching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeSwitching.swift; sourceTree = "<group>"; };
-		4BA0C754291E3B5F0011D359 /* UserPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserPreferences.swift; path = XcodeTemplateProject/Configuration/FirstPartyCode/UserPreferences.swift; sourceTree = SOURCE_ROOT; };
+		4BA0C754291E3B5F0011D359 /* UserPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserPreferences.swift; path = XcodeTemplateProject/Configuration/UserPreferences.swift; sourceTree = SOURCE_ROOT; };
 		4BA0C757291E4B8C0011D359 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		4BA0C759291EAA0C0011D359 /* SettingsBundleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsBundleTests.swift; sourceTree = "<group>"; };
 		4BA0C75C291EAE830011D359 /* SettingsBundleTestHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsBundleTestHelper.swift; sourceTree = "<group>"; };
@@ -158,6 +158,7 @@
 				4B5A9B9D291393CE002062AC /* LaunchScreen.storyboard */,
 				4B5A9BA0291393CE002062AC /* Info.plist */,
 				4B5A9B9B291393CE002062AC /* Assets.xcassets */,
+				4BA0C754291E3B5F0011D359 /* UserPreferences.swift */,
 				4BC7F11629F672CF00851FEA /* AppGlobals.swift */,
 				4B5A9B94291393CD002062AC /* AppDelegate.swift */,
 			);
@@ -196,7 +197,6 @@
 		4BA0C756291E3C250011D359 /* FirstPartyCode */ = {
 			isa = PBXGroup;
 			children = (
-				4BA0C754291E3B5F0011D359 /* UserPreferences.swift */,
 				4BA0C76B291F7F5D0011D359 /* LocalizationExtentions.swift */,
 				4B4B3191293E293D0001262E /* PerseusUISystemKitSingle.swift */,
 				4B83155F292C181A0080DAEC /* DarkModeSwitching.swift */,

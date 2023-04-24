@@ -17,7 +17,7 @@ import XCTest
 
 class SettingsBundleTests: XCTestCase {
 
-    private let defaults = Settings.ud
+    private let defaults = AppGlobals.userDefaults
 
     override class func setUp() {
         super.setUp()

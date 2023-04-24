@@ -18,7 +18,6 @@ extension Settings {
 }
 
 public struct Settings {
-
     static let bundleParams: [String: String] =
     [
         "Name": "Settings",
@@ -29,9 +28,6 @@ public struct Settings {
         "PreferenceValues": "Values",
         "PreferenceDefaultValue": "DefaultValue"
     ]
-
-    static let ud = UserDefaults.standard
-    static let nc = NotificationCenter.default
 }
 
 public class UserPreferences {
@@ -67,20 +63,20 @@ public class UserPreferences {
             }
         }
 
-        Settings.ud.register(defaults: defaultsToRegister)
+        AppGlobals.userDefaults.register(defaults: defaultsToRegister)
     }
 
     static func setVersionNumber() {
         if let version = Bundle.main.object(forInfoDictionaryKey:
             "CFBundleShortVersionString") as? String {
-            Settings.ud.setValue(version, forKey: Settings.VersionPreferenceKey)
+            AppGlobals.userDefaults.setValue(version, forKey: Settings.VersionPreferenceKey)
         }
     }
 
     static func setBuildNumber() {
         if let build = Bundle.main.object(forInfoDictionaryKey:
             "CFBundleVersion") as? String {
-            Settings.ud.setValue(build, forKey: Settings.BuildPreferenceKey)
+            AppGlobals.userDefaults.setValue(build, forKey: Settings.BuildPreferenceKey)
         }
     }
 }
