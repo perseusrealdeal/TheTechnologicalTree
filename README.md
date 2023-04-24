@@ -55,6 +55,7 @@ Idea to use
 
 - Explicit start point placed in main.swift file
 - Explicit app delegate with test bundle
+- Explicit app globals placed in AppGlobals.swift file
 - Top menu with changing title of menu item "Preferences... / Settings..."
 - Preferences\Settings screen with Dark Mode option
 - Localization test schemes for EN and RU as well
