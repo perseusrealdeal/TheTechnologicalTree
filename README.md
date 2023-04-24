@@ -55,6 +55,7 @@ Idea to use
 
 - Explicit start point placed in main.swift file
 - Explicit app delegate with test bundle
+- Explicit app globals within AppGlobals.swift file
 - Settings bundle with Dark Mode option and release number sections
 - Localization test schemes for EN and RU as well
 - SwiftLint shell script as a build phase

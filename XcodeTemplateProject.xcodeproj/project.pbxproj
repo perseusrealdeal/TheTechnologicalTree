@@ -35,6 +35,7 @@
 		4BA0C76D291FC43D0011D359 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4BA0C76F291FC43D0011D359 /* Localizable.strings */; };
 		4BA0C777291FC5340011D359 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4BA0C775291FC5340011D359 /* InfoPlist.strings */; };
 		4BA0C77A29201E620011D359 /* LocalizationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA0C77929201E620011D359 /* LocalizationTests.swift */; };
+		4BC7F11729F672CF00851FEA /* AppGlobals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC7F11629F672CF00851FEA /* AppGlobals.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +83,7 @@
 		4BA0C776291FC5340011D359 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4BA0C778291FC53A0011D359 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4BA0C77929201E620011D359 /* LocalizationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationTests.swift; sourceTree = "<group>"; };
+		4BC7F11629F672CF00851FEA /* AppGlobals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppGlobals.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,9 +156,10 @@
 				4BA0C764291F60A60011D359 /* Localization */,
 				4BA0C756291E3C250011D359 /* FirstPartyCode */,
 				4B5A9B9D291393CE002062AC /* LaunchScreen.storyboard */,
-				4B5A9B94291393CD002062AC /* AppDelegate.swift */,
 				4B5A9BA0291393CE002062AC /* Info.plist */,
 				4B5A9B9B291393CE002062AC /* Assets.xcassets */,
+				4BC7F11629F672CF00851FEA /* AppGlobals.swift */,
+				4B5A9B94291393CD002062AC /* AppDelegate.swift */,
 			);
 			path = Configuration;
 			sourceTree = "<group>";
@@ -358,6 +361,7 @@
 				4BA0C755291E3B5F0011D359 /* UserPreferences.swift in Sources */,
 				4B831560292C181A0080DAEC /* DarkModeSwitching.swift in Sources */,
 				4B5A9B95291393CD002062AC /* AppDelegate.swift in Sources */,
+				4BC7F11729F672CF00851FEA /* AppGlobals.swift in Sources */,
 				4B4B3192293E293D0001262E /* PerseusUISystemKitSingle.swift in Sources */,
 				4B62FA7829DC3FDC00DF6B85 /* PerseusLogger.swift in Sources */,
 				4B5A9BCA29156EC2002062AC /* main.swift in Sources */,
