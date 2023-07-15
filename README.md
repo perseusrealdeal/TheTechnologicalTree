@@ -1,6 +1,6 @@
 # <Component's Name> — Xcode 10.1+
 
-> This is the component for macOS and iOS apps.
+> This is the component custom template for macOS and iOS apps.
 
 [![Actions Status](https://github.com/perseusrealdeal/XcodeTemplateProject/actions/workflows/main.yml/badge.svg)](https://github.com/perseusrealdeal/XcodeTemplateProject/actions)
 ![Version](https://img.shields.io/badge/Version-0.0.1-green.svg)
@@ -64,7 +64,7 @@ Idea to use:
 # License MIT
 
 - All files from this repository is under license based on MIT
-- Have a look at [LICENSE](/LICENSE) for details
+- [LICENSE](/LICENSE) for details
 
 # Editors, prepared by
 
