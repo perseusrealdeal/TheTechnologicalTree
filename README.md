@@ -1,6 +1,6 @@
 # <App's Name> — Xcode 10.1+
 
-> This is the macOS app.
+> This is the macOS app custom template.
 
 [![Actions Status](https://github.com/perseusrealdeal/XcodeTemplateProject/actions/workflows/main.yml/badge.svg)](https://github.com/perseusrealdeal/XcodeTemplateProject/actions)
 ![Version](https://img.shields.io/badge/Version-0.0.1-green.svg)
@@ -12,8 +12,8 @@
 
 ## Dependencies
 
-[![PerseusDarkMode](http://img.shields.io/:PerseusDarkMode-1.1.4-green.svg)](https://github.com/perseusrealdeal/PerseusDarkMode/tree/1.1.4)
-[![PerseusUISystemKit](http://img.shields.io/:PerseusUISystemKit-1.1.3-green.svg)](https://github.com/perseusrealdeal/PerseusUISystemKit/tree/1.1.3)
+[![PerseusDarkMode](http://img.shields.io/:PerseusDarkMode-1.1.5-green.svg)](https://github.com/perseusrealdeal/PerseusDarkMode/tree/1.1.5)
+[![PerseusUISystemKit](http://img.shields.io/:PerseusUISystemKit-1.1.4-green.svg)](https://github.com/perseusrealdeal/PerseusUISystemKit/tree/1.1.4)
 
 # In brief 
 
@@ -42,8 +42,8 @@ Idea to use
 
 # First-party software
 
-- [Perseus Dark Mode](https://github.com/perseusrealdeal/PerseusDarkMode.git) / [1.1.4](https://github.com/perseusrealdeal/perseusdarkmode/releases/tag/1.1.4)
-- [Perseus UI System Kit](https://github.com/perseusrealdeal/PerseusUISystemKit.git) / [1.1.3](https://github.com/perseusrealdeal/perseusuisystemkit/releases/tag/1.1.3)
+- [Perseus Dark Mode](https://github.com/perseusrealdeal/PerseusDarkMode.git) / [1.1.5](https://github.com/perseusrealdeal/perseusdarkmode/releases/tag/1.1.5)
+- [Perseus UI System Kit](https://github.com/perseusrealdeal/PerseusUISystemKit.git) / [1.1.4](https://github.com/perseusrealdeal/perseusuisystemkit/releases/tag/1.1.4)
 - [Dark Mode switching functions](https://gist.github.com/perseusrealdeal/11b1bab47f13134832b859f49d9af706)
 - [PerseusLogger](https://gist.github.com/perseusrealdeal/df456a9825fcface44eca738056eb6d5)
 
@@ -65,7 +65,7 @@ Idea to use
 # License MIT
 
 - All files from this repository is under license based on MIT
-- Have a look at [LICENSE](/LICENSE) for details
+- [LICENSE](/LICENSE) for details
 
 # Editors, prepared by
 
