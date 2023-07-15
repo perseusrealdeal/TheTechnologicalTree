@@ -11,7 +11,7 @@
 # License MIT
 
 - All files from this repository is under license based on MIT
-- Have a look at [LICENSE](/LICENSE) for details
+- [LICENSE](/LICENSE) for details
 
 # Editor, prepared by
 
