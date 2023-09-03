@@ -70,8 +70,12 @@ Idea to use
 
 # License MIT
 
-- All files from this repository is under license based on MIT
-- [LICENSE](/LICENSE) for details
+Copyright © 7531 - 7532 Mikhail Zhigulin of Novosibirsk
+
+- The year starts from the creation of the world according to a Slavic calendar.
+- September, the 1st of Slavic year.
+
+[LICENSE](/LICENSE) for details.
 
 # Editors, prepared by
 
