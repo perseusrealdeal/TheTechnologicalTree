@@ -1,6 +1,6 @@
 //
 //  TestingAppDelegate.swift
-//  XcodeTemplateProject
+//  XcodeTemplateProjectTests
 //
 //  Created by Mikhail Zhigulin in 7531.
 //
