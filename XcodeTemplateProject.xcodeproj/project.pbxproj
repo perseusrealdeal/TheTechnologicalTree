@@ -14,7 +14,7 @@
 		4B5A9B9C291393CE002062AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B5A9B9B291393CE002062AC /* Assets.xcassets */; };
 		4B5A9B9F291393CE002062AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B5A9B9D291393CE002062AC /* LaunchScreen.storyboard */; };
 		4B5A9BAA291393CE002062AC /* XcodeTemplateProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5A9BA9291393CE002062AC /* XcodeTemplateProjectTests.swift */; };
-		4B5A9BBA291507E1002062AC /* Requirements.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4B5A9BB9291507E1002062AC /* Requirements.txt */; };
+		4B5A9BBA291507E1002062AC /* REQUIREMENTS.md in Resources */ = {isa = PBXBuildFile; fileRef = 4B5A9BB9291507E1002062AC /* REQUIREMENTS.md */; };
 		4B5A9BC029151925002062AC /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 4B5A9BBF29151925002062AC /* .gitignore */; };
 		4B5A9BC22915192C002062AC /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 4B5A9BC12915192C002062AC /* LICENSE */; };
 		4B5A9BC429151932002062AC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4B5A9BC329151932002062AC /* README.md */; };
@@ -60,7 +60,7 @@
 		4B5A9BA5291393CE002062AC /* XcodeTemplateProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XcodeTemplateProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B5A9BA9291393CE002062AC /* XcodeTemplateProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XcodeTemplateProjectTests.swift; sourceTree = "<group>"; };
 		4B5A9BAB291393CE002062AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4B5A9BB9291507E1002062AC /* Requirements.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Requirements.txt; sourceTree = "<group>"; };
+		4B5A9BB9291507E1002062AC /* REQUIREMENTS.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = REQUIREMENTS.md; sourceTree = "<group>"; };
 		4B5A9BBF29151925002062AC /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		4B5A9BC12915192C002062AC /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		4B5A9BC329151932002062AC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -168,7 +168,7 @@
 		4B5A9BB5291505C6002062AC /* Requirements */ = {
 			isa = PBXGroup;
 			children = (
-				4B5A9BB9291507E1002062AC /* Requirements.txt */,
+				4B5A9BB9291507E1002062AC /* REQUIREMENTS.md */,
 				4BA0C760291F5FEB0011D359 /* Localization_en.plist */,
 				4BA0C762291F60020011D359 /* Localization_ru.plist */,
 			);
@@ -312,7 +312,7 @@
 				4BA0C777291FC5340011D359 /* InfoPlist.strings in Resources */,
 				4B5A9BC22915192C002062AC /* LICENSE in Resources */,
 				4B5A9B9C291393CE002062AC /* Assets.xcassets in Resources */,
-				4B5A9BBA291507E1002062AC /* Requirements.txt in Resources */,
+				4B5A9BBA291507E1002062AC /* REQUIREMENTS.md in Resources */,
 				4B5A9BC429151932002062AC /* README.md in Resources */,
 				4B5A9B9A291393CD002062AC /* MainViewController.storyboard in Resources */,
 				4BA0C76D291FC43D0011D359 /* Localizable.strings in Resources */,
