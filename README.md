@@ -67,6 +67,7 @@ Idea to use
 - SwiftLint shell script as a build phase
 - Preconfigured GitHub CI, .gitignore, SwiftLint, README, and LICENSE
 - Light-weight logger
+- Software requirements templates
 
 # License MIT
 
