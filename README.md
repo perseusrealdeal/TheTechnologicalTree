@@ -74,4 +74,4 @@ Idea to use
 
 # Editors, prepared by
 
-> Mikhail Zhigulin, mzhigulin@gmail.com
+> Mikhail A. Zhigulin of Novosibirsk
