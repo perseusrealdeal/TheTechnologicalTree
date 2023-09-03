@@ -15,7 +15,7 @@
 [![PerseusDarkMode](http://img.shields.io/:PerseusDarkMode-1.1.5-green.svg)](https://github.com/perseusrealdeal/PerseusDarkMode/tree/1.1.5)
 [![PerseusUISystemKit](http://img.shields.io/:PerseusUISystemKit-1.1.4-green.svg)](https://github.com/perseusrealdeal/PerseusUISystemKit/tree/1.1.4)
 
-# In brief 
+# In brief > Idea to use
 
 > This is the Xcode 10.1 project configured to make easy start for developing iOS app.
 
