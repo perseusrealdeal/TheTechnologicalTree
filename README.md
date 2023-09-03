@@ -17,7 +17,7 @@
 [![CocoaPods manager](https://img.shields.io/badge/CocoaPods-compatible-4BC51D.svg)](https://cocoapods.org)
 [![Swift Package Manager compatible](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-4BC51D.svg)](https://github.com/apple/swift-package-manager)
 
-# In Brief
+# In Brief > Idea to use
 
 > This is the Xcode 10.1 project configured to make easy start for developing App component.
 
