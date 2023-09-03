@@ -15,4 +15,4 @@
 
 # Editor, prepared by
 
-> Mikhail Zhigulin, mzhigulin@gmail.com
+> Mikhail A. Zhigulin of Novosibirsk
