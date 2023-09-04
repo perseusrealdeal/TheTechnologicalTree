@@ -80,4 +80,4 @@ Copyright © 7531 - 7532 Mikhail Zhigulin of Novosibirsk
 
 # Editors, prepared by
 
-> Mikhail Zhigulin of Novosibirsk
+> Mikhail A. Zhigulin of Novosibirsk
