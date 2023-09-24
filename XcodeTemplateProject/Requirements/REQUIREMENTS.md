@@ -72,6 +72,11 @@ See LICENSE for details. All rights reserved.
 # User Stories
 
 > TODO: Describe US-1
+> 
+> TEMPLATE: 
+> > persona + need + purpose
+> >
+> > As a [persona], I [want to], [so that].
 
 <table>
     <tr>
