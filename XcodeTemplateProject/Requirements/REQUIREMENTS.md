@@ -62,7 +62,7 @@ See LICENSE for details. All rights reserved.
 > >
 > > RESTRICTIONS: One sentence only. No more than 22 words. No "and"
 > >
-> > TEMPLATE: "The system shall/must/should/may do X" or "When Y happens, the system shall do X."
+> > [TEMPLATE](https://www.amazon.com/More-About-Software-Requirements-Practical/dp/0735622671): "The system shall/must/should/may do X" or "When Y happens, the system shall do X."
 
 <table>
     <tr>
@@ -79,7 +79,7 @@ See LICENSE for details. All rights reserved.
 
 > TODO: Describe US-1
 > 
-> TEMPLATE: 
+> [TEMPLATE](https://www.atlassian.com/agile/project-management/user-stories): 
 > > persona + need + purpose
 > >
 > > As a [persona], I [want to], [so that].
