@@ -57,6 +57,12 @@
 # Sketches (GUI requirements)
 
 > TODO: Give it a requirement statement (or restriction) GUI-1
+>
+> > KEY WORDS: Shall, Must, Should, May
+> >
+> > RESTRICTIONS: One sentence only. No more than 22 words. No "and"
+> >
+> > TEMPLATE: "The system shall/must/should/may do X" or "When Y happens, the system shall do X."
 
 <table>
     <tr>
