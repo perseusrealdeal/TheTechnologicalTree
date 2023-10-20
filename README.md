@@ -42,7 +42,7 @@ Idea to use
 
 # Software requirements
 
-- [Functional requirements](/XcodeTemplateProject/Requirements/REQUIREMENTS.md)
+- [Functional specification](/XcodeTemplateProject/Requirements/REQUIREMENTS.md)
 - Localization requirements [[EN](/XcodeTemplateProject/Requirements/Localization_en.plist), [RU](/PerseusWeather/Requirements/Localization_ru.plist)]
 
 # First-party software
