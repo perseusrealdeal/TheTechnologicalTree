@@ -18,6 +18,8 @@
 		4B5921C62B64960F00D312B9 /* PerseusLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5921C52B64960F00D312B9 /* PerseusLogger.swift */; };
 		4B5921CA2B65A5C400D312B9 /* CurrentSystemLanguageGift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5921C92B65A5C400D312B9 /* CurrentSystemLanguageGift.swift */; };
 		4B5921CC2B65A65200D312B9 /* LocalizedExpectationGift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5921CB2B65A65200D312B9 /* LocalizedExpectationGift.swift */; };
+		4B5921D02B6648BC00D312B9 /* JsonDataPrettyPrintedGift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5921CF2B6648BC00D312B9 /* JsonDataPrettyPrintedGift.swift */; };
+		4B5921D22B6648CA00D312B9 /* JsonDataDictionaryGift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5921D12B6648CA00D312B9 /* JsonDataDictionaryGift.swift */; };
 		4B62FA7629DC1A6400DF6B85 /* PerseusLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B62FA7529DC1A6400DF6B85 /* PerseusLogger.swift */; };
 		4B6F98622927D95500ADB03A /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 4B6F98612927D95500ADB03A /* .swiftlint.yml */; };
 		4B6F98662927DF1400ADB03A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B6F98682927DF1400ADB03A /* InfoPlist.strings */; };
@@ -71,6 +73,8 @@
 		4B5921C82B6498C900D312B9 /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
 		4B5921C92B65A5C400D312B9 /* CurrentSystemLanguageGift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentSystemLanguageGift.swift; sourceTree = "<group>"; };
 		4B5921CB2B65A65200D312B9 /* LocalizedExpectationGift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedExpectationGift.swift; sourceTree = "<group>"; };
+		4B5921CF2B6648BC00D312B9 /* JsonDataPrettyPrintedGift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonDataPrettyPrintedGift.swift; sourceTree = "<group>"; };
+		4B5921D12B6648CA00D312B9 /* JsonDataDictionaryGift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonDataDictionaryGift.swift; sourceTree = "<group>"; };
 		4B62FA7529DC1A6400DF6B85 /* PerseusLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerseusLogger.swift; sourceTree = "<group>"; };
 		4B6F98612927D95500ADB03A /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = "<group>"; };
 		4B6F98672927DF1400ADB03A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -205,6 +209,24 @@
 			path = CustomerExpectations;
 			sourceTree = "<group>";
 		};
+		4B5921CD2B66488D00D312B9 /* Gifts */ = {
+			isa = PBXGroup;
+			children = (
+				4B5921CF2B6648BC00D312B9 /* JsonDataPrettyPrintedGift.swift */,
+				4B6F98762927E81000ADB03A /* LocalizationExtentions.swift */,
+				4B5921D12B6648CA00D312B9 /* JsonDataDictionaryGift.swift */,
+			);
+			path = Gifts;
+			sourceTree = "<group>";
+		};
+		4B5921CE2B6648A200D312B9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4B62FA7529DC1A6400DF6B85 /* PerseusLogger.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		4B6F98632927DDA300ADB03A /* Localization */ = {
 			isa = PBXGroup;
 			children = (
@@ -217,10 +239,10 @@
 		4B6F98752927E7C600ADB03A /* FirstPartyCode */ = {
 			isa = PBXGroup;
 			children = (
-				4B6F98762927E81000ADB03A /* LocalizationExtentions.swift */,
+				4B5921CD2B66488D00D312B9 /* Gifts */,
+				4B5921CE2B6648A200D312B9 /* Helpers */,
 				4B4B3193293F4B660001262E /* PerseusUISystemKitSingle.swift */,
 				4B52C535292CD05C00C7792A /* DarkModeSwitching.swift */,
-				4B62FA7529DC1A6400DF6B85 /* PerseusLogger.swift */,
 			);
 			path = FirstPartyCode;
 			sourceTree = "<group>";
@@ -393,6 +415,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BFA5FDE2989A1F000AC09F5 /* OptionsViewController.swift in Sources */,
+				4B5921D22B6648CA00D312B9 /* JsonDataDictionaryGift.swift in Sources */,
 				4B52C536292CD05C00C7792A /* DarkModeSwitching.swift in Sources */,
 				4BBE90672912931A008F734D /* main.swift in Sources */,
 				4BFA5FDC2989A16400AC09F5 /* OptionsWindowController.swift in Sources */,
@@ -401,6 +424,7 @@
 				4BFA5FE02989A69E00AC09F5 /* TheMenu.swift in Sources */,
 				4B1483E72912892C0013B76E /* ViewController.swift in Sources */,
 				4B4B3194293F4B660001262E /* PerseusUISystemKitSingle.swift in Sources */,
+				4B5921D02B6648BC00D312B9 /* JsonDataPrettyPrintedGift.swift in Sources */,
 				4B1483E52912892C0013B76E /* AppDelegate.swift in Sources */,
 				4BBE905E29128FB1008F734D /* MainWindowController.swift in Sources */,
 				4B6F98772927E81000ADB03A /* LocalizationExtentions.swift in Sources */,
