@@ -44,8 +44,8 @@
 - [JsonDataDictionaryGift.swift](/T3Project/FirstPartyCode/Gifts/JsonDataDictionaryGift.swift)
 - [LocalizationExtentions.swift](/T3Project/FirstPartyCode/Gifts/LocalizationExtentions.swift)
 - [LocalizedInfoPlistGift.swift](/T3ProductTests/GiftsAndHelpers/LocalizedInfoPlistGift.swift)
-- [LocalizedExpectationGift](/T3ProductTests/GiftsAndHelpers/LocalizedExpectationGift)
-- [CurrentSystemLanguageGift](/T3ProductTests/GiftsAndHelpers/CurrentSystemLanguageGift)
+- [LocalizedExpectationGift.swift](/T3ProductTests/GiftsAndHelpers/LocalizedExpectationGift.swift)
+- [CurrentSystemLanguageGift.swift](/T3ProductTests/GiftsAndHelpers/CurrentSystemLanguageGift.swift)
 
 # Third-party software
 
