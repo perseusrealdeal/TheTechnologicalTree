@@ -1,0 +1,33 @@
+//
+//  AppDelegate.swift
+//  The Technological Tree
+//
+//  Created by Mikhail Zhigulin in 7531.
+//
+//  Copyright © 7531 - 7532 Mikhail Zhigulin of Novosibirsk
+//
+//  The year starts from the creation of the world according to a Slavic calendar.
+//  September, the 1st of Slavic year.
+//
+//  See LICENSE for details. All rights reserved.
+//
+
+import Cocoa
+
+class AppDelegate: NSObject, NSApplicationDelegate {
+
+    func applicationDidFinishLaunching(_ aNotification: Notification) {
+
+        log.message("", .info)
+        log.message("Launching with business matter purpose...", .info)
+        log.message("", .info)
+
+        log.message("[\(type(of: self))].\(#function)")
+
+        AppearanceService.makeUp()
+    }
+
+    func applicationShouldTerminateAfterLastWindowClosed(_ sender: NSApplication) -> Bool {
+        return true
+    }
+}

@@ -2,7 +2,7 @@
 
 > This is the macOS app custom template.
 
-[![Actions Status](https://github.com/perseusrealdeal/XcodeTemplateProject/actions/workflows/main.yml/badge.svg)](https://github.com/perseusrealdeal/XcodeTemplateProject/actions)
+[![Actions Status](https://github.com/perseusrealdeal/XcodeTemplateProject/actions/workflows/main.yml/badge.svg)](https://github.com/perseusrealdeal/TheTechnologicalTree/actions)
 ![Version](https://img.shields.io/badge/Version-0.0.1-green.svg)
 [![Platform macOS](https://img.shields.io/badge/Platform-macOS%2010.10+-orange.svg)](https://en.wikipedia.org/wiki/MacOS_version_history)
 [![Xcode 10.1](https://img.shields.io/badge/Xcode-10.1+-red.svg)](https://en.wikipedia.org/wiki/Xcode)
@@ -42,8 +42,8 @@ Idea to use
 
 # Software requirements
 
-- [Functional specification](/XcodeTemplateProject/Requirements/REQUIREMENTS.md)
-- Localization requirements [[EN](/XcodeTemplateProject/Requirements/Localization_en.plist), [RU](/PerseusWeather/Requirements/Localization_ru.plist)]
+- [Functional specification](/REQUIREMENTS.md)
+- Localization requirements [[EN](/T3Project/Configuration/CustomerExpectations/Expectations_en.plist), [RU](/T3Project/Configuration/CustomerExpectations/Expectations_ru.plist)]
 
 # First-party software
 
@@ -80,3 +80,5 @@ Copyright © 7531 - 7532 Mikhail Zhigulin of Novosibirsk
 # Editors, prepared by
 
 > Mikhail A. Zhigulin of Novosibirsk
+
+[CHANGELOG](/CHANGELOG.md) for details.
