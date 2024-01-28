@@ -38,6 +38,15 @@
 - [Dark Mode switching functions](https://gist.github.com/perseusrealdeal/11b1bab47f13134832b859f49d9af706)
 - [PerseusLogger](https://gist.github.com/perseusrealdeal/df456a9825fcface44eca738056eb6d5)
 
+# Gifts
+
+- [JsonDataPrettyPrintedGift.swift](/T3Project/FirstPartyCode/Gifts/JsonDataPrettyPrintedGift.swift)
+- [JsonDataDictionaryGift.swift](/T3Project/FirstPartyCode/Gifts/JsonDataDictionaryGift.swift)
+- [LocalizationExtentions.swift](/T3Project/FirstPartyCode/Gifts/LocalizationExtentions.swift)
+- [LocalizedInfoPlistGift.swift](/T3ProductTests/GiftsAndHelpers/LocalizedInfoPlistGift.swift)
+- [LocalizedExpectationGift](/T3ProductTests/GiftsAndHelpers/LocalizedExpectationGift)
+- [CurrentSystemLanguageGift](/T3ProductTests/GiftsAndHelpers/CurrentSystemLanguageGift)
+
 # Third-party software
 
 - [SwiftLint](https://github.com/realm/SwiftLint) / [0.31.0: Busy Laundromat](https://github.com/realm/SwiftLint/releases/tag/0.31.0) for macOS High Sierra
