@@ -19,20 +19,6 @@
 
 > This is the Xcode 10.1 project configured to make easy start for developing macOS app.
 
-Idea to use
-
-`step 1:` make a copy of repository as a template
-
-`step 2:` rebase the main branch with `Xcode-10.1-macOS-App` for the first initial preconfigured commit
-
-`step 3:` rename the branch `Xcode-10.1-macOS-App` > `v0.0.1`
-
-`step 4:` update the branch `v0.0.1` for the project specifics
-
-`step 5:` create a pull request for `v0.0.1`
-
-`step 6:` merge a pull request for the initial point of development process
-
 # Build system requirements
 
 - [macOS 10.13.6+](https://apps.apple.com/us/app/macos-high-sierra/id1246284741?ls=1)
