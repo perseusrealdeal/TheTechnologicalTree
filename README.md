@@ -74,6 +74,6 @@ Copyright © 7531 - 7532 Mikhail Zhigulin of Novosibirsk
 
 # Editors, prepared by
 
-> Mikhail A. Zhigulin of Novosibirsk
+> Mikhail Zhigulin of Novosibirsk
 
 [CHANGELOG](/CHANGELOG.md) for details.
