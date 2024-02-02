@@ -31,6 +31,7 @@
 		4B6F987E2928259E00ADB03A /* REQUIREMENTS.md in Resources */ = {isa = PBXBuildFile; fileRef = 4B6F987D2928259E00ADB03A /* REQUIREMENTS.md */; };
 		4B9DEDF72B6C7A9A003EE547 /* CurrentSystemLanguageGift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9DEDF62B6C7A9A003EE547 /* CurrentSystemLanguageGift.swift */; };
 		4B9DEDF92B6C7F04003EE547 /* AppAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9DEDF82B6C7F04003EE547 /* AppAppearance.swift */; };
+		4B9DEDFB2B6C851A003EE547 /* AppLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9DEDFA2B6C851A003EE547 /* AppLinks.swift */; };
 		4BBE905E29128FB1008F734D /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBE905D29128FB1008F734D /* MainWindowController.swift */; };
 		4BBE9062291290BD008F734D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BBE9061291290BD008F734D /* MainMenu.xib */; };
 		4BBE90652912911D008F734D /* TestingAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBE90642912911D008F734D /* TestingAppDelegate.swift */; };
@@ -89,6 +90,7 @@
 		4B6F987D2928259E00ADB03A /* REQUIREMENTS.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = REQUIREMENTS.md; sourceTree = "<group>"; };
 		4B9DEDF62B6C7A9A003EE547 /* CurrentSystemLanguageGift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentSystemLanguageGift.swift; sourceTree = "<group>"; };
 		4B9DEDF82B6C7F04003EE547 /* AppAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAppearance.swift; sourceTree = "<group>"; };
+		4B9DEDFA2B6C851A003EE547 /* AppLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLinks.swift; sourceTree = "<group>"; };
 		4BBE905D29128FB1008F734D /* MainWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
 		4BBE9061291290BD008F734D /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
 		4BBE90642912911D008F734D /* TestingAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingAppDelegate.swift; sourceTree = "<group>"; };
@@ -180,6 +182,7 @@
 				4B1483EE2912892F0013B76E /* T3Product.entitlements */,
 				4BC7F11429F66F8100851FEA /* AppGlobals.swift */,
 				4B9DEDF82B6C7F04003EE547 /* AppAppearance.swift */,
+				4B9DEDFA2B6C851A003EE547 /* AppLinks.swift */,
 			);
 			path = Configuration;
 			sourceTree = "<group>";
@@ -424,6 +427,7 @@
 				4BFA5FDC2989A16400AC09F5 /* OptionsWindowController.swift in Sources */,
 				4B9DEDF92B6C7F04003EE547 /* AppAppearance.swift in Sources */,
 				4BC7F11529F66F8100851FEA /* AppGlobals.swift in Sources */,
+				4B9DEDFB2B6C851A003EE547 /* AppLinks.swift in Sources */,
 				4B62FA7629DC1A6400DF6B85 /* PerseusLogger.swift in Sources */,
 				4BFA5FE02989A69E00AC09F5 /* TheMenu.swift in Sources */,
 				4B1483E72912892C0013B76E /* ViewController.swift in Sources */,

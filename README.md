@@ -55,10 +55,10 @@
 
 # Points taken into account
 
-- Explicit start point placed in [main.swift](/T3Project/main.swift) file
+- Explicit start point placed in [main.swift](/T3Project/main.swift)
 - Explicit app delegate with test bundle
-- Explicit app globals placed in [AppGlobals.swift](/T3Project/Configuration/AppGlobals.swift) file
-- Explicit app appearance placed in [AppAppearance.swift](/T3Project/Configuration/AppAppearance.swift) file
+- Explicit app globals placed in [AppGlobals.swift](/T3Project/Configuration/AppGlobals.swift)
+- Explicit app appearance placed in [AppAppearance.swift](/T3Project/Configuration/AppAppearance.swift)
 - Localization test schemes for EN and RU as well
 - SwiftLint shell script as a build phase
 - Software requirements
