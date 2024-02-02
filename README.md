@@ -15,9 +15,10 @@
 [![PerseusDarkMode](http://img.shields.io/:PerseusDarkMode-1.1.5-green.svg)](https://github.com/perseusrealdeal/PerseusDarkMode/tree/1.1.5)
 [![PerseusUISystemKit](http://img.shields.io/:PerseusUISystemKit-1.1.4-green.svg)](https://github.com/perseusrealdeal/PerseusUISystemKit/tree/1.1.4)
 
-# In brief > Idea to use
+# In brief > Idea to use, the Why
 
 > This is the Xcode 10.1 project configured to make easy start for developing macOS app.
+> [CHANGELOG](/CHANGELOG.md) for details.
 
 # Build system requirements
 
@@ -56,18 +57,15 @@
 - Explicit start point placed in main.swift file
 - Explicit app delegate with test bundle
 - Explicit app globals placed in AppGlobals.swift file
-- Top menu with changing title of menu item "Preferences... / Settings..."
-- Preferences\Settings screen with Dark Mode option
 - Localization test schemes for EN and RU as well
 - SwiftLint shell script as a build phase
-- Light-weight logger
-- Software requirements templates
+- Software requirements
 
 # License MIT
 
 Copyright © 7531 - 7532 Mikhail Zhigulin of Novosibirsk
 
-- The year starts from the creation of the world according to a Slavic calendar.
+- The year starts from the creation of the world in the Star temple according to a Slavic calendar.
 - September, the 1st of Slavic year.
 
 [LICENSE](/LICENSE) for details.
@@ -75,5 +73,3 @@ Copyright © 7531 - 7532 Mikhail Zhigulin of Novosibirsk
 # Editors, prepared by
 
 > Mikhail Zhigulin of Novosibirsk
-
-[CHANGELOG](/CHANGELOG.md) for details.
