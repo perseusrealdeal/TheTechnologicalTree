@@ -18,7 +18,8 @@
 # In brief > Idea to use, the Why
 
 > This is the Xcode 10.1 project configured to make easy start for developing macOS app.<br/>
-> [CHANGELOG](/CHANGELOG.md) for details.
+> [CHANGELOG](/CHANGELOG.md) for details.<br/>
+> TODO: preview
 
 # Build system requirements
 
@@ -53,9 +54,10 @@
 
 # Points taken into account
 
-- Explicit start point placed in main.swift file
+- Explicit start point placed in [main.swift](/T3Project/main.swift) file
 - Explicit app delegate with test bundle
-- Explicit app globals placed in AppGlobals.swift file
+- Explicit app globals placed in [AppGlobals.swift](/T3Project/Configuration/AppGlobals.swift) file
+- Explicit app appearance placed in [AppAppearance.swift](/T3Project/Configuration/AppAppearance.swift) file
 - Localization test schemes for EN and RU as well
 - SwiftLint shell script as a build phase
 - Software requirements
