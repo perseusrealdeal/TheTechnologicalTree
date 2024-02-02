@@ -33,8 +33,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4B1483F22912892F0013B76E"
-               BuildableName = "T3ProductTests.xctest"
-               BlueprintName = "T3ProductTests"
+               BuildableName = "PerseusTests.xctest"
+               BlueprintName = "PerseusTests"
                ReferencedContainer = "container:T3Project.xcodeproj">
             </BuildableReference>
          </TestableReference>

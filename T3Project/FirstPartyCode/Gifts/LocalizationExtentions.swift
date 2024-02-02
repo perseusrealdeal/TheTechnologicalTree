@@ -1,7 +1,5 @@
 //
 //  LocalizationExtentions.swift
-//
-//  JsonDataDictionaryGift.swift
 //  Gifts
 //
 //  Just a gift. Tested with Swift 4.2 compiler.

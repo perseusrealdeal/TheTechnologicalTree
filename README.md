@@ -30,7 +30,7 @@
 # Software requirements
 
 - [Functional specification](/REQUIREMENTS.md)
-- Localization requirements [[EN](/T3Project/Configuration/CustomerExpectations/Expectations_en.plist), [RU](/T3Project/Configuration/CustomerExpectations/Expectations_ru.plist)]
+- Translations [EN](/T3Project/Configuration/Translations/Translation_en.plist), [RU](/T3Project/Configuration/Translation/Translation_ru.plist)
 
 # First-party software
 
@@ -43,10 +43,9 @@
 
 - [JsonDataPrettyPrintedGift.swift](/T3Project/FirstPartyCode/Gifts/JsonDataPrettyPrintedGift.swift)
 - [JsonDataDictionaryGift.swift](/T3Project/FirstPartyCode/Gifts/JsonDataDictionaryGift.swift)
-- [LocalizationExtentions.swift](/T3Project/FirstPartyCode/Gifts/LocalizationExtentions.swift)
+- [CurrentSystemLanguageGift.swift](/T3Project/FirstPartyCode/Gifts/CurrentSystemLanguageGift.swift)
 - [LocalizedInfoPlistGift.swift](/T3ProductTests/GiftsAndHelpers/LocalizedInfoPlistGift.swift)
 - [LocalizedExpectationGift.swift](/T3ProductTests/GiftsAndHelpers/LocalizedExpectationGift.swift)
-- [CurrentSystemLanguageGift.swift](/T3ProductTests/GiftsAndHelpers/CurrentSystemLanguageGift.swift)
 
 # Third-party software
 

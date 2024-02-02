@@ -1,13 +1,13 @@
 //
-//  XcodeTemplateProjectTests.swift
-//  The Technological Tree, Tests
+//  BundleTests.swift
+//  PerseusTests
 //
 //  Created by Mikhail Zhigulin in 7531.
 //
 //  Copyright © 7531 - 7532 Mikhail Zhigulin of Novosibirsk
 //
-//  The year starts from the creation of the world according to a Slavic calendar.
-//  September, the 1st of Slavic year.
+//  The year starts from the creation of the world in the Star temple
+//  according to a Slavic calendar. September, the 1st of Slavic year.
 //
 //  See LICENSE for details. All rights reserved.
 //
@@ -17,7 +17,7 @@ import XCTest
 
 // MARK: - Release notes
 
-let bundleShortVersion = "0.1"
+let bundleShortVersion = "0.1.0"
 let bundleVersion = "0"
 
 // MARK: - Customer expectations, requirements
