@@ -3,7 +3,7 @@
 > This is the macOS app custom template.
 
 [![Actions Status](https://github.com/perseusrealdeal/XcodeTemplateProject/actions/workflows/main.yml/badge.svg)](https://github.com/perseusrealdeal/TheTechnologicalTree/actions)
-![Version](https://img.shields.io/badge/Version-0.0.1-green.svg)
+[![Version](https://img.shields.io/badge/Version-0.0.1-green.svg)](/CHANGELOG.md)
 [![Platform macOS](https://img.shields.io/badge/Platform-macOS%2010.10+-orange.svg)](https://en.wikipedia.org/wiki/MacOS_version_history)
 [![Xcode 10.1](https://img.shields.io/badge/Xcode-10.1+-red.svg)](https://en.wikipedia.org/wiki/Xcode)
 [![Swift 4.2](https://img.shields.io/badge/Swift-4.2-orange.svg)](https://docs.swift.org/swift-book/RevisionHistory/RevisionHistory.html)
@@ -18,7 +18,8 @@
 # In brief > Idea to use, the Why
 
 > This is the Xcode 10.1 project configured to make easy start for developing macOS app.<br/>
-> [CHANGELOG](/CHANGELOG.md) for details.<br/>
+> [CHANGELOG](/CHANGELOG.md) for details.
+
 > TODO: preview
 
 # Build system requirements
