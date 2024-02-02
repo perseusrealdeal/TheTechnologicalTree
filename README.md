@@ -17,7 +17,7 @@
 
 # In brief > Idea to use, the Why
 
-> This is the Xcode 10.1 project configured to make easy start for developing macOS app.
+> This is the Xcode 10.1 project configured to make easy start for developing macOS app.<br/>
 > [CHANGELOG](/CHANGELOG.md) for details.
 
 # Build system requirements
