@@ -1,14 +1,20 @@
 # The Technological Tree
 
+> Hereinafter `T3` stands for `The Technological Tree`. Also, an Apple Apps Approbation (A3) [environment](https://docs.google.com/document/d/1K2jOeIknKRRpTEEIPKhxO2H_1eBTof5uTXxyOm5g6nQ/edit?usp=sharing) is a good to have for clean apps growth.
+
+## Make a choice
+
 > Every branch represents a custom project template to make easy start of development process.
 
 `branch 1:` [Xcode-10.1-Component](https://github.com/perseusrealdeal/TheTechnologicalTree/tree/Xcode-10.1-Component)
 
 `branch 2:` [Xcode-10.1-iOS-App](https://github.com/perseusrealdeal/TheTechnologicalTree/tree/Xcode-10.1-iOS-App)
 
-`branch 3:` [Xcode-10.1-macOS-App](https://github.com/perseusrealdeal/TheTechnologicalTree/tree/Xcode-10.1-macOS-App)
+> Branches in support to make a start on eraly Apple platforms.
 
-# Instruction manual
+`branch 3:` [Xcode-10.1-macOS-App](https://github.com/perseusrealdeal/TheTechnologicalTree/tree/support/Xcode-10.1-macOS-App) 
+
+## Take action
 
 > Please read the following steps carefully.
 
@@ -32,13 +38,13 @@
 
 # License MIT
 
-Copyright © 7531 - 7532 Mikhail Zhigulin of Novosibirsk
+Copyright © 7531 - 7533 Mikhail A. Zhigulin of Novosibirsk
 
 - The year starts from the creation of the world according to a Slavic calendar.
 - September, the 1st of Slavic year.
 
 [LICENSE](/LICENSE) for details.
 
-# Editor, prepared by
+# Editors, prepared by
 
-> Mikhail Zhigulin of Novosibirsk
+> Mikhail A. Zhigulin of Novosibirsk
