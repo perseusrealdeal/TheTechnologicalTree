@@ -1,6 +1,6 @@
 # The Technological Tree
 
-> Hereinafter `T3` stands for `The Technological Tree`. Also, an Apple Apps Approbation (A3) [environment](https://docs.google.com/document/d/1K2jOeIknKRRpTEEIPKhxO2H_1eBTof5uTXxyOm5g6nQ/edit?usp=sharing) is a good to have for clean apps growth.
+> Hereinafter `T3` stands for `The Technological Tree`, also `A3` stads for [`Apple Apps Approbation`](https://docs.google.com/document/d/1K2jOeIknKRRpTEEIPKhxO2H_1eBTof5uTXxyOm5g6nQ/edit?usp=sharing).
 
 ## Make a choice
 
@@ -8,11 +8,11 @@
 
 `branch 1:` [Xcode-10.1-Component](https://github.com/perseusrealdeal/TheTechnologicalTree/tree/Xcode-10.1-Component)
 
-`branch 2:` [Xcode-10.1-iOS-App](https://github.com/perseusrealdeal/TheTechnologicalTree/tree/Xcode-10.1-iOS-App)
+> Branches in support to make a start on early Apple platforms.
 
-> Branches in support to make a start on eraly Apple platforms.
+`branch 2:` [Support/Xcode-10.1-iOS-App](https://github.com/perseusrealdeal/TheTechnologicalTree/tree/support/Xcode-10.1-iOS-App)
 
-`branch 3:` [Xcode-10.1-macOS-App](https://github.com/perseusrealdeal/TheTechnologicalTree/tree/support/Xcode-10.1-macOS-App) 
+`branch 3:` [Support/Xcode-10.1-macOS-App](https://github.com/perseusrealdeal/TheTechnologicalTree/tree/support/Xcode-10.1-macOS-App) 
 
 ## Take action
 
