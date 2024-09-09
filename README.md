@@ -11,9 +11,14 @@
 [![CI Script](http://img.shields.io/:CI-Script-blue.svg)](/.github/workflows/main.yml)
 [![License](http://img.shields.io/:License-MIT-blue.svg)](/LICENSE)
 
+## In brief > Idea to use, the Why
+
+> Easy start for developing macOS app.<br/>
+> TODO: preview material
+
 ## Approbation Matrix
 
-> [Apple Apps Approbation environment](https://docs.google.com/document/d/1K2jOeIknKRRpTEEIPKhxO2H_1eBTof5uTXxyOm5g6nQ/edit?usp=sharing)
+> [Apple Apps Approbation](https://docs.google.com/document/d/1K2jOeIknKRRpTEEIPKhxO2H_1eBTof5uTXxyOm5g6nQ/edit?usp=sharing) environment. [CHANGELOG](/CHANGELOG.md) for details.
 
 | macOS       | Version | Result  | Details |
 | ----------- | ------- | ------- | ------- |
@@ -30,13 +35,6 @@
 
 [![PerseusDarkMode](http://img.shields.io/:PerseusDarkMode-1.1.5-green.svg)](https://github.com/perseusrealdeal/PerseusDarkMode/tree/1.1.5)
 [![PerseusUISystemKit](http://img.shields.io/:PerseusUISystemKit-1.1.4-green.svg)](https://github.com/perseusrealdeal/PerseusUISystemKit/tree/1.1.4)
-
-# In brief > Idea to use, the Why
-
-> Easy start for developing macOS app.<br/>
-> [CHANGELOG](/CHANGELOG.md) for details.
-
-> TODO: preview material
 
 # Build system requirements
 
