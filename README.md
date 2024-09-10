@@ -11,6 +11,11 @@
 [![CI Script](http://img.shields.io/:CI-Script-blue.svg)](/.github/workflows/main.yml)
 [![License](http://img.shields.io/:License-MIT-blue.svg)](/LICENSE)
 
+> Dependencies
+
+[![PerseusDarkMode](http://img.shields.io/:PerseusDarkMode-1.1.5-green.svg)](https://github.com/perseusrealdeal/PerseusDarkMode/tree/1.1.5)
+[![PerseusUISystemKit](http://img.shields.io/:PerseusUISystemKit-1.1.4-green.svg)](https://github.com/perseusrealdeal/PerseusUISystemKit/tree/1.1.4)
+
 ## In brief > Idea to use, the Why
 
 > Easy start for developing macOS app.<br/>
@@ -30,11 +35,6 @@
 | Ventura     | 13.6.9  | ??      | - |
 | Sonoma      | 14.6.1  | ??      | - |
 | Sequoia     | nn.nn.n | ??      | - |
-
-## Dependencies
-
-[![PerseusDarkMode](http://img.shields.io/:PerseusDarkMode-1.1.5-green.svg)](https://github.com/perseusrealdeal/PerseusDarkMode/tree/1.1.5)
-[![PerseusUISystemKit](http://img.shields.io/:PerseusUISystemKit-1.1.4-green.svg)](https://github.com/perseusrealdeal/PerseusUISystemKit/tree/1.1.4)
 
 # Build system requirements
 
