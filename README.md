@@ -22,7 +22,7 @@
 
 `Step 2:` Apply commits from the target branch into the main branch with cherry-pick command
 
-`Step 3:` Push changes into the main branch then—*the preconfigured project template*
+`Step 3:` Push changes into the main branch then—`the preconfigured project template`—done
 
 `Step 4:` Protect the main branch making possible adding changes only via pull requesting
 
@@ -34,7 +34,7 @@
 
 `Step 8:` Create a pull request as `v0.0.1`
 
-`Step 9:` Merge a pull request with the main branch—*the initial point of development process*
+`Step 9:` Merge a pull request with the main branch—`the initial point of development process`—done
 
 # License MIT
 
