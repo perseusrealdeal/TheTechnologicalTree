@@ -11,7 +11,7 @@
 [![CI Script](http://img.shields.io/:CI-Script-blue.svg)](/.github/workflows/main.yml)
 [![License](http://img.shields.io/:License-MIT-blue.svg)](/LICENSE)
 
-> Dependencies
+## Dependencies
 
 [![PerseusDarkMode](http://img.shields.io/:PerseusDarkMode-1.1.5-green.svg)](https://github.com/perseusrealdeal/PerseusDarkMode/tree/1.1.5)
 [![PerseusUISystemKit](http://img.shields.io/:PerseusUISystemKit-1.1.4-green.svg)](https://github.com/perseusrealdeal/PerseusUISystemKit/tree/1.1.4)
@@ -19,22 +19,23 @@
 ## In brief > Idea to use, the Why
 
 > Easy start for developing macOS app.<br/>
+
 > TODO: preview material
 
 ## Approbation Matrix
 
 > [Apple Apps Approbation](https://docs.google.com/document/d/1K2jOeIknKRRpTEEIPKhxO2H_1eBTof5uTXxyOm5g6nQ/edit?usp=sharing) environment. [CHANGELOG](/CHANGELOG.md) for details.
 
-| macOS       | Version | Result  | Details |
-| ----------- | ------- | ------- | ------- |
-| High Sierra | 10.13.6 | ok      | - |
-| Mojave      | 10.14.6 | ??      | - |
-| Catalina    | 10.15.7 | ??      | - |
-| Big Sur     | 11.7.10 | ??      | - |
-| Monterey    | 12.7.6  | ??      | - |
-| Ventura     | 13.6.9  | ??      | - |
-| Sonoma      | 14.6.1  | ??      | - |
-| Sequoia     | nn.nn.n | ??      | - |
+| macOS       | Version  | Result  | Details |
+| ----------- | -------- | :-----: | ------- |
+| High Sierra | 10.13.6  | ok      | - |
+| Mojave      | 10.14.6  | ??      | - |
+| Catalina    | 10.15.7  | ??      | - |
+| Big Sur     | 11.7.10  | ??      | - |
+| Monterey    | 12.7.6   | ??      | - |
+| Ventura     | 13.6.9   | ??      | - |
+| Sonoma      | 14.6.1   | ??      | - |
+| Sequoia     | nn.nn.nn | ??      | - |
 
 # Build system requirements
 
