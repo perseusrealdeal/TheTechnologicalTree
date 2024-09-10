@@ -20,7 +20,7 @@ See LICENSE for details. All rights reserved.
 
 # Idea history
 
-> TODO: Describe release 0.2 shortly
+> TODO: Describe release 0.1.0 shortly
 
 <table>
     <tr>
@@ -28,11 +28,11 @@ See LICENSE for details. All rights reserved.
         <th>Short description</th>
     </tr>
     <tr>
-        <td nowrap>0.1+</td>
+        <td nowrap>0.0.1+</td>
         <td>Initial point of development process.</td>
     </tr>
     <tr>
-        <td nowrap>0.2</td>
+        <td nowrap>0.1.0+</td>
         <td></td>
     </tr>
 </table>
