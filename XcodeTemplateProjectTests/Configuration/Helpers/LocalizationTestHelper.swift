@@ -51,7 +51,7 @@ extension String {
         let lang = ["en", "ru"].contains(currentLang) ? currentLang : "en"
 
         guard let path = Bundle.main.url(
-            forResource: "Localization_\(lang)",
+            forResource: "Translation_\(lang)",
             withExtension: "plist")
         else { print("Something wrong with getting current language."); return "?" }
 
