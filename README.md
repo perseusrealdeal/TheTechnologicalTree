@@ -1,13 +1,14 @@
 # <App's Name> — Xcode 10.1+
 
-> This is the iOS app custom template.
+> This is the iOS app custom project template.
 
 [![Actions Status](https://github.com/perseusrealdeal/XcodeTemplateProject/actions/workflows/main.yml/badge.svg)](https://github.com/perseusrealdeal/XcodeTemplateProject/actions)
-![Version](https://img.shields.io/badge/Version-0.0.1-green.svg)
+![Version](https://img.shields.io/badge/Version-0.0.0-green.svg)
 [![Platform iOS 9](https://img.shields.io/badge/Platform-iOS%209.3+-blue.svg)](https://en.wikipedia.org/wiki/IOS_9)
 [![Xcode 10.1](https://img.shields.io/badge/Xcode-10.1+-red.svg)](https://en.wikipedia.org/wiki/Xcode)
 [![Swift 4.2](https://img.shields.io/badge/Swift-4.2-orange.svg)](https://docs.swift.org/swift-book/RevisionHistory/RevisionHistory.html)
 [![SDK UIKit](https://img.shields.io/badge/SDK-UIKit%20-blueviolet.svg)](https://developer.apple.com/documentation/uikit)
+[![CI Script](http://img.shields.io/:CI-Script-blue.svg)](/.github/workflows/main.yml)
 [![License](http://img.shields.io/:License-MIT-blue.svg)](/LICENSE)
 
 ## Dependencies
@@ -15,35 +16,40 @@
 [![PerseusDarkMode](http://img.shields.io/:PerseusDarkMode-1.1.5-green.svg)](https://github.com/perseusrealdeal/PerseusDarkMode/tree/1.1.5)
 [![PerseusUISystemKit](http://img.shields.io/:PerseusUISystemKit-1.1.4-green.svg)](https://github.com/perseusrealdeal/PerseusUISystemKit/tree/1.1.4)
 
-# In brief > Idea to use
+## In brief > Idea to use, the Why
 
-> This is the Xcode 10.1 project configured to make easy start for developing iOS app.
+> Great start for developing iOS app.<br/>
 
-Idea to use
+> TODO: preview material
 
-`step 1:` make a copy of repository as a template
+## Approbation Matrix
 
-`step 2:` rebase the main branch with `Xcode-10.1-iOS-App` for the first initial preconfigured commit
+> [Apple Apps Approbation](https://docs.google.com/document/d/1K2jOeIknKRRpTEEIPKhxO2H_1eBTof5uTXxyOm5g6nQ/edit?usp=sharing) environment. [CHANGELOG](/CHANGELOG.md) for details.
 
-`step 3:` rename the branch `Xcode-10.1-iOS-App` > `v0.0.1`
-
-`step 4:` update the branch `v0.0.1` for the project specifics
-
-`step 5:` create a pull request for `v0.0.1`
-
-`step 6:` merge a pull request for the initial point of development process
+| iOS    | Simulator | Device                | Result  | Details |
+| ------ | --------- | --------------------- | :-----: | ------- |
+| iOS 9  |           |                       | ??      | - |
+| iOS 10 |           |                       | ??      | - |
+| iOS 11 |           |                       | ??      | - |
+| iOS 12 | -         | iPad Air / iOS 12.5.7 | ok      | - |
+| iOS 13 |           |                       | ??      | - |
+| iOS 14 |           |                       | ??      | - |
+| iOS 15 |           |                       | ??      | - |
+| iOS 16 |           |                       | ??      | - |
+| iOS 17 |           |                       | ??      | - |
+| iOS 18 |           |                       | ??      | - |
 
 # Build system requirements
 
 - [macOS 10.13.6+](https://apps.apple.com/us/app/macos-high-sierra/id1246284741?ls=1)
 - [Xcode 10.1+](https://stackoverflow.com/questions/10335747/how-to-download-xcode-dmg-or-xip-file)
 - Swift 4.2+
-- iOS: 9.3+, UIKit SDK
+- iOS: 9.3+ (12.0 by default), UIKit SDK
 
 # Software requirements
 
-- [Functional specification](/XcodeTemplateProject/Requirements/REQUIREMENTS.md)
-- Localization requirements [[EN](/XcodeTemplateProject/Requirements/Localization_en.plist), [RU](/PerseusWeather/Requirements/Localization_ru.plist)]
+- [Functional specification](/REQUIREMENTS.md)
+- Translations [EN](/XcodeTemplateProject/Configuration/Translations/Translation_en.plist), [RU](/XcodeTemplateProject/Configuration/Translations/Translation_ru.plist)
 
 # First-party software
 
@@ -58,22 +64,20 @@ Idea to use
 
 # Points taken into account
 
-- Explicit start point placed in main.swift
-- Explicit app globals within AppGlobals.swift
-- Explicit user preferences logic within UserPreferences.swift
-- Explicit app delegate within test bundle
+- Explicit start point placed in [main.swift](/XcodeTemplateProject/main.swift)
+- Explicit app globals within [AppGlobals.swift](/XcodeTemplateProject/Configuration/AppGlobals.swift)
+- Explicit user preferences logic within [UserPreferences.swift](/XcodeTemplateProject/Configuration/UserPreferences.swift)
+- Explicit app delegate within test bundle [TestingAppDelegate.swift](XcodeTemplateProjectTests/Configuration/TestingAppDelegate.swift)
 - Settings bundle with Dark Mode option and release number sections
 - Localization test schemes for EN and RU as well
 - SwiftLint shell script as a build phase
-- Preconfigured GitHub CI, .gitignore, SwiftLint, README, and LICENSE
-- Light-weight logger
-- Software requirements templates
+- Software requirements
 
 # License MIT
 
-Copyright © 7531 - 7532 Mikhail Zhigulin of Novosibirsk
+Copyright © 7531 - 7533 Mikhail A. Zhigulin of Novosibirsk
 
-- The year starts from the creation of the world according to a Slavic calendar.
+- The year starts from the creation of the world in the Star temple according to a Slavic calendar.
 - September, the 1st of Slavic year.
 
 [LICENSE](/LICENSE) for details.
