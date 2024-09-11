@@ -17,7 +17,7 @@ import XCTest
 
 // MARK: - Release notes
 
-let bundleShortVersion = "0.1.0"
+let bundleShortVersion = "0.0.1"
 let bundleVersion = "0"
 
 // MARK: - Customer expectations, requirements
