@@ -1,6 +1,6 @@
 //
 //  LocalizationTests.swift
-//  XcodeTemplateProjectTests
+//  T3ProjectTests
 //
 //  Created by Mikhail Zhigulin in 7531.
 //
@@ -15,7 +15,7 @@
 //
 
 import XCTest
-@testable import XcodeTemplateProject
+@testable import T3Project
 
 class LocalizationTests: XCTestCase {
 

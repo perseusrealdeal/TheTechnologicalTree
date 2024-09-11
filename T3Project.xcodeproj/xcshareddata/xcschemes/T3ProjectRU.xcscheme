@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4B5A9B90291393CD002062AC"
-               BuildableName = "XcodeTemplateProject.app"
-               BlueprintName = "XcodeTemplateProject"
-               ReferencedContainer = "container:XcodeTemplateProject.xcodeproj">
+               BuildableName = "T3Project.app"
+               BlueprintName = "T3Project"
+               ReferencedContainer = "container:T3Project.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -36,9 +36,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4B5A9BA4291393CE002062AC"
-               BuildableName = "XcodeTemplateProjectTests.xctest"
-               BlueprintName = "XcodeTemplateProjectTests"
-               ReferencedContainer = "container:XcodeTemplateProject.xcodeproj">
+               BuildableName = "T3ProjectTests.xctest"
+               BlueprintName = "T3ProjectTests"
+               ReferencedContainer = "container:T3Project.xcodeproj">
             </BuildableReference>
             <SkippedTests>
                <Test
@@ -54,9 +54,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4B5A9B90291393CD002062AC"
-            BuildableName = "XcodeTemplateProject.app"
-            BlueprintName = "XcodeTemplateProject"
-            ReferencedContainer = "container:XcodeTemplateProject.xcodeproj">
+            BuildableName = "T3Project.app"
+            BlueprintName = "T3Project"
+            ReferencedContainer = "container:T3Project.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -79,9 +79,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4B5A9B90291393CD002062AC"
-            BuildableName = "XcodeTemplateProject.app"
-            BlueprintName = "XcodeTemplateProject"
-            ReferencedContainer = "container:XcodeTemplateProject.xcodeproj">
+            BuildableName = "T3Project.app"
+            BlueprintName = "T3Project"
+            ReferencedContainer = "container:T3Project.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <EnvironmentVariables>
@@ -105,9 +105,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4B5A9B90291393CD002062AC"
-            BuildableName = "XcodeTemplateProject.app"
-            BlueprintName = "XcodeTemplateProject"
-            ReferencedContainer = "container:XcodeTemplateProject.xcodeproj">
+            BuildableName = "T3Project.app"
+            BlueprintName = "T3Project"
+            ReferencedContainer = "container:T3Project.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

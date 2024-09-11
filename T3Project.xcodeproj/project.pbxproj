@@ -13,7 +13,7 @@
 		4B5A9B9A291393CD002062AC /* MainViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B5A9B98291393CD002062AC /* MainViewController.storyboard */; };
 		4B5A9B9C291393CE002062AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B5A9B9B291393CE002062AC /* Assets.xcassets */; };
 		4B5A9B9F291393CE002062AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B5A9B9D291393CE002062AC /* LaunchScreen.storyboard */; };
-		4B5A9BAA291393CE002062AC /* XcodeTemplateProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5A9BA9291393CE002062AC /* XcodeTemplateProjectTests.swift */; };
+		4B5A9BAA291393CE002062AC /* T3ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5A9BA9291393CE002062AC /* T3ProjectTests.swift */; };
 		4B5A9BBA291507E1002062AC /* REQUIREMENTS.md in Resources */ = {isa = PBXBuildFile; fileRef = 4B5A9BB9291507E1002062AC /* REQUIREMENTS.md */; };
 		4B5A9BC029151925002062AC /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 4B5A9BBF29151925002062AC /* .gitignore */; };
 		4B5A9BC22915192C002062AC /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 4B5A9BC12915192C002062AC /* LICENSE */; };
@@ -50,15 +50,15 @@
 
 /* Begin PBXFileReference section */
 		4B4B3191293E293D0001262E /* PerseusUISystemKitSingle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerseusUISystemKitSingle.swift; sourceTree = "<group>"; };
-		4B5A9B91291393CD002062AC /* XcodeTemplateProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XcodeTemplateProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5A9B91291393CD002062AC /* T3Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = T3Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B5A9B94291393CD002062AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B5A9B96291393CD002062AC /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		4B5A9B99291393CD002062AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainViewController.storyboard; sourceTree = "<group>"; };
 		4B5A9B9B291393CE002062AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B5A9B9E291393CE002062AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B5A9BA0291393CE002062AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4B5A9BA5291393CE002062AC /* XcodeTemplateProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XcodeTemplateProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B5A9BA9291393CE002062AC /* XcodeTemplateProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XcodeTemplateProjectTests.swift; sourceTree = "<group>"; };
+		4B5A9BA5291393CE002062AC /* T3ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = T3ProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5A9BA9291393CE002062AC /* T3ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = T3ProjectTests.swift; sourceTree = "<group>"; };
 		4B5A9BAB291393CE002062AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B5A9BB9291507E1002062AC /* REQUIREMENTS.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = REQUIREMENTS.md; sourceTree = "<group>"; };
 		4B5A9BBF29151925002062AC /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
@@ -70,7 +70,7 @@
 		4B62FA7729DC3FDC00DF6B85 /* PerseusLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerseusLogger.swift; sourceTree = "<group>"; };
 		4B6F985E2923CB3A00ADB03A /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = "<group>"; };
 		4B83155F292C181A0080DAEC /* DarkModeSwitching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeSwitching.swift; sourceTree = "<group>"; };
-		4BA0C754291E3B5F0011D359 /* UserPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserPreferences.swift; path = XcodeTemplateProject/Configuration/UserPreferences.swift; sourceTree = SOURCE_ROOT; };
+		4BA0C754291E3B5F0011D359 /* UserPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserPreferences.swift; path = T3Project/Configuration/UserPreferences.swift; sourceTree = SOURCE_ROOT; };
 		4BA0C757291E4B8C0011D359 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		4BA0C759291EAA0C0011D359 /* SettingsBundleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsBundleTests.swift; sourceTree = "<group>"; };
 		4BA0C75C291EAE830011D359 /* SettingsBundleTestHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsBundleTestHelper.swift; sourceTree = "<group>"; };
@@ -113,8 +113,8 @@
 				4B5A9BBF29151925002062AC /* .gitignore */,
 				4B6F985E2923CB3A00ADB03A /* .swiftlint.yml */,
 				4B5A9BB9291507E1002062AC /* REQUIREMENTS.md */,
-				4B5A9B93291393CD002062AC /* XcodeTemplateProject */,
-				4B5A9BA8291393CE002062AC /* XcodeTemplateProjectTests */,
+				4B5A9B93291393CD002062AC /* T3Project */,
+				4B5A9BA8291393CE002062AC /* T3ProjectTests */,
 				4B5A9B92291393CD002062AC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -122,31 +122,32 @@
 		4B5A9B92291393CD002062AC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4B5A9B91291393CD002062AC /* XcodeTemplateProject.app */,
-				4B5A9BA5291393CE002062AC /* XcodeTemplateProjectTests.xctest */,
+				4B5A9B91291393CD002062AC /* T3Project.app */,
+				4B5A9BA5291393CE002062AC /* T3ProjectTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4B5A9B93291393CD002062AC /* XcodeTemplateProject */ = {
+		4B5A9B93291393CD002062AC /* T3Project */ = {
 			isa = PBXGroup;
 			children = (
 				4B5A9BC929156EC2002062AC /* main.swift */,
+				4BA0C756291E3C250011D359 /* FirstPartyCode */,
 				4B5A9BB4291505BD002062AC /* Configuration */,
 				4B5A9BB6291505CF002062AC /* BusinessContent */,
 			);
-			path = XcodeTemplateProject;
+			path = T3Project;
 			sourceTree = "<group>";
 		};
-		4B5A9BA8291393CE002062AC /* XcodeTemplateProjectTests */ = {
+		4B5A9BA8291393CE002062AC /* T3ProjectTests */ = {
 			isa = PBXGroup;
 			children = (
 				4B5A9BB829150609002062AC /* Configuration */,
-				4B5A9BA9291393CE002062AC /* XcodeTemplateProjectTests.swift */,
+				4B5A9BA9291393CE002062AC /* T3ProjectTests.swift */,
 				4BA0C759291EAA0C0011D359 /* SettingsBundleTests.swift */,
 				4BA0C77929201E620011D359 /* LocalizationTests.swift */,
 			);
-			path = XcodeTemplateProjectTests;
+			path = T3ProjectTests;
 			sourceTree = "<group>";
 		};
 		4B5A9BB4291505BD002062AC /* Configuration */ = {
@@ -155,7 +156,6 @@
 				4BA0C757291E4B8C0011D359 /* Settings.bundle */,
 				4B5A9BB5291505C6002062AC /* Translations */,
 				4BA0C764291F60A60011D359 /* Localization */,
-				4BA0C756291E3C250011D359 /* FirstPartyCode */,
 				4B5A9B9D291393CE002062AC /* LaunchScreen.storyboard */,
 				4B5A9BA0291393CE002062AC /* Info.plist */,
 				4B5A9B9B291393CE002062AC /* Assets.xcassets */,
@@ -226,9 +226,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4B5A9B90291393CD002062AC /* XcodeTemplateProject */ = {
+		4B5A9B90291393CD002062AC /* T3Project */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4B5A9BAE291393CE002062AC /* Build configuration list for PBXNativeTarget "XcodeTemplateProject" */;
+			buildConfigurationList = 4B5A9BAE291393CE002062AC /* Build configuration list for PBXNativeTarget "T3Project" */;
 			buildPhases = (
 				4B5A9B8D291393CD002062AC /* Sources */,
 				4B5A9B8E291393CD002062AC /* Frameworks */,
@@ -239,14 +239,14 @@
 			);
 			dependencies = (
 			);
-			name = XcodeTemplateProject;
+			name = T3Project;
 			productName = XcodeTemplateProject;
-			productReference = 4B5A9B91291393CD002062AC /* XcodeTemplateProject.app */;
+			productReference = 4B5A9B91291393CD002062AC /* T3Project.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4B5A9BA4291393CE002062AC /* XcodeTemplateProjectTests */ = {
+		4B5A9BA4291393CE002062AC /* T3ProjectTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4B5A9BB1291393CE002062AC /* Build configuration list for PBXNativeTarget "XcodeTemplateProjectTests" */;
+			buildConfigurationList = 4B5A9BB1291393CE002062AC /* Build configuration list for PBXNativeTarget "T3ProjectTests" */;
 			buildPhases = (
 				4B5A9BA1291393CE002062AC /* Sources */,
 				4B5A9BA2291393CE002062AC /* Frameworks */,
@@ -257,9 +257,9 @@
 			dependencies = (
 				4B5A9BA7291393CE002062AC /* PBXTargetDependency */,
 			);
-			name = XcodeTemplateProjectTests;
+			name = T3ProjectTests;
 			productName = XcodeTemplateProjectTests;
-			productReference = 4B5A9BA5291393CE002062AC /* XcodeTemplateProjectTests.xctest */;
+			productReference = 4B5A9BA5291393CE002062AC /* T3ProjectTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -281,7 +281,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4B5A9B8C291393CD002062AC /* Build configuration list for PBXProject "XcodeTemplateProject" */;
+			buildConfigurationList = 4B5A9B8C291393CD002062AC /* Build configuration list for PBXProject "T3Project" */;
 			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -295,8 +295,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4B5A9B90291393CD002062AC /* XcodeTemplateProject */,
-				4B5A9BA4291393CE002062AC /* XcodeTemplateProjectTests */,
+				4B5A9B90291393CD002062AC /* T3Project */,
+				4B5A9BA4291393CE002062AC /* T3ProjectTests */,
 			);
 		};
 /* End PBXProject section */
@@ -373,7 +373,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B5A9BAA291393CE002062AC /* XcodeTemplateProjectTests.swift in Sources */,
+				4B5A9BAA291393CE002062AC /* T3ProjectTests.swift in Sources */,
 				4B5A9BC8291525D6002062AC /* TestingAppDelegate.swift in Sources */,
 				4BA0C77A29201E620011D359 /* LocalizationTests.swift in Sources */,
 				4BA0C75F291F5BE30011D359 /* LocalizationTestHelper.swift in Sources */,
@@ -387,7 +387,7 @@
 /* Begin PBXTargetDependency section */
 		4B5A9BA7291393CE002062AC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4B5A9B90291393CD002062AC /* XcodeTemplateProject */;
+			target = 4B5A9B90291393CD002062AC /* T3Project */;
 			targetProxy = 4B5A9BA6291393CE002062AC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -557,12 +557,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = XcodeTemplateProject/Configuration/Info.plist;
+				INFOPLIST_FILE = T3Project/Configuration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.perseus.XcodeTemplateProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.perseus.iOS.T3Project;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -576,12 +576,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_TESTABILITY = YES;
-				INFOPLIST_FILE = XcodeTemplateProject/Configuration/Info.plist;
+				INFOPLIST_FILE = T3Project/Configuration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.perseus.XcodeTemplateProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.perseus.iOS.T3Project;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -596,18 +596,18 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = XcodeTemplateProjectTests/Configuration/Info.plist;
+				INFOPLIST_FILE = T3ProjectTests/Configuration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.perseus.XcodeTemplateProjectTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.perseus.iOS.T3ProjectTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XcodeTemplateProject.app/XcodeTemplateProject";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/T3Project.app/T3Project";
 			};
 			name = Debug;
 		};
@@ -620,25 +620,25 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_TESTABILITY = YES;
-				INFOPLIST_FILE = XcodeTemplateProjectTests/Configuration/Info.plist;
+				INFOPLIST_FILE = T3ProjectTests/Configuration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.perseus.XcodeTemplateProjectTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.perseus.iOS.T3ProjectTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XcodeTemplateProject.app/XcodeTemplateProject";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/T3Project.app/T3Project";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4B5A9B8C291393CD002062AC /* Build configuration list for PBXProject "XcodeTemplateProject" */ = {
+		4B5A9B8C291393CD002062AC /* Build configuration list for PBXProject "T3Project" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4B5A9BAC291393CE002062AC /* Debug */,
@@ -647,7 +647,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4B5A9BAE291393CE002062AC /* Build configuration list for PBXNativeTarget "XcodeTemplateProject" */ = {
+		4B5A9BAE291393CE002062AC /* Build configuration list for PBXNativeTarget "T3Project" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4B5A9BAF291393CE002062AC /* Debug */,
@@ -656,7 +656,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4B5A9BB1291393CE002062AC /* Build configuration list for PBXNativeTarget "XcodeTemplateProjectTests" */ = {
+		4B5A9BB1291393CE002062AC /* Build configuration list for PBXNativeTarget "T3ProjectTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4B5A9BB2291393CE002062AC /* Debug */,

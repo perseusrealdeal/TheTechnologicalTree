@@ -1,6 +1,6 @@
 //
 //  LocalizationTestHelper.swift
-//  XcodeTemplateProjectTests
+//  T3ProjectTests
 //
 //  Created by Mikhail Zhigulin in 7531.
 //

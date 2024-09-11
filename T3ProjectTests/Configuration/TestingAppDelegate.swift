@@ -1,6 +1,6 @@
 //
 //  TestingAppDelegate.swift
-//  XcodeTemplateProjectTests
+//  T3ProjectTests
 //
 //  Created by Mikhail Zhigulin in 7531.
 //
@@ -13,7 +13,7 @@
 //
 
 import XCTest
-@testable import XcodeTemplateProject
+@testable import T3Project
 
 // MARK: - The Testing Matter Application Delegate
 

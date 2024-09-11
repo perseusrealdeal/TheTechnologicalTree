@@ -1,6 +1,6 @@
 //
 //  XcodeTemplateProjectTests.swift
-//  XcodeTemplateProjectTests
+//  T3ProjectTests
 //
 //  Created by Mikhail Zhigulin in 7531.
 //
@@ -13,9 +13,9 @@
 //
 
 import XCTest
-@testable import XcodeTemplateProject
+@testable import T3Project
 
-class XcodeTemplateProjectTests: XCTestCase {
+class T3ProjectTests: XCTestCase {
 
     override class func setUp() {
         super.setUp()

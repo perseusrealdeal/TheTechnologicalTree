@@ -1,6 +1,6 @@
 //
 //  UserPreferences.swift
-//  XcodeTemplateProject
+//  T3Project
 //
 //  Created by Mikhail Zhigulin in 7531.
 //
