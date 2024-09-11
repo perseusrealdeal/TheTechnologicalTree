@@ -13,7 +13,7 @@
 //
 
 import XCTest
-@testable import T3Project
+@testable import Perseus
 
 // MARK: - The Testing Matter Application Delegate
 

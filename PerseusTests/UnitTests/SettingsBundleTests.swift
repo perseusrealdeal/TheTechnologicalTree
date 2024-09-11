@@ -15,7 +15,7 @@
 //
 
 import XCTest
-@testable import T3Project
+@testable import Perseus
 
 class SettingsBundleTests: XCTestCase {
 

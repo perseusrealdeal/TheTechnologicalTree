@@ -36,8 +36,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4B5A9BA4291393CE002062AC"
-               BuildableName = "T3ProjectTests.xctest"
-               BlueprintName = "T3ProjectTests"
+               BuildableName = "PerseusTests.xctest"
+               BlueprintName = "PerseusTests"
                ReferencedContainer = "container:T3Project.xcodeproj">
             </BuildableReference>
             <SkippedTests>

@@ -26,7 +26,7 @@ jobs:
     - uses: mxcl/xcodebuild@v1.9.2
       with:
         platform: iOS
-        scheme: 'XcodeTemplateProject'
+        scheme: 'T3Project'
         action: build
         working-directory: ./
         verbosity: xcpretty
@@ -49,7 +49,7 @@ jobs:
     - uses: mxcl/xcodebuild@v1.9.2
       with:
         platform: iOS
-        scheme: 'XcodeTemplateProject'
+        scheme: 'T3Project'
         action: test
         code-coverage: true
         working-directory: ./
@@ -73,7 +73,7 @@ jobs:
     - uses: mxcl/xcodebuild@v1.9.2
       with:
         platform: iOS
-        scheme: 'XcodeTemplateProjectRU'
+        scheme: 'T3ProjectRU'
         action: test
         code-coverage: true
         working-directory: ./

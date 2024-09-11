@@ -13,7 +13,7 @@
 //
 
 import Foundation
-@testable import T3Project
+@testable import Perseus
 
 extension String {
 
