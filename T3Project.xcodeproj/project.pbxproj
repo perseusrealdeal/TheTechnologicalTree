@@ -104,6 +104,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E5852452C91D01300A15AF4 /* UnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B5A9BA9291393CE002062AC /* T3ProjectTests.swift */,
+				4BA0C759291EAA0C0011D359 /* SettingsBundleTests.swift */,
+				4BA0C77929201E620011D359 /* LocalizationTests.swift */,
+			);
+			path = UnitTests;
+			sourceTree = "<group>";
+		};
 		4B5A9B88291393CD002062AC = {
 			isa = PBXGroup;
 			children = (
@@ -142,10 +152,10 @@
 		4B5A9BA8291393CE002062AC /* T3ProjectTests */ = {
 			isa = PBXGroup;
 			children = (
-				4B5A9BB829150609002062AC /* Configuration */,
-				4B5A9BA9291393CE002062AC /* T3ProjectTests.swift */,
-				4BA0C759291EAA0C0011D359 /* SettingsBundleTests.swift */,
-				4BA0C77929201E620011D359 /* LocalizationTests.swift */,
+				4B5A9BC7291525D6002062AC /* TestingAppDelegate.swift */,
+				4B5A9BAB291393CE002062AC /* Info.plist */,
+				4B5A9BB829150609002062AC /* GiftsAndHelpers */,
+				2E5852452C91D01300A15AF4 /* UnitTests */,
 			);
 			path = T3ProjectTests;
 			sourceTree = "<group>";
@@ -184,14 +194,13 @@
 			path = BusinessContent;
 			sourceTree = "<group>";
 		};
-		4B5A9BB829150609002062AC /* Configuration */ = {
+		4B5A9BB829150609002062AC /* GiftsAndHelpers */ = {
 			isa = PBXGroup;
 			children = (
-				4BA0C75B291EAB900011D359 /* Helpers */,
-				4B5A9BAB291393CE002062AC /* Info.plist */,
-				4B5A9BC7291525D6002062AC /* TestingAppDelegate.swift */,
+				4BA0C75C291EAE830011D359 /* SettingsBundleTestHelper.swift */,
+				4BA0C75E291F5BE30011D359 /* LocalizationTestHelper.swift */,
 			);
-			path = Configuration;
+			path = GiftsAndHelpers;
 			sourceTree = "<group>";
 		};
 		4BA0C756291E3C250011D359 /* FirstPartyCode */ = {
@@ -203,15 +212,6 @@
 				4B62FA7729DC3FDC00DF6B85 /* PerseusLogger.swift */,
 			);
 			path = FirstPartyCode;
-			sourceTree = "<group>";
-		};
-		4BA0C75B291EAB900011D359 /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				4BA0C75C291EAE830011D359 /* SettingsBundleTestHelper.swift */,
-				4BA0C75E291F5BE30011D359 /* LocalizationTestHelper.swift */,
-			);
-			path = Helpers;
 			sourceTree = "<group>";
 		};
 		4BA0C764291F60A60011D359 /* Localization */ = {
@@ -596,7 +596,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = T3ProjectTests/Configuration/Info.plist;
+				INFOPLIST_FILE = T3ProjectTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -620,7 +620,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_TESTABILITY = YES;
-				INFOPLIST_FILE = T3ProjectTests/Configuration/Info.plist;
+				INFOPLIST_FILE = T3ProjectTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
