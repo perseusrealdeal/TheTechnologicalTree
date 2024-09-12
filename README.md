@@ -6,13 +6,19 @@
 
 > Every branch represents a custom project template to make easy start of development process.
 
-`branch 1:` [Xcode-10.1-Component](https://github.com/perseusrealdeal/TheTechnologicalTree/tree/Xcode-10.1-Component)
+`Branch 1 In Upgrading:` [Xcode-10.1-Component](https://github.com/perseusrealdeal/TheTechnologicalTree/tree/Xcode-10.1-Component)
+
+`Branch 2 In Upgrading:` [Xcode-10.1-iOS-App](https://github.com/perseusrealdeal/TheTechnologicalTree/tree/Xcode-10.1-iOS-App)
+
+`Branch 3 In Upgrading:` [Xcode-10.1-macOS-App](https://github.com/perseusrealdeal/TheTechnologicalTree/tree/Xcode-10.1-macOS-App)
 
 > Branches in support to make a start on early Apple platforms.
 
-`branch 2:` [Support/Xcode-10.1-iOS-App](https://github.com/perseusrealdeal/TheTechnologicalTree/tree/support/Xcode-10.1-iOS-App)
+`Branch 1 In Updating:` [Support/Xcode-10.1-Component](https://github.com/perseusrealdeal/TheTechnologicalTree/tree/support/Xcode-10.1-Component)
 
-`branch 3:` [Support/Xcode-10.1-macOS-App](https://github.com/perseusrealdeal/TheTechnologicalTree/tree/support/Xcode-10.1-macOS-App) 
+`Branch 2 Done:` [Support/Xcode-10.1-iOS-App](https://github.com/perseusrealdeal/TheTechnologicalTree/tree/support/Xcode-10.1-iOS-App)
+
+`Branch 3 Done:` [Support/Xcode-10.1-macOS-App](https://github.com/perseusrealdeal/TheTechnologicalTree/tree/support/Xcode-10.1-macOS-App)
 
 ## Take action
 
