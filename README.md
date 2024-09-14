@@ -39,19 +39,36 @@
 - [SwiftLint Shell Script Runner](/SucceedsPostAction.sh)
 - [SwiftLint](https://github.com/realm/SwiftLint) / [0.31.0: Busy Laundromat](https://github.com/realm/SwiftLint/releases/tag/0.31.0) for macOS High Sierra
 
+
+To run SwiftLint from Xcode project put the following script in the Build Phases as a Run Script.
+
+```ruby
+if [ \"${CONFIGURATION}\" = \"Debug\" ]; then
+if which swiftlint >/dev/null; then
+swiftlint --config \"$SRCROOT/.swiftlint.yml\"
+else
+echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"
+exit 1
+fi
+fi
+```
+
 # Points taken into account
 
 - Preconfigured Swift Package
-- Preconfigured CocoaPod config file
+- Preconfigured CocoaPod config file 
 - Preconfigured SwiftLint config file
 - Preconfigured GitHub CI
 - Preconfigured GitHub config [.gitignore] file
 - README and LICENSE
 - Light-weight logger
 
+[How-to-Carthage](https://gist.github.com/perseusrealdeal/8951b10f4330325df6347aaaa79d3cf2)
+[How-to-CocoaPod](https://gist.github.com/perseusrealdeal/c4327dbe9d930fb10e0fa51c8dedb5ce)
+
 # License MIT
 
-Copyright © 7531 - 7533 Mikhail Zhigulin of Novosibirsk
+Copyright © 7531 - 7533 Mikhail A. Zhigulin of Novosibirsk
 
 - The year starts from the creation of the world according to a Slavic calendar.
 - September, the 1st of Slavic year.
