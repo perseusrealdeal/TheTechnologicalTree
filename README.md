@@ -1,13 +1,15 @@
 # <Component's Name> — Xcode 10.1+
 
-> This is the component custom template for macOS and iOS apps.
+> This is the component custom template for macOS and iOS apps. <br/>
+> Use command `swift package generate-xcodeproj` to generate Xcode poject file.
 
 [![Actions Status](https://github.com/perseusrealdeal/XcodeTemplateProject/actions/workflows/main.yml/badge.svg)](https://github.com/perseusrealdeal/XcodeTemplateProject/actions)
 ![Version](https://img.shields.io/badge/Version-0.0.1-green.svg)
-[![Pod](https://img.shields.io/badge/Pod-0.0.1-informational.svg)](/Component.podspec)
+[![Pod](https://img.shields.io/badge/Pod-0.0.1-informational.svg)](/XcodeTemplateProject.podspec)
 [![Platforms](https://img.shields.io/badge/Platforms-iOS%209.3+_|_macOS%2010.9+-orange.svg)](https://en.wikipedia.org/wiki/IOS_9)
 [![Xcode 10.1](https://img.shields.io/badge/Xcode-10.1+-red.svg)](https://en.wikipedia.org/wiki/Xcode)
 [![Swift 4.2](https://img.shields.io/badge/Swift-4.2-red.svg)](https://docs.swift.org/swift-book/RevisionHistory/RevisionHistory.html)
+[![CI Script](http://img.shields.io/:CI-Script-blue.svg)](/.github/workflows/main.yml)
 [![License](http://img.shields.io/:License-MIT-blue.svg)](/LICENSE)
 
 ## Integration Capabilities
@@ -17,23 +19,9 @@
 [![CocoaPods manager](https://img.shields.io/badge/CocoaPods-compatible-4BC51D.svg)](https://cocoapods.org)
 [![Swift Package Manager compatible](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-4BC51D.svg)](https://github.com/apple/swift-package-manager)
 
-# In Brief > Idea to use
+## In brief > Idea to use, the Why
 
-> This is the Xcode 10.1 project configured to make easy start for developing App component.
-
-Idea to use: 
-
-`step 1:` make a copy of repository as a template
-
-`step 2:` rebase the main branch with `Xcode-10.1-Component` for the first initial preconfigured commit
-
-`step 3:` rename the branch `Xcode-10.1-Component` > `v0.0.1`
-
-`step 4:` update the branch `v0.0.1` for the project specifics
-
-`step 5:` create a pull request for `v0.0.1`
-
-`step 6:` merge a pull request for the initial point of development process
+> Great start for developing macOS/iOS app component. [CHANGELOG](/CHANGELOG.md) for details.
 
 # Requirements
 
@@ -63,7 +51,7 @@ Idea to use:
 
 # License MIT
 
-Copyright © 7531 - 7532 Mikhail Zhigulin of Novosibirsk
+Copyright © 7531 - 7533 Mikhail Zhigulin of Novosibirsk
 
 - The year starts from the creation of the world according to a Slavic calendar.
 - September, the 1st of Slavic year.
