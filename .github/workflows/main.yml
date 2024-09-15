@@ -10,10 +10,12 @@ on:
     
 jobs:
   unit-testing-iOS: 
-    runs-on: macos-latest
+    runs-on: macos-14
     steps:
     - name: Checkout the code
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
+    - name: Select Xcode 15.4
+      run: sudo xcode-select -s "/Applications/Xcode_15.4.app"
     - name: Show xcodebuild version
       run: xcodebuild -version
     - name: Show xcode embedded SDKs
@@ -30,10 +32,12 @@ jobs:
         upload-logs: always
   
   unit-testing-macOS: 
-    runs-on: macos-latest
+    runs-on: macos-14
     steps:
     - name: Checkout the code
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
+    - name: Select Xcode 15.4
+      run: sudo xcode-select -s "/Applications/Xcode_15.4.app"
     - name: Show xcodebuild version
       run: xcodebuild -version
     - name: Show xcode embedded SDKs
