@@ -4,7 +4,7 @@
 //
 //  Created by Mikhail Zhigulin in 7532.
 //
-//  Copyright © 7532 Mikhail Zhigulin of Novosibirsk
+//  Copyright © 7532 - 7533 Mikhail A. Zhigulin of Novosibirsk
 //
 //  The year starts from the creation of the world in the Star temple
 //  according to a Slavic calendar. September, the 1st of Slavic year.

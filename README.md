@@ -1,6 +1,6 @@
 # <App's Name> — Xcode 10.1+
 
-> This is the macOS app custom template.
+> This is the macOS app custom project template.
 
 [![Actions Status](https://github.com/perseusrealdeal/XcodeTemplateProject/actions/workflows/main.yml/badge.svg)](https://github.com/perseusrealdeal/TheTechnologicalTree/actions)
 [![Version](https://img.shields.io/badge/Version-0.0.1-green.svg)](/CHANGELOG.md)
@@ -8,6 +8,7 @@
 [![Xcode 10.1](https://img.shields.io/badge/Xcode-10.1+-red.svg)](https://en.wikipedia.org/wiki/Xcode)
 [![Swift 4.2](https://img.shields.io/badge/Swift-4.2-orange.svg)](https://docs.swift.org/swift-book/RevisionHistory/RevisionHistory.html)
 [![SDK UIKit](https://img.shields.io/badge/SDK-UIKit%20-blueviolet.svg)](https://developer.apple.com/documentation/uikit)
+[![CI Script](http://img.shields.io/:CI-Script-blue.svg)](/.github/workflows/main.yml)
 [![License](http://img.shields.io/:License-MIT-blue.svg)](/LICENSE)
 
 ## Dependencies
@@ -15,19 +16,33 @@
 [![PerseusDarkMode](http://img.shields.io/:PerseusDarkMode-1.1.5-green.svg)](https://github.com/perseusrealdeal/PerseusDarkMode/tree/1.1.5)
 [![PerseusUISystemKit](http://img.shields.io/:PerseusUISystemKit-1.1.4-green.svg)](https://github.com/perseusrealdeal/PerseusUISystemKit/tree/1.1.4)
 
-# In brief > Idea to use, the Why
+## In brief > Idea to use, the Why
 
-> This is the Xcode 10.1 project configured to make easy start for developing macOS app.<br/>
-> [CHANGELOG](/CHANGELOG.md) for details.
+> Great start for developing macOS app.<br/>
 
-> TODO: preview
+> TODO: preview material
+
+## Approbation Matrix
+
+> [Apple Apps Approbation](https://docs.google.com/document/d/1K2jOeIknKRRpTEEIPKhxO2H_1eBTof5uTXxyOm5g6nQ/edit?usp=sharing) environment. [CHANGELOG](/CHANGELOG.md) for details.
+
+| macOS       | Version  | Result  | Details |
+| ----------- | -------- | :-----: | ------- |
+| High Sierra | 10.13.6  | ok      | - |
+| Mojave      | 10.14.6  | ??      | - |
+| Catalina    | 10.15.7  | ??      | - |
+| Big Sur     | 11.7.10  | ??      | - |
+| Monterey    | 12.7.6   | ??      | - |
+| Ventura     | 13.6.9   | ??      | - |
+| Sonoma      | 14.6.1   | ??      | - |
+| Sequoia     | nn.nn.nn | ??      | - |
 
 # Build system requirements
 
 - [macOS 10.13.6+](https://apps.apple.com/us/app/macos-high-sierra/id1246284741?ls=1)
 - [Xcode 10.1+](https://stackoverflow.com/questions/10335747/how-to-download-xcode-dmg-or-xip-file)
 - Swift 4.2+
-- macOS: 10.10+, AppKit SDK
+- macOS: 10.10+ (10.13 by default), AppKit SDK
 
 # Software requirements
 
@@ -65,7 +80,7 @@
 
 # License MIT
 
-Copyright © 7531 - 7532 Mikhail Zhigulin of Novosibirsk
+Copyright © 7531 - 7533 Mikhail A. Zhigulin of Novosibirsk
 
 - The year starts from the creation of the world in the Star temple according to a Slavic calendar.
 - September, the 1st of Slavic year.
@@ -74,4 +89,4 @@ Copyright © 7531 - 7532 Mikhail Zhigulin of Novosibirsk
 
 # Editors, prepared by
 
-> Mikhail Zhigulin of Novosibirsk
+> Mikhail A. Zhigulin of Novosibirsk
