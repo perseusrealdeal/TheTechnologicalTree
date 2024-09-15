@@ -49,7 +49,7 @@
 # Software requirements
 
 - [Functional specification](/REQUIREMENTS.md)
-- Translations [EN](/XcodeTemplateProject/Configuration/Translations/Translation_en.plist), [RU](/XcodeTemplateProject/Configuration/Translations/Translation_ru.plist)
+- Translations [EN](/T3Project/Configuration/Translations/Translation_en.plist), [RU](/T3Project/Configuration/Translations/Translation_ru.plist)
 
 # First-party software
 
