@@ -1,10 +1,10 @@
 //
 //  XcodeTemplateProjectTests.swift
-//  XcodeTemplateProjectTests
+//  PerseusTests
 //
 //  Created by Mikhail Zhigulin in 7531.
 //
-//  Copyright © 7531 - 7532 Mikhail Zhigulin of Novosibirsk
+//  Copyright © 7531 - 7533 Mikhail A. Zhigulin of Novosibirsk
 //
 //  The year starts from the creation of the world according to a Slavic calendar.
 //  September, the 1st of Slavic year.
@@ -13,9 +13,9 @@
 //
 
 import XCTest
-@testable import XcodeTemplateProject
+@testable import Perseus
 
-class XcodeTemplateProjectTests: XCTestCase {
+class T3ProjectTests: XCTestCase {
 
     override class func setUp() {
         super.setUp()

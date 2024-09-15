@@ -11,10 +11,12 @@ on:
 jobs:
 
   build:
-    runs-on: macos-latest
+    runs-on: macos-14
     steps:
     - name: Checkout the code
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
+    - name: Select Xcode 15.4
+      run: sudo xcode-select -s "/Applications/Xcode_15.4.app"
     - name: Show xcodebuild version
       run: xcodebuild -version
     - name: Show xcode embedded SDKs
@@ -24,18 +26,20 @@ jobs:
     - uses: mxcl/xcodebuild@v1.9.2
       with:
         platform: iOS
-        scheme: 'XcodeTemplateProject'
+        scheme: 'T3Project'
         action: build
         working-directory: ./
         verbosity: xcpretty
         upload-logs: always
         configuration: Release
 
-  test_EN:
-    runs-on: macos-latest
+  testEN:
+    runs-on: macos-14
     steps:
     - name: Checkout the code
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
+    - name: Select Xcode 15.4
+      run: sudo xcode-select -s "/Applications/Xcode_15.4.app"
     - name: Show xcodebuild version
       run: xcodebuild -version
     - name: Show xcode embedded SDKs
@@ -45,7 +49,7 @@ jobs:
     - uses: mxcl/xcodebuild@v1.9.2
       with:
         platform: iOS
-        scheme: 'XcodeTemplateProject'
+        scheme: 'T3Project'
         action: test
         code-coverage: true
         working-directory: ./
@@ -53,11 +57,13 @@ jobs:
         upload-logs: always
         configuration: Release
 
-  test_RU:
-    runs-on: macos-latest
+  testRU:
+    runs-on: macos-14
     steps:
     - name: Checkout the code
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
+    - name: Select Xcode 15.4
+      run: sudo xcode-select -s "/Applications/Xcode_15.4.app"
     - name: Show xcodebuild version
       run: xcodebuild -version
     - name: Show xcode embedded SDKs
@@ -67,7 +73,7 @@ jobs:
     - uses: mxcl/xcodebuild@v1.9.2
       with:
         platform: iOS
-        scheme: 'XcodeTemplateProject_RU'
+        scheme: 'T3ProjectRU'
         action: test
         code-coverage: true
         working-directory: ./

@@ -1,10 +1,10 @@
 //
 //  LocalizationTestHelper.swift
-//  XcodeTemplateProjectTests
+//  PerseusTests
 //
 //  Created by Mikhail Zhigulin in 7531.
 //
-//  Copyright © 7531 - 7532 Mikhail Zhigulin of Novosibirsk
+//  Copyright © 7531 - 7533 Mikhail A. Zhigulin of Novosibirsk
 //
 //  The year starts from the creation of the world according to a Slavic calendar.
 //  September, the 1st of Slavic year.
@@ -51,7 +51,7 @@ extension String {
         let lang = ["en", "ru"].contains(currentLang) ? currentLang : "en"
 
         guard let path = Bundle.main.url(
-            forResource: "Localization_\(lang)",
+            forResource: "Translation_\(lang)",
             withExtension: "plist")
         else { print("Something wrong with getting current language."); return "?" }
 
