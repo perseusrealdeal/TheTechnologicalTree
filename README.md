@@ -1,6 +1,6 @@
 # <App's Name> — Xcode 10.1+
 
-> This is the macOS app custom project template.
+> This is the custom project template for a great macOS app in Swift.
 
 [![Actions Status](https://github.com/perseusrealdeal/XcodeTemplateProject/actions/workflows/main.yml/badge.svg)](https://github.com/perseusrealdeal/TheTechnologicalTree/actions)
 [![Version](https://img.shields.io/badge/Version-0.0.1-green.svg)](/CHANGELOG.md)
@@ -18,9 +18,9 @@
 
 ## In brief > Idea to use, the Why
 
-> Great start for developing macOS app.<br/>
+> DESC: Initial point of development process.<br/>
 
-> TODO: preview material
+> TODO: Preview material.
 
 ## Approbation Matrix
 
@@ -35,14 +35,12 @@
 | Monterey    | 12.7.6   | ??      | - |
 | Ventura     | 13.6.9   | ??      | - |
 | Sonoma      | 14.6.1   | ??      | - |
-| Sequoia     | nn.nn.nn | ??      | - |
+| Sequoia     | 15.0     | ??      | - |
 
 # Build system requirements
 
-- [macOS 10.13.6+](https://apps.apple.com/us/app/macos-high-sierra/id1246284741?ls=1)
-- [Xcode 10.1+](https://stackoverflow.com/questions/10335747/how-to-download-xcode-dmg-or-xip-file)
-- Swift 4.2+
-- macOS: 10.10+ (10.13 by default), AppKit SDK
+- [macOS High Sierra 10.13.6+](https://apps.apple.com/us/app/macos-high-sierra/id1246284741?ls=1) / [Xcode 10.1+](https://stackoverflow.com/questions/10335747/how-to-download-xcode-dmg-or-xip-file)
+- AppKit SDK, macOS 10.10+ (10.13 by default), Swift 4.2 
 
 # Software requirements
 
@@ -67,6 +65,7 @@
 # Third-party software
 
 - [SwiftLint](https://github.com/realm/SwiftLint) / [0.31.0: Busy Laundromat](https://github.com/realm/SwiftLint/releases/tag/0.31.0) for macOS High Sierra
+- CI tool [mxcl/xcodebuild@v1.9.2](https://github.com/mxcl/xcodebuild/tree/v1.9.2)
 
 # Points taken into account
 
@@ -75,8 +74,8 @@
 - Explicit app globals placed in [AppGlobals.swift](/T3Project/Configuration/AppGlobals.swift)
 - Explicit app appearance placed in [AppAppearance.swift](/T3Project/Configuration/AppAppearance.swift)
 - Localization test schemes for EN and RU as well
-- SwiftLint shell script as a build phase
-- Software requirements
+- SwiftLint shell script as a build phase (preinstallation required)
+- Software requirements template docs
 
 # License MIT
 
