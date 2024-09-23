@@ -1,6 +1,6 @@
 # <App's Name> — Xcode 10.1+
 
-> This is the iOS app custom project template.
+> This is the custom project template for a great iOS app in Swift.
 
 [![Actions Status](https://github.com/perseusrealdeal/XcodeTemplateProject/actions/workflows/main.yml/badge.svg)](https://github.com/perseusrealdeal/XcodeTemplateProject/actions)
 ![Version](https://img.shields.io/badge/Version-0.0.1-green.svg)
@@ -18,9 +18,9 @@
 
 ## In brief > Idea to use, the Why
 
-> Great start for developing iOS app.<br/>
+> DESC: Initial point of development process.<br/>
 
-> TODO: preview material
+> TODO: Preview material.
 
 ## Approbation Matrix
 
@@ -41,10 +41,8 @@
 
 # Build system requirements
 
-- [macOS 10.13.6+](https://apps.apple.com/us/app/macos-high-sierra/id1246284741?ls=1)
-- [Xcode 10.1+](https://stackoverflow.com/questions/10335747/how-to-download-xcode-dmg-or-xip-file)
-- Swift 4.2+
-- iOS: 9.3+ (12.0 by default), UIKit SDK
+- [macOS High Sierra 10.13.6+](https://apps.apple.com/us/app/macos-high-sierra/id1246284741?ls=1) / [Xcode 10.1+](https://stackoverflow.com/questions/10335747/how-to-download-xcode-dmg-or-xip-file)
+- UIKit SDK, iOS 9.3+ (12.0 by default), Swift 4.2
 
 # Software requirements
 
@@ -61,6 +59,7 @@
 # Third-party software
 
 - [SwiftLint](https://github.com/realm/SwiftLint) / [0.31.0: Busy Laundromat](https://github.com/realm/SwiftLint/releases/tag/0.31.0) for macOS High Sierra
+- CI tool [mxcl/xcodebuild@v1.9.2](https://github.com/mxcl/xcodebuild/tree/v1.9.2)
 
 # Points taken into account
 
@@ -70,8 +69,8 @@
 - Explicit app delegate within test bundle [TestingAppDelegate.swift](XcodeTemplateProjectTests/Configuration/TestingAppDelegate.swift)
 - Settings bundle with Dark Mode option and release number sections
 - Localization test schemes for EN and RU as well
-- SwiftLint shell script as a build phase
-- Software requirements
+- SwiftLint shell script as a build phase (preinstallation required)
+- Software requirements template docs
 
 # License MIT
 
