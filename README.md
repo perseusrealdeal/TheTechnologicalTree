@@ -1,6 +1,6 @@
 # <Component's Name> — Xcode 10.1+
 
-> This is the component custom template for macOS and iOS apps. <br/>
+> This is the custom template for a great macOS/iOS component in Swift. <br/>
 > Use command `swift package generate-xcodeproj` to generate Xcode poject file.
 
 [![Actions Status](https://github.com/perseusrealdeal/XcodeTemplateProject/actions/workflows/main.yml/badge.svg)](https://github.com/perseusrealdeal/XcodeTemplateProject/actions)
@@ -21,14 +21,14 @@
 
 ## In brief > Idea to use, the Why
 
-> Great start for developing macOS/iOS app component. [CHANGELOG](/CHANGELOG.md) for details.
+> DESC: Initial point of development process. [CHANGELOG](/CHANGELOG.md) for details.
 
 # Requirements
 
-- [macOS 10.13.6+](https://apps.apple.com/us/app/macos-high-sierra/id1246284741?ls=1)
-- [Xcode 10.1+](https://stackoverflow.com/questions/10335747/how-to-download-xcode-dmg-or-xip-file)
+- [macOS High Siera 10.13.6+](https://apps.apple.com/us/app/macos-high-sierra/id1246284741?ls=1) / [Xcode 10.1+](https://stackoverflow.com/questions/10335747/how-to-download-xcode-dmg-or-xip-file)
 - iOS: 9.3+, UIKit SDK
 - macOS: 10.9+, AppKit SDK
+- Swift: 4.2
 
 # First-party software
 
@@ -38,7 +38,7 @@
 
 - [SwiftLint Shell Script Runner](/SucceedsPostAction.sh)
 - [SwiftLint](https://github.com/realm/SwiftLint) / [0.31.0: Busy Laundromat](https://github.com/realm/SwiftLint/releases/tag/0.31.0) for macOS High Sierra
-
+- CI tool [mxcl/xcodebuild@v1.9.2](https://github.com/mxcl/xcodebuild/tree/v1.9.2)
 
 To run SwiftLint from Xcode project put the following script in the Build Phases as a Run Script.
 
@@ -55,13 +55,12 @@ fi
 
 # Points taken into account
 
-- Preconfigured Swift Package
-- Preconfigured CocoaPod config file 
-- Preconfigured SwiftLint config file
-- Preconfigured GitHub CI
-- Preconfigured GitHub config [.gitignore] file
-- README and LICENSE
-- Light-weight logger
+- Preconfigured Swift Package [Package.swift](/Package.swift) file
+- Preconfigured CocoaPod config [XcodeTemplateProject.podspec](/XcodeTemplateProject.podspec) file 
+- Preconfigured SwiftLint config [.swiftlint.yml](/.swiftlint.yml) file
+- Preconfigured GitHub CI [main.yml](/.github/workflows/main.yml) file 
+- Preconfigured GitHub config [.gitignore](/.gitignore) file
+- Light-weight [logger](/Sources/XcodeTemplateProject/PerseusLogger.swift)
 
 [How-to-Carthage](https://gist.github.com/perseusrealdeal/8951b10f4330325df6347aaaa79d3cf2)
 [How-to-CocoaPod](https://gist.github.com/perseusrealdeal/c4327dbe9d930fb10e0fa51c8dedb5ce)
