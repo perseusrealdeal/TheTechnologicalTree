@@ -1,5 +1,5 @@
 # .github/workflows/swiftlint.yml
-name: SwiftLint
+name: Style
 
 on:
   push:
