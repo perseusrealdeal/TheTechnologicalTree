@@ -14,6 +14,9 @@
 
 import AppKit
 
+import PerseusUISystemKit
+import PerseusDarkMode
+
 public protocol CustomColorsProtocol {
 
     static var labelCustomColor: NSColor { get }

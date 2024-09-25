@@ -13,6 +13,7 @@
 //
 
 import Cocoa
+import PerseusDarkMode
 
 class AppDelegate: NSObject, NSApplicationDelegate {
 

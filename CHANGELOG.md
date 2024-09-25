@@ -5,7 +5,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Dates in this file meets Gregorian calendar. Date in format YYYY-MM-DD.
 
-## [0.1.0] - [Unreleased], Developer Release
+## [0.1.0] - [YYYY-MM-DD], Developer Release
 
 ### Added
 
@@ -13,7 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Feature (#NN).
 - Option (#NN).
 - Screen (#NN).
-- Fun Spec (#NN)
+- Fun Spec (#NN).
 
 ### Security
 

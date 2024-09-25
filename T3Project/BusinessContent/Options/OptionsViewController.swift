@@ -13,6 +13,8 @@
 //
 
 import Cocoa
+import PerseusDarkMode
+import PerseusUISystemKit
 
 class OptionsViewController: NSViewController {
 

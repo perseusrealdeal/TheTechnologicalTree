@@ -1,26 +1,28 @@
-# <App's Name> — Xcode 10.1+
+# <App's Name> — Xcode 14.2+
 
-> This is the macOS app custom project template.
+> This is the custom project template for a great macOS app.
 
-[![Actions Status](https://github.com/perseusrealdeal/XcodeTemplateProject/actions/workflows/main.yml/badge.svg)](https://github.com/perseusrealdeal/TheTechnologicalTree/actions)
+[![Actions Status](https://github.com/perseusrealdeal/TheTechnologicalTree/actions/workflows/main.yml/badge.svg)](https://github.com/perseusrealdeal/TheTechnologicalTree/actions/workflows/main.yml)
+[![Style](https://github.com/perseusrealdeal/TheTechnologicalTree/actions/workflows/swiftlint.yml/badge.svg)](https://github.com/perseusrealdeal/TheTechnologicalTree/actions/workflows/swiftlint.yml)
 [![Version](https://img.shields.io/badge/Version-0.0.1-green.svg)](/CHANGELOG.md)
-[![Platform macOS](https://img.shields.io/badge/Platform-macOS%2010.10+-orange.svg)](https://en.wikipedia.org/wiki/MacOS_version_history)
-[![Xcode 10.1](https://img.shields.io/badge/Xcode-10.1+-red.svg)](https://en.wikipedia.org/wiki/Xcode)
-[![Swift 4.2](https://img.shields.io/badge/Swift-4.2-orange.svg)](https://docs.swift.org/swift-book/RevisionHistory/RevisionHistory.html)
+[![Platform macOS](https://img.shields.io/badge/Platform-macOS%2010.13+-orange.svg)](https://en.wikipedia.org/wiki/MacOS_version_history)
+[![Xcode 14.2](https://img.shields.io/badge/Xcode-14.2+-red.svg)](https://en.wikipedia.org/wiki/Xcode)
+[![Swift 5.0](https://img.shields.io/badge/Swift-5-orange.svg)](https://docs.swift.org/swift-book/RevisionHistory/RevisionHistory.html)
 [![SDK UIKit](https://img.shields.io/badge/SDK-UIKit%20-blueviolet.svg)](https://developer.apple.com/documentation/uikit)
-[![CI Script](http://img.shields.io/:CI-Script-blue.svg)](/.github/workflows/main.yml)
 [![License](http://img.shields.io/:License-MIT-blue.svg)](/LICENSE)
 
 ## Dependencies
+
+> Swift Package Manager.
 
 [![PerseusDarkMode](http://img.shields.io/:PerseusDarkMode-1.1.5-green.svg)](https://github.com/perseusrealdeal/PerseusDarkMode/tree/1.1.5)
 [![PerseusUISystemKit](http://img.shields.io/:PerseusUISystemKit-1.1.4-green.svg)](https://github.com/perseusrealdeal/PerseusUISystemKit/tree/1.1.4)
 
 ## In brief > Idea to use, the Why
 
-> Great start for developing macOS app.<br/>
+> DESC: Initial point of development process.<br/>
 
-> TODO: preview material
+> TODO: Preview material.
 
 ## Approbation Matrix
 
@@ -28,21 +30,19 @@
 
 | macOS       | Version  | Result  | Details |
 | ----------- | -------- | :-----: | ------- |
-| High Sierra | 10.13.6  | ok      | - |
+| High Sierra | 10.13.6  | ??      | - |
 | Mojave      | 10.14.6  | ??      | - |
 | Catalina    | 10.15.7  | ??      | - |
 | Big Sur     | 11.7.10  | ??      | - |
-| Monterey    | 12.7.6   | ??      | - |
+| Monterey    | 12.7.6   | ok      | - |
 | Ventura     | 13.6.9   | ??      | - |
 | Sonoma      | 14.6.1   | ??      | - |
-| Sequoia     | nn.nn.nn | ??      | - |
+| Sequoia     | 15.nn.nn | ??      | - |
 
 # Build system requirements
 
-- [macOS 10.13.6+](https://apps.apple.com/us/app/macos-high-sierra/id1246284741?ls=1)
-- [Xcode 10.1+](https://stackoverflow.com/questions/10335747/how-to-download-xcode-dmg-or-xip-file)
-- Swift 4.2+
-- macOS: 10.10+ (10.13 by default), AppKit SDK
+- [macOS Monterey 12.7.6+](https://apps.apple.com/by/app/macos-monterey/id1576738294) / [Xcode 14.2+](https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_14.2/Xcode_14.2.xip)
+- AppKit SDK, macOS 10.13+, Swift 5
 
 # Software requirements
 
@@ -66,17 +66,19 @@
 
 # Third-party software
 
-- [SwiftLint](https://github.com/realm/SwiftLint) / [0.31.0: Busy Laundromat](https://github.com/realm/SwiftLint/releases/tag/0.31.0) for macOS High Sierra
+- Style [SwiftLint](https://github.com/realm/SwiftLint)
+- Action [mxcl/xcodebuild@v3.3](https://github.com/mxcl/xcodebuild/releases/tag/v3.3.0)
+- Action [cirruslabs/swiftlint-action@v1](https://github.com/cirruslabs/swiftlint-action/releases/tag/v1.0.0)
 
 # Points taken into account
 
 - Explicit start point placed in [main.swift](/T3Project/main.swift)
-- Explicit app delegate with test bundle
+- Explicit app delegate [TestingAppDelegate.swift](/PerseusTests/TestingAppDelegate.swift) with test bundle
 - Explicit app globals placed in [AppGlobals.swift](/T3Project/Configuration/AppGlobals.swift)
 - Explicit app appearance placed in [AppAppearance.swift](/T3Project/Configuration/AppAppearance.swift)
-- Localization test schemes for EN and RU as well
-- SwiftLint shell script as a build phase
-- Software requirements
+- [Test plan](/PerseusTests/TestPlanStarted.xctestplan) configured for EN and RU as well
+- SwiftLint shell script as a build phase (preinstallation required)
+- Software requirements template docs
 
 # License MIT
 

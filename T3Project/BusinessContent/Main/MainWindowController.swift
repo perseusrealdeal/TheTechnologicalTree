@@ -32,6 +32,8 @@ class MainWindowController: NSWindowController {
 
     override func windowDidLoad() {
         super.windowDidLoad()
+
+        log.message("[\(type(of: self))].\(#function)", .info)
     }
 }
 

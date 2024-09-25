@@ -38,7 +38,6 @@ struct AppGlobals {
 
     // MARK: - Custom Services
 
-
     // MARK: - Init
 
     init() {
