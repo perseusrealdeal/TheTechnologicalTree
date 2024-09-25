@@ -3,12 +3,12 @@
 > This is the custom project template for a great iOS app in Swift.
 
 [![Actions Status](https://github.com/perseusrealdeal/XcodeTemplateProject/actions/workflows/main.yml/badge.svg)](https://github.com/perseusrealdeal/XcodeTemplateProject/actions)
-![Version](https://img.shields.io/badge/Version-0.0.1-green.svg)
+[![Style](https://github.com/perseusrealdeal/TheTechnologicalTree/actions/workflows/swiftlint.yml/badge.svg)](https://github.com/perseusrealdeal/TheTechnologicalTree/actions/workflows/swiftlint.yml)
+[![Version](https://img.shields.io/badge/Version-0.0.1-green.svg)](/CHANGELOG.md)
 [![Platform iOS 9](https://img.shields.io/badge/Platform-iOS%209.3+-blue.svg)](https://en.wikipedia.org/wiki/IOS_9)
 [![Xcode 10.1](https://img.shields.io/badge/Xcode-10.1+-red.svg)](https://en.wikipedia.org/wiki/Xcode)
 [![Swift 4.2](https://img.shields.io/badge/Swift-4.2-orange.svg)](https://docs.swift.org/swift-book/RevisionHistory/RevisionHistory.html)
 [![SDK UIKit](https://img.shields.io/badge/SDK-UIKit%20-blueviolet.svg)](https://developer.apple.com/documentation/uikit)
-[![CI Script](http://img.shields.io/:CI-Script-blue.svg)](/.github/workflows/main.yml)
 [![License](http://img.shields.io/:License-MIT-blue.svg)](/LICENSE)
 
 ## Dependencies
@@ -63,10 +63,10 @@
 
 # Points taken into account
 
-- Explicit start point placed in [main.swift](/XcodeTemplateProject/main.swift)
-- Explicit app globals within [AppGlobals.swift](/XcodeTemplateProject/Configuration/AppGlobals.swift)
-- Explicit user preferences logic within [UserPreferences.swift](/XcodeTemplateProject/Configuration/UserPreferences.swift)
-- Explicit app delegate within test bundle [TestingAppDelegate.swift](XcodeTemplateProjectTests/Configuration/TestingAppDelegate.swift)
+- Explicit start point placed in [main.swift](/T3Project/main.swift)
+- Explicit app globals within [AppGlobals.swift](/T3Project/Configuration/AppGlobals.swift)
+- Explicit user preferences logic within [UserPreferences.swift](/T3Project/Configuration/UserPreferences.swift)
+- Explicit app delegate within test bundle [TestingAppDelegate.swift](PerseusTests/TestingAppDelegate.swift)
 - Settings bundle with Dark Mode option and release number sections
 - Localization test schemes for EN and RU as well
 - SwiftLint shell script as a build phase (preinstallation required)
