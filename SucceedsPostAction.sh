@@ -99,7 +99,7 @@ fi
 # Run swiftlint
 #-------------------------------------------------------------------------------
 OUTPUT="${SWIFTLINT_PATH} ${PACKAGE_ROOT_FOLDER}"
-OUTPUT_FILE_PATH="${PACKAGE_ROOT_FOLDER}/swiftlint.txt"
+OUTPUT_FILE_PATH="${PACKAGE_ROOT_FOLDER}/SwiftLintResults"
 ${OUTPUT} > ${OUTPUT_FILE_PATH}
 
 #-------------------------------------------------------------------------------
