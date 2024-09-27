@@ -18,6 +18,12 @@
     }
   ],
   "defaultOptions" : {
+    "environmentVariableEntries" : [
+      {
+        "key" : "OS_ACTIVITY_MODE",
+        "value" : "disable"
+      }
+    ],
     "testTimeoutsEnabled" : true
   },
   "testTargets" : [
