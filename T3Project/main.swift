@@ -14,9 +14,21 @@
 
 import Cocoa
 
+import class PerseusDarkMode.PerseusLogger
+import class PerseusUISystemKit.PerseusLogger
+
+typealias PerseusDarkModeLogger = PerseusDarkMode.PerseusLogger
+typealias PerseusUISystemKitLogger = PerseusUISystemKit.PerseusLogger
+
 // MARK: - Logger
 
 log.level = .info
+log.turned = .on
+
+// MARK: - External Loggers
+
+PerseusDarkModeLogger.turned = .on
+PerseusUISystemKitLogger.turned = .on
 
 // MARK: - Construct the app's top elements
 
