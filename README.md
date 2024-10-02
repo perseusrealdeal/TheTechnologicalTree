@@ -75,7 +75,7 @@
 - Preconfigured SwiftLint CI [swiftlint.yml](/.github/workflows/swiftlint.yml) file
 - Preconfigured GitHub config [.gitignore](/.gitignore) file
 - Preconfigured GitHub CI [main.yml](/.github/workflows/main.yml) file
-- Light-weight [logger](/Sources/XcodeTemplateProject/PerseusLogger.swift)
+- Light-weight [logger](/Sources/T3Component/PerseusLogger.swift)
 
 # License MIT
 
