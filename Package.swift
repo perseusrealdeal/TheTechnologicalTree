@@ -1,4 +1,4 @@
-// swift-tools-version:4.2
+// swift-tools-version:5.7
 
 /* Package.swift
  Version: 0.0.1
@@ -6,9 +6,9 @@
  Created by Mikhail Zhigulin in 7531.
 
  Copyright © 7531 - 7533 Mikhail A. Zhigulin of Novosibirsk
- 
- The year starts from the creation of the world in the Star temple
- according to a Slavic calendar. September, the 1st of Slavic year.
+
+ The year starts from the creation of the world according to a Slavic calendar.
+ September, the 1st of Slavic year.
 
  Licensed under the MIT license. See LICENSE file.
  All rights reserved.
@@ -20,11 +20,15 @@
 import PackageDescription
 
 let package = Package(
-    name: "XcodeTemplateProject",
+    name: "T3Component",
+    platforms: [
+        .macOS(.v10_13),
+        .iOS(.v11)
+    ],
     products: [
         .library(
-            name: "XcodeTemplateProject",
-            targets: ["XcodeTemplateProject"])
+            name: "T3Component",
+            targets: ["T3Component"])
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -32,10 +36,10 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "XcodeTemplateProject",
+            name: "T3Component",
             dependencies: []),
         .testTarget(
-            name: "XcodeTemplateProjectTests",
-            dependencies: ["XcodeTemplateProject"])
+            name: "T3ComponentTests",
+            dependencies: ["T3Component"])
     ]
 )

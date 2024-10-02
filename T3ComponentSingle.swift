@@ -1,5 +1,5 @@
 //
-//  XcodeTemplateProjectSingle.swift
+//  T3ComponentSingle.swift
 //  Version: 0.0.1
 //
 //  Created by Mikhail Zhigulin in 7531.
@@ -36,6 +36,6 @@
 // swiftlint_:disable file_length
 //
 
-struct XcodeTemplateProject {
+struct T3Component {
     var text = "Hello, World!"
 }
