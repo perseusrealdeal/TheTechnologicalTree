@@ -3,8 +3,8 @@
 #  SucceedsPostAction.sh
 #  PerseusDarkMode
 #
-#  Copied and edited by Mikhail Zhigulin in 2022.
-#
+#  Copied and edited by Mikhail A. Zhigulin in 2022.
+#  CHANGED: Post action output file name.
 
 #  The MIT License (MIT)
 
