@@ -9,7 +9,7 @@
 | Catalina    | 10.15.7  | ??      | - |
 | Big Sur     | 11.7.10  | ??      | - |
 | Monterey    | 12.7.6   | ??      | - |
-| Ventura     | 13.6.9   | ??      | - |
+| Ventura     | 13.7     | ??      | - |
 | Sonoma      | 14.6.1   | ??      | - |
 | Sequoia     | 15.nn.nn | ??      | - |
 

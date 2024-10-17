@@ -15,15 +15,15 @@
 [![Standalone](https://img.shields.io/badge/Standalone%20-available-informational.svg)](/T3ComponentSingle.swift)
 [![Swift Package Manager compatible](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-4BC51D.svg)](/Package.swift)
 
+## Approbation Matrix
+
+> [A3 Environment](https://docs.google.com/document/d/1K2jOeIknKRRpTEEIPKhxO2H_1eBTof5uTXxyOm5g6nQ/edit?usp=sharing) / [Approbation Results](/APPROBATION.md) / [CHANGELOG](/CHANGELOG.md) for details.
+
 ## In brief > Idea to use, the Why
 
 > DESC: Initial point of development process.<br/>
 
 > TODO: Preview material (Use Cases).
-
-## Approbation Matrix
-
-> [A3 Environment](https://docs.google.com/document/d/1K2jOeIknKRRpTEEIPKhxO2H_1eBTof5uTXxyOm5g6nQ/edit?usp=sharing) / [Approbation Results](/APPROBATION.md) / [CHANGELOG](/CHANGELOG.md) for details.
 
 # Build system requirements
 
@@ -31,7 +31,7 @@
 
 # First-party software
 
-- [PerseusLogger](https://gist.github.com/perseusrealdeal/df456a9825fcface44eca738056eb6d5)
+- [Console Perseus Logger](https://github.com/perseusrealdeal/ConsolePerseusLogger) / [1.0.3](https://github.com/perseusrealdeal/ConsolePerseusLogger/releases/tag/1.0.3)
 
 # Third-party software
 
