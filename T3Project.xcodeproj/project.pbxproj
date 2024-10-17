@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2E5E3FBF2CA2AC1C00D024AB /* swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 2E5E3FBE2CA2AC1C00D024AB /* swiftlint.yml */; };
 		2EA79F092C9AF20100E46D01 /* PerseusUISystemKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2EA79F082C9AF20100E46D01 /* PerseusUISystemKit */; };
+		2EE403BE2CC0BDC30071F4C8 /* ConsolePerseusLogger in Frameworks */ = {isa = PBXBuildFile; productRef = 2EE403BD2CC0BDC30071F4C8 /* ConsolePerseusLogger */; };
 		4B1483E52912892C0013B76E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1483E42912892C0013B76E /* AppDelegate.swift */; };
 		4B1483E72912892C0013B76E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1483E62912892C0013B76E /* ViewController.swift */; };
 		4B1483E92912892F0013B76E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B1483E82912892F0013B76E /* Assets.xcassets */; };
@@ -20,7 +21,6 @@
 		4B5921CC2B65A65200D312B9 /* LocalizedExpectationGift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5921CB2B65A65200D312B9 /* LocalizedExpectationGift.swift */; };
 		4B5921D02B6648BC00D312B9 /* JsonDataPrettyPrintedGift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5921CF2B6648BC00D312B9 /* JsonDataPrettyPrintedGift.swift */; };
 		4B5921D22B6648CA00D312B9 /* JsonDataDictionaryGift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5921D12B6648CA00D312B9 /* JsonDataDictionaryGift.swift */; };
-		4B62FA7629DC1A6400DF6B85 /* PerseusLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B62FA7529DC1A6400DF6B85 /* PerseusLogger.swift */; };
 		4B6F98622927D95500ADB03A /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 4B6F98612927D95500ADB03A /* .swiftlint.yml */; };
 		4B6F98662927DF1400ADB03A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B6F98682927DF1400ADB03A /* InfoPlist.strings */; };
 		4B6F986C2927E0F000ADB03A /* Translation_en.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4B6F986B2927E0F000ADB03A /* Translation_en.plist */; };
@@ -78,7 +78,6 @@
 		4B5921CB2B65A65200D312B9 /* LocalizedExpectationGift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedExpectationGift.swift; sourceTree = "<group>"; };
 		4B5921CF2B6648BC00D312B9 /* JsonDataPrettyPrintedGift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonDataPrettyPrintedGift.swift; sourceTree = "<group>"; };
 		4B5921D12B6648CA00D312B9 /* JsonDataDictionaryGift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonDataDictionaryGift.swift; sourceTree = "<group>"; };
-		4B62FA7529DC1A6400DF6B85 /* PerseusLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerseusLogger.swift; sourceTree = "<group>"; };
 		4B6F98612927D95500ADB03A /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = "<group>"; };
 		4B6F98672927DF1400ADB03A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4B6F98692927DF4800ADB03A /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -113,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EE403BE2CC0BDC30071F4C8 /* ConsolePerseusLogger in Frameworks */,
 				2EA79F092C9AF20100E46D01 /* PerseusUISystemKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -235,7 +235,6 @@
 			isa = PBXGroup;
 			children = (
 				4B52C535292CD05C00C7792A /* DarkModeSwitching.swift */,
-				4B62FA7529DC1A6400DF6B85 /* PerseusLogger.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -309,6 +308,7 @@
 			name = T3Project;
 			packageProductDependencies = (
 				2EA79F082C9AF20100E46D01 /* PerseusUISystemKit */,
+				2EE403BD2CC0BDC30071F4C8 /* ConsolePerseusLogger */,
 			);
 			productName = XcodeTemplateProject;
 			productReference = 4B1483E12912892C0013B76E /* Perseus.app */;
@@ -363,6 +363,7 @@
 			mainGroup = 4B1483D82912892C0013B76E;
 			packageReferences = (
 				2EA79F072C9AF20100E46D01 /* XCRemoteSwiftPackageReference "PerseusUISystemKit" */,
+				2EE403BC2CC0BDC30071F4C8 /* XCRemoteSwiftPackageReference "ConsolePerseusLogger" */,
 			);
 			productRefGroup = 4B1483E22912892C0013B76E /* Products */;
 			projectDirPath = "";
@@ -440,7 +441,6 @@
 				4B9DEDF92B6C7F04003EE547 /* AppAppearance.swift in Sources */,
 				4BC7F11529F66F8100851FEA /* AppGlobals.swift in Sources */,
 				4B9DEDFB2B6C851A003EE547 /* AppLinks.swift in Sources */,
-				4B62FA7629DC1A6400DF6B85 /* PerseusLogger.swift in Sources */,
 				4BFA5FE02989A69E00AC09F5 /* TheMenu.swift in Sources */,
 				4B1483E72912892C0013B76E /* ViewController.swift in Sources */,
 				4B9DEDF72B6C7A9A003EE547 /* CurrentSystemLanguageGift.swift in Sources */,
@@ -747,6 +747,14 @@
 				version = 1.1.4;
 			};
 		};
+		2EE403BC2CC0BDC30071F4C8 /* XCRemoteSwiftPackageReference "ConsolePerseusLogger" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/perseusrealdeal/ConsolePerseusLogger";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -754,6 +762,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 2EA79F072C9AF20100E46D01 /* XCRemoteSwiftPackageReference "PerseusUISystemKit" */;
 			productName = PerseusUISystemKit;
+		};
+		2EE403BD2CC0BDC30071F4C8 /* ConsolePerseusLogger */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2EE403BC2CC0BDC30071F4C8 /* XCRemoteSwiftPackageReference "ConsolePerseusLogger" */;
+			productName = ConsolePerseusLogger;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

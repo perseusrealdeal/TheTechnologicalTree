@@ -13,7 +13,9 @@
 //
 
 import Cocoa
+
 import PerseusDarkMode
+import ConsolePerseusLogger
 
 class ViewController: NSViewController {
 

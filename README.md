@@ -15,6 +15,7 @@
 
 > Swift Package Manager.
 
+[![ConsolePerseusLogger](http://img.shields.io/:ConsolePerseusLogger-latest-green.svg)](https://github.com/perseusrealdeal/ConsolePerseusLogger.git)
 [![PerseusDarkMode](http://img.shields.io/:PerseusDarkMode-1.1.5-green.svg)](https://github.com/perseusrealdeal/PerseusDarkMode/tree/1.1.5)
 [![PerseusUISystemKit](http://img.shields.io/:PerseusUISystemKit-1.1.4-green.svg)](https://github.com/perseusrealdeal/PerseusUISystemKit/tree/1.1.4)
 
@@ -34,8 +35,8 @@
 | Mojave      | 10.14.6  | ??      | - |
 | Catalina    | 10.15.7  | ??      | - |
 | Big Sur     | 11.7.10  | ??      | - |
-| Monterey    | 12.7.6   | ok      | - |
-| Ventura     | 13.6.9   | ??      | - |
+| Monterey    | 12.7.6   | ??      | - |
+| Ventura     | 13.7     | ??      | - |
 | Sonoma      | 14.6.1   | ??      | - |
 | Sequoia     | 15.nn.nn | ??      | - |
 
@@ -54,7 +55,6 @@
 - [Perseus Dark Mode](https://github.com/perseusrealdeal/PerseusDarkMode.git) / [1.1.5](https://github.com/perseusrealdeal/perseusdarkmode/releases/tag/1.1.5)
 - [Perseus UI System Kit](https://github.com/perseusrealdeal/PerseusUISystemKit.git) / [1.1.4](https://github.com/perseusrealdeal/perseusuisystemkit/releases/tag/1.1.4)
 - [Dark Mode switching functions](https://gist.github.com/perseusrealdeal/11b1bab47f13134832b859f49d9af706)
-- [PerseusLogger](https://gist.github.com/perseusrealdeal/df456a9825fcface44eca738056eb6d5)
 
 # Gifts
 

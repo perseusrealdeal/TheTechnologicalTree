@@ -14,6 +14,8 @@
 
 import Cocoa
 
+import ConsolePerseusLogger
+
 import class PerseusDarkMode.PerseusLogger
 import class PerseusUISystemKit.PerseusLogger
 
@@ -22,8 +24,7 @@ typealias PerseusUISystemKitLogger = PerseusUISystemKit.PerseusLogger
 
 // MARK: - Logger
 
-log.level = .info
-log.turned = .on
+// By default.
 
 // MARK: - External Loggers
 
@@ -33,7 +34,6 @@ PerseusUISystemKitLogger.turned = .on
 // MARK: - Construct the app's top elements
 
 log.message("The app's start point...", .info)
-log.message("", .info)
 
 let app = NSApplication.shared
 
