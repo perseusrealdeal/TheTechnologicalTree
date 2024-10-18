@@ -1,7 +1,5 @@
 # The Technological Tree
 
-> Hereinafter `T3` stands for `The Technological Tree`, also `A3` stads for [`Apple Apps Approbation`](https://docs.google.com/document/d/1K2jOeIknKRRpTEEIPKhxO2H_1eBTof5uTXxyOm5g6nQ/edit?usp=sharing).
-
 ## Make a choice
 
 > Every branch represents a custom project template to make easy start of development process.
@@ -50,6 +48,14 @@ Copyright © 7531 - 7533 Mikhail A. Zhigulin of Novosibirsk
 - September, the 1st of Slavic year.
 
 [LICENSE](/LICENSE) for details.
+
+# Our terms
+
+| Abbreviation | Stands for               |
+| :----------: | :----------------------- |
+| `T3`         | `The Technological Tree` |
+| `A3`         | `Apple Apps Approbation` |
+| `CPL`        | `Console Perseus Logger` |
 
 # Editors, prepared by
 
