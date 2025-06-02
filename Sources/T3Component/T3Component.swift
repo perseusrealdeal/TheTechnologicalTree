@@ -2,19 +2,66 @@
 //  T3Component.swift
 //  T3Component
 //
-//  Created by Mikhail Zhigulin in 7531.
+//  Created by Mikhail A. Zhigulin of Novosibirsk.
 //
-//  Copyright © 7531 - 7533 Mikhail A. Zhigulin of Novosibirsk
-//
-//  The year starts from the creation of the world according to a Slavic calendar.
-//  September, the 1st of Slavic year.
-//
-//  Licensed under the MIT license. See LICENSE file.
-//  All rights reserved.
+//  Unlicensed Free Software. LICENSE for details.
 //
 
-struct T3Component {
+import Foundation
+
+public struct T3Component {
+
     var text = "Hello, World!"
+    var list = [MyDataListItem]()
 
-    init() { log.message("[\(type(of: self))].\(#function)") }
+    init() {
+        log.message("[\(type(of: self))].\(#function)")
+    }
+
+    mutating func loadData(_ name: String = "Data") -> Bool {
+
+        guard
+            let path = Bundle.module.url(forResource: name, withExtension: "json"),
+            let data = try? Data(contentsOf: path),
+            let json = try? JSONDecoder().decode([MyDataListItem].self, from: data)
+        else {
+            log.message("Failed to load package data!", .error)
+            return false
+        }
+
+        list = json
+
+        return true
+    }
+}
+
+public struct MyDataListItem: CustomStringConvertible, Decodable {
+
+    let title: String
+    let number: DataNumberID
+    let about: String
+
+    public var description: String {
+        return
+"""
+title  : \(title)
+number : \(number)
+about  : \(about)
+"""
+    }
+}
+
+public enum DataNumberID: Int, CustomStringConvertible, Decodable {
+
+    public var description: String {
+        switch self {
+        case .two:
+            return "It's the second."
+        case .one:
+            return "It's the first."
+        }
+    }
+
+    case two = 2
+    case one = 1
 }
