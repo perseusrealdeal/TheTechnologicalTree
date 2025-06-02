@@ -1,6 +1,6 @@
 # <Component's Name> — Xcode 14.2+
 
-> This is the custom template for a great macOS/iOS app's component.<br/>
+> This is the custom template for the great iOS/macOS app's component.<br/>
 
 [![Actions Status](https://github.com/perseusrealdeal/TheTechnologicalTree/actions/workflows/main.yml/badge.svg)](https://github.com/perseusrealdeal/TheTechnologicalTree/actions/workflows/main.yml)
 [![Style](https://github.com/perseusrealdeal/TheTechnologicalTree/actions/workflows/swiftlint.yml/badge.svg)](https://github.com/perseusrealdeal/TheTechnologicalTree/actions/workflows/swiftlint.yml)
@@ -15,15 +15,16 @@
 [![Standalone](https://img.shields.io/badge/Standalone%20-available-informational.svg)](/T3ComponentSingle.swift)
 [![Swift Package Manager compatible](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-4BC51D.svg)](/Package.swift)
 
+> [!TIP]
+> Use Standalone to adopt [`The Component`](/T3ComponentSingle.swift) for the specifics you need.
+
 ## Approbation Matrix
 
-> [A3 Environment](https://docs.google.com/document/d/1K2jOeIknKRRpTEEIPKhxO2H_1eBTof5uTXxyOm5g6nQ/edit?usp=sharing) / [Approbation Results](/APPROBATION.md) / [CHANGELOG](/CHANGELOG.md) for details.
+> [`A3 Environment and Approbation`](/APPROBATION.md) / [`CHANGELOG`](/CHANGELOG.md) for details.
 
 ## In brief > Idea to use, the Why
 
-> DESC: Initial point of development process.<br/>
-
-> TODO: Preview material (Use Cases).
+> Initial point of development process.
 
 # Build system requirements
 
@@ -31,13 +32,18 @@
 
 # First-party software
 
-- [Console Perseus Logger](https://github.com/perseusrealdeal/ConsolePerseusLogger) / [1.0.3](https://github.com/perseusrealdeal/ConsolePerseusLogger/releases/tag/1.0.3)
+| Type    | Name                                                                                                                                                                  | License |
+| ------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
+| Package | [ConsolePerseusLogger](https://github.com/perseusrealdeal/ConsolePerseusLogger) / [1.5.1](https://github.com/perseusrealdeal/ConsolePerseusLogger/releases/tag/1.5.1) | MIT     |
 
 # Third-party software
 
-- Style [SwiftLint](https://github.com/realm/SwiftLint) / [Shell Script](/SucceedsPostAction.sh)
-- Action [mxcl/xcodebuild@v3.3](https://github.com/mxcl/xcodebuild/releases/tag/v3.3.0)
-- Action [cirruslabs/swiftlint-action@v1](https://github.com/cirruslabs/swiftlint-action/releases/tag/v1.0.0)
+| Type   | Name                                                                                                                              | License                            |
+| ------ | --------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------- |
+| Style  | [SwiftLint](https://github.com/realm/SwiftLint) / [v0.57.0 for Monterey+](https://github.com/realm/SwiftLint/releases/tag/0.57.0) | MIT                                |
+| Script | [SwiftLint Shell Script](/SucceedsPostAction.sh) to run SwiftLint                                                                 | MIT                                |
+| Action | [mxcl/xcodebuild@v3](https://github.com/mxcl/xcodebuild)                                                                          | [Unlicense](https://unlicense.org) |
+| Action | [cirruslabs/swiftlint-action@v1](https://github.com/cirruslabs/swiftlint-action/)                                                 | MIT                                |
 
 # Points taken into account
 
@@ -46,16 +52,18 @@
 - Preconfigured SwiftLint CI [swiftlint.yml](/.github/workflows/swiftlint.yml)
 - Preconfigured GitHub config [.gitignore](/.gitignore)
 - Preconfigured GitHub CI [main.yml](/.github/workflows/main.yml)
-- Light-weight [logger](/Sources/T3Component/PerseusLogger.swift)
 
-# License MIT
+# Unlicensed Free Software
 
-Copyright © 7531 - 7533 Mikhail A. Zhigulin of Novosibirsk<br/>
+- [License](/LICENSE)
 
-- The year starts from the creation of the world according to a Slavic calendar.
-- September, the 1st of Slavic year. It means that "Sep 01, 2024" is the beginning of 7533.
+## Required License Notices
 
-[LICENSE](/LICENSE) for details.
+© Mikhail A. Zhigulin of Novosibirsk **for** ConsolePerseusLogger</br>
+© PerseusRealDeal **for** ConsolePerseusLogger</br>
+© 2025 The SwiftLint Contributors **for** SwiftLint</br>
+© GitHub **for** GitHub Action cirruslabs/swiftlint-action@v1</br>
+© 2021 Alexandre Colucci, geteimy.com **for** Shell Script SucceedsPostAction.sh</br>
 
 ## Credits
 
@@ -63,25 +71,25 @@ Copyright © 7531 - 7533 Mikhail A. Zhigulin of Novosibirsk<br/>
 <tr>
     <td>Balance and Control</td>
     <td>kept by</td>
-    <td>Person</td>
+    <td>Persons</td>
 </tr>
 <tr>
     <td>Source Code</td>
     <td>written by</td>
-    <td>Person</td>
+    <td>Persons</td>
 </tr>
 <tr>
     <td>Documentation</td>
     <td>prepared by</td>
-    <td>Person</td>
+    <td>Persons</td>
 </tr>
 <tr>
     <td>Product Approbation</td>
     <td>tested by</td>
-    <td>Person</td>
+    <td>Persons</td>
 </tr>
 </table>
 
 # Editors, prepared by
 
-> Mikhail A. Zhigulin of Novosibirsk.
+> © Mikhail A. Zhigulin of Novosibirsk

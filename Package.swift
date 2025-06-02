@@ -3,28 +3,18 @@
 /* Package.swift
  Version: 0.0.1
 
- Created by Mikhail Zhigulin in 7531.
+ Created by Mikhail Zhigulin of Novosibirsk.
 
- Copyright © 7531 - 7533 Mikhail A. Zhigulin of Novosibirsk
-
- The year starts from the creation of the world according to a Slavic calendar.
- September, the 1st of Slavic year.
-
- Licensed under the MIT license. See LICENSE file.
- All rights reserved.
+ Unlicensed Free Software. LICENSE for details.
 
  Abstract:
- Package manifest for an App component.
+ Package manifest for the App component.
 */
 
 import PackageDescription
 
 let package = Package(
     name: "T3Component",
-    platforms: [
-        .macOS(.v10_13),
-        .iOS(.v11)
-    ],
     products: [
         .library(
             name: "T3Component",
@@ -37,9 +27,12 @@ let package = Package(
     targets: [
         .target(
             name: "T3Component",
-            dependencies: []),
+            dependencies: [],
+            resources: [
+                .copy("Data/Data.json")
+            ]),
         .testTarget(
-            name: "T3ComponentTests",
+            name: "UnitTests",
             dependencies: ["T3Component"])
     ]
 )
