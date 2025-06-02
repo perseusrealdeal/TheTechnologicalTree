@@ -7,21 +7,40 @@ Dates in this file meets Gregorian calendar. Date in format YYYY-MM-DD.
 
 ## [0.1.0] - [Unreleased], Developer Release
 
+### Security
+
+- Issue (#NN).
+
 ### Added
 
-- Feature (#NN).
 - Feature (#NN).
 - Option (#NN).
 - Screen (#NN).
 - Fun Spec (#NN)
 
-### Security
-
-- To keep Something in safe (#NN).
-
 ### Changed
 
-- Project specifics (#NN).
+- Issue (#NN).
+
+### Fixed
+
+- Issue (#NN).
+
+### Improved
+
+- Issue (#NN).
+
+### Upgraded
+
+- Issue (#NN).
+
+### Corrected
+
+- Issue (#NN).
+
+### Removed
+
+- Issue (#NN).
 
 ## [0.0.1] - [YYYY-MM-DD], Developer Beginning Release
 
