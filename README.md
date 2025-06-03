@@ -1,16 +1,19 @@
 # The Technological Tree
 
+> First things first.
+
+> [!NOTE]
+> This tree gives `the preconfigured initial point` of development process.
+
 ## Make a choice
 
-> Every branch represents a custom project template to make easy start of development process.
+`Branch 1 Done:` Xcode-14.2-Component —— [SPM Package Template](https://github.com/perseusrealdeal/TheTechnologicalTree/tree/Xcode-14.2-Component)
 
-`Branch 1 Done:` [Xcode-14.2-Component](https://github.com/perseusrealdeal/TheTechnologicalTree/tree/Xcode-14.2-Component)
+`Branch 2 Done:` Xcode-14.2-iOS-App —— [[Storyboard Project Template](https://github.com/perseusrealdeal/TheTechnologicalTree/tree/Xcode-14.2-iOS-App)]
 
-`Branch 2 In Upgrading:` [Xcode-10.1-iOS-App](https://github.com/perseusrealdeal/TheTechnologicalTree/tree/Xcode-10.1-iOS-App)
+`Branch 3 Done:` Xcode-14.2-macOS-App —— [[Storyboard Project Template](https://github.com/perseusrealdeal/TheTechnologicalTree/tree/Xcode-14.2-macOS-App)]
 
-`Branch 3 Done:` [Xcode-14.2-macOS-App](https://github.com/perseusrealdeal/TheTechnologicalTree/tree/Xcode-14.2-macOS-App)
-
-> Branches in support to make a great start on early Apple platforms.
+> Branches for early Apple platforms to make a great start on.
 
 `Branch 4 Done:` [Support/Xcode-10.1-Component](https://github.com/perseusrealdeal/TheTechnologicalTree/tree/support/Xcode-10.1-Component)
 
@@ -40,23 +43,20 @@
 
 `Step 9:` Merge a pull request with the main branch—`the initial point of development process`—done
 
-# License MIT
+# Unlicensed Free Software
 
-Copyright © 7531 - 7533 Mikhail A. Zhigulin of Novosibirsk
-
-- The year starts from the creation of the world according to a Slavic calendar.
-- September, the 1st of Slavic year.
-
-[LICENSE](/LICENSE) for details.
+- [License](/LICENSE)
 
 # Our terms
 
-| Abbreviation | Stands for               |
-| :----------: | :----------------------- |
-| `T3`         | `The Technological Tree` |
-| `A3`         | `Apple Apps Approbation` |
-| `CPL`        | `Console Perseus Logger` |
+| Abbreviation | Stands for                                                                                                   |
+| :----------: | :----------------------------------------------------------------------------------------------------------- |
+| `T3`         | `The Technological Tree`                                                                                     |
+| `A3`         | [`Apple Apps Approbation`](https://docs.google.com/document/d/1K2jOeIknKRRpTEEIPKhxO2H_1eBTof5uTXxyOm5g6nQ/) |
+| `CPL`        | [`Console Perseus Logger`](https://github.com/perseusrealdeal/ConsolePerseusLogger)                          |
+| `PDM`        | [`Perseus Dark Mode`](https://github.com/perseusrealdeal/PerseusDarkMode)                                    |
+| `PGK`        | [`Perseus Geo Kit`](https://github.com/perseusrealdeal/PerseusGeoKit)                                        |
 
 # Editors, prepared by
 
-> Mikhail A. Zhigulin of Novosibirsk
+> © Mikhail A. Zhigulin of Novosibirsk
