@@ -2,14 +2,9 @@
 //  AppGlobals.swift
 //  T3Project
 //
-//  Created by Mikhail Zhigulin in 7531.
+//  Created by Mikhail A. Zhigulin of Novosibirsk.
 //
-//  Copyright © 7531 - 7533 Mikhail A. Zhigulin of Novosibirsk
-//
-//  The year starts from the creation of the world in the Star temple
-//  according to a Slavic calendar. September, the 1st of Slavic year.
-//
-//  See LICENSE for details. All rights reserved.
+//  Unlicensed Free Software.
 //
 
 import Cocoa
@@ -19,17 +14,17 @@ struct AppGlobals {
 
     // MARK: - Constants
 
-    static var systemOptionsAppName: String? {
+    static var SystemServices: (appName: String, title: String) {
 
-        var calculatedTitle: String?
+        var calculated: (String, String)?
 
         if #available(macOS 10.14, *) {
-            calculatedTitle = "System Settings.app"
+            calculated = ("System Settings.app", "Settings...")
         } else {
-            calculatedTitle = "System Preferences.app"
+            calculated = ("System Preferences.app", "Preferences...")
         }
 
-        return calculatedTitle
+        return calculated!
     }
 
     // MARK: - System Services
@@ -42,7 +37,6 @@ struct AppGlobals {
     // MARK: - Init
 
     init() {
-
         log.message("[AppGlobals].\(#function)")
 
         // Init custom services here.
@@ -85,6 +79,7 @@ struct AppGlobals {
     }
 
     static func quitTheApp() {
+        log.message("[\(type(of: self))].\(#function)", .info)
 
         // Instructions before quit.
 

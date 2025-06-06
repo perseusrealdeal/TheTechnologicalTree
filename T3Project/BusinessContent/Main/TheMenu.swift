@@ -2,14 +2,9 @@
 //  TheMenu.swift, MainMenu.xib
 //  T3Project
 //
-//  Created by Mikhail Zhigulin in 7531.
+//  Created by Mikhail A. Zhigulin of Novosibirsk.
 //
-//  Copyright © 7531 - 7533 Mikhail A. Zhigulin of Novosibirsk
-//
-//  The year starts from the creation of the world in the Star temple
-//  according to a Slavic calendar. September, the 1st of Slavic year.
-//
-//  See LICENSE for details. All rights reserved.
+//  Unlicensed Free Software.
 //
 
 import Cocoa
@@ -18,9 +13,7 @@ class TheMenu: NSMenu {
 
     @IBOutlet private weak var settingsMenuItem: NSMenuItem! {
         didSet {
-            if #available(macOS 10.14, *) {
-                settingsMenuItem.title = "Settings..."
-            }
+            settingsMenuItem.title = AppGlobals.SystemServices.title.localizedValue
         }
     }
 }

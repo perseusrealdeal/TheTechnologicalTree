@@ -23,7 +23,7 @@ extension String {
             let identifier = Locale.preferredLanguages.first,
             let currentLang = Locale(identifier: identifier).languageCode
         else {
-            testlog.message("Failed to get current System language.", .error)
+            log.message("Failed to get current System language.", .error)
             return nil
         }
 
@@ -33,14 +33,14 @@ extension String {
         guard
             let path = Bundle.main.url(forResource: resourceName, withExtension: "plist")
         else {
-            testlog.message("\(resourceName) not found.", .error)
+            log.message("\(resourceName) not found.", .error)
             return nil
         }
 
         guard
             let data = try? Data(contentsOf: path)
         else {
-            testlog.message("The property list gives no data.", .error)
+            log.message("The property list gives no data.", .error)
             return nil
         }
 
@@ -50,14 +50,14 @@ extension String {
                                                                      format: nil)
                 as? [String: String]
         else {
-            testlog.message("The property list not serialized.", .error)
+            log.message("The property list not serialized.", .error)
             return nil
         }
 
         guard
             let value = result[self]
         else {
-            testlog.message("No value by the key: \(self).", .error)
+            log.message("No value by the key: \(self).", .error)
             return nil
         }
 

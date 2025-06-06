@@ -17,7 +17,7 @@ extension String {
         guard
             let infoPlist = Bundle.main.localizedInfoDictionary
         else {
-            testlog.message("InfoPlist.strings", .error)
+            log.message("InfoPlist.strings", .error)
             return nil
         }
 
