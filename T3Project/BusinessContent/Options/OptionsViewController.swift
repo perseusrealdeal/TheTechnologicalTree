@@ -2,20 +2,14 @@
 //  OptionsViewController.swift
 //  T3Project
 //
-//  Created by Mikhail Zhigulin in 7531.
+//  Created by Mikhail A. Zhigulin of Novosibirsk.
 //
-//  Copyright © 7531 - 7533 Mikhail A. Zhigulin of Novosibirsk
-//
-//  The year starts from the creation of the world in the Star temple
-//  according to a Slavic calendar. September, the 1st of Slavic year.
-//
-//  See LICENSE for details. All rights reserved.
+//  Unlicensed Free Software.
 //
 
 import Cocoa
 
 import PerseusDarkMode
-import PerseusUISystemKit
 import ConsolePerseusLogger
 
 class OptionsViewController: NSViewController {
@@ -35,8 +29,8 @@ class OptionsViewController: NSViewController {
         self.preferredContentSize = NSSize(width: self.view.frame.size.width,
                                            height: self.view.frame.size.height)
 
-        darkModeObserver.action = { _ in self.callDarkModeSensitiveColours() }
-        callDarkModeSensitiveColours()
+        darkModeObserver.action = { _ in self.makeUp() }
+        makeUp()
     }
 
     override func viewDidAppear() {
@@ -47,7 +41,7 @@ class OptionsViewController: NSViewController {
     }
 
     private func updateDarkModeOption() {
-        switch AppearanceService.DarkModeUserChoice {
+        switch DarkModeAgent.DarkModeUserChoice {
         case .auto:
             segmentedControl.selectedSegment = 2
         case .on:
@@ -60,20 +54,18 @@ class OptionsViewController: NSViewController {
     private func changeDarkModeValue(selected: Int) {
         switch selected {
         case 0:
-            changeDarkModeManually(.off)
+            DarkModeAgent.force(.off)
         case 1:
-            changeDarkModeManually(.on)
+            DarkModeAgent.force(.on)
         case 2:
-            changeDarkModeManually(.auto)
+            DarkModeAgent.force(.auto)
         default:
             break
         }
     }
 
-    private func callDarkModeSensitiveColours() {
-
+    private func makeUp() {
         log.message("[\(type(of: self))].\(#function), DarkMode: \(DarkMode.style)")
-
         view.layer?.backgroundColor = NSColor.perseusBlue.cgColor
     }
 }

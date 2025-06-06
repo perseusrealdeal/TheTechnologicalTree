@@ -2,14 +2,9 @@
 //  ViewController.swift
 //  T3Project
 //
-//  Created by Mikhail Zhigulin in 7531.
+//  Created by Mikhail A. Zhigulin of Novosibirsk.
 //
-//  Copyright © 7531 - 7533 Mikhail A. Zhigulin of Novosibirsk
-//
-//  The year starts from the creation of the world in the Star temple
-//  according to a Slavic calendar. September, the 1st of Slavic year.
-//
-//  See LICENSE for details. All rights reserved.
+//  Unlicensed Free Software.
 //
 
 import Cocoa
@@ -19,16 +14,19 @@ import ConsolePerseusLogger
 
 class ViewController: NSViewController {
 
-    deinit { log.message("\(type(of: self)).deinit") }
-
+    @IBOutlet private(set) weak var buttonExit: NSButton!
     @IBOutlet private(set) weak var labelGreetings: NSTextField!
+
+    @IBAction func buttonExitTapped(_ sender: NSButton) {
+        AppGlobals.quitTheApp()
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         view.wantsLayer = true
 
-        AppearanceService.register(stakeholder: self, selector: #selector(makeUp))
+        DarkModeAgent.register(stakeholder: self, selector: #selector(makeUp))
         localizeContent()
     }
 
@@ -41,8 +39,8 @@ class ViewController: NSViewController {
     }
 
     private func localizeContent() {
-
         // NSLocale.currentLocaleDidChangeNotification
         labelGreetings.cell?.title = "Greetings".localizedValue
+        buttonExit.title = "Exit".localizedValue
     }
 }

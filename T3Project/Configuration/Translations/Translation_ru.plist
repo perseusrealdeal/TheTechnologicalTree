@@ -6,5 +6,11 @@
 	<string>Ветка macOS</string>
 	<key>Greetings</key>
 	<string>Рады приветствовать!</string>
+	<key>Exit</key>
+	<string>Завершить работу</string>
+	<key>Settings...</key>
+	<string></string>
+	<key>Preferences...</key>
+	<string></string>
 </dict>
 </plist>

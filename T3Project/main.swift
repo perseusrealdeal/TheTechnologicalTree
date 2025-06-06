@@ -2,38 +2,29 @@
 //  main.swift
 //  T3Project
 //
-//  Created by Mikhail Zhigulin in 7531.
+//  Created by Mikhail A. Zhigulin of Novosibirsk.
 //
-//  Copyright © 7531 - 7533 Mikhail A. Zhigulin of Novosibirsk
-//
-//  The year starts from the creation of the world in the Star temple
-//  according to a Slavic calendar. September, the 1st of Slavic year.
-//
-//  See LICENSE for details. All rights reserved.
+//  Unlicensed Free Software.
 //
 
 import Cocoa
-
 import ConsolePerseusLogger
 
 import class PerseusDarkMode.PerseusLogger
-import class PerseusUISystemKit.PerseusLogger
 
-typealias PerseusDarkModeLogger = PerseusDarkMode.PerseusLogger
-typealias PerseusUISystemKitLogger = PerseusUISystemKit.PerseusLogger
+// swiftlint:disable type_name
+typealias applog = ConsolePerseusLogger.PerseusLogger // To have access from test bundle.
+typealias dmlog = PerseusDarkMode.PerseusLogger
+// swiftlint:enable type_name
 
 // MARK: - Logger
 
-// By default.
-
-// MARK: - External Loggers
-
-PerseusDarkModeLogger.turned = .on
-PerseusUISystemKitLogger.turned = .on
-
-// MARK: - Construct the app's top elements
+dmlog.level = .notice
+log.level = .info
 
 log.message("The app's start point...", .info)
+
+// MARK: - Construct the app's top elements
 
 let app = NSApplication.shared
 

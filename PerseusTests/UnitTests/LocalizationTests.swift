@@ -2,14 +2,9 @@
 //  LocalizationTests.swift
 //  PerseusTests
 //
-//  Created by Mikhail Zhigulin in 7531.
+//  Created by Mikhail A. Zhigulin of Novosibirsk.
 //
-//  Copyright © 7531 - 7533 Mikhail A. Zhigulin of Novosibirsk
-//
-//  The year starts from the creation of the world in the Star temple
-//  according to a Slavic calendar. September, the 1st of Slavic year.
-//
-//  See LICENSE for details. All rights reserved.
+//  Unlicensed Free Software.
 //
 
 import XCTest
@@ -39,5 +34,6 @@ class LocalizationTests: XCTestCase {
         // assert
 
         XCTAssertEqual(sut.labelGreetings.stringValue, "Greetings".localizedValue)
+        XCTAssertEqual(sut.buttonExit.title, "Exit".localizedValue)
     }
 }
