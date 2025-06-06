@@ -2,38 +2,53 @@
 //  main.swift
 //  T3Project
 //
-//  Created by Mikhail Zhigulin in 7531.
+//  Created by Mikhail A. Zhigulin of Novosibirsk.
 //
-//  Copyright © 7531 - 7533 Mikhail A. Zhigulin of Novosibirsk
-//
-//  The year starts from the creation of the world in the Star temple
-//  according to a Slavic calendar. September, the 1st of Slavic year.
-//
-//  See LICENSE for details. All rights reserved.
+//  Unlicensed Free Software.
 //
 
 import Cocoa
-
 import ConsolePerseusLogger
 
 import class PerseusDarkMode.PerseusLogger
-import class PerseusUISystemKit.PerseusLogger
 
-typealias PerseusDarkModeLogger = PerseusDarkMode.PerseusLogger
-typealias PerseusUISystemKitLogger = PerseusUISystemKit.PerseusLogger
+// swiftlint:disable type_name
+typealias applog = ConsolePerseusLogger.PerseusLogger // For test bundle, log is for main.
+typealias dmlog = PerseusDarkMode.PerseusLogger
+// swiftlint:enable type_name
+
+// MARK: - Log Report
+
+typealias LogLevel = ConsolePerseusLogger.PerseusLogger.Level
+
+func report(_ text: String, _ type: LogLevel, _ localTime: LocalTime, _ owner: PIDandTID) {
+    report.lastMessage = "[\(localTime.date)] [\(localTime.time)]\r\n> \(text)"
+}
+
+let report = LogReport()
+log.customActionOnMessage = report(_:_:_:_:)
 
 // MARK: - Logger
 
-// By default.
+// log.turned = .off
+// dmlog.turned = .off
 
-// MARK: - External Loggers
+var loadedInfo = ""
 
-PerseusDarkModeLogger.turned = .on
-PerseusUISystemKitLogger.turned = .on
+if let path = Bundle.main.url(forResource: "CPLConfig", withExtension: "json") {
+    if log.loadConfig(path), dmlog.loadConfig(path) {
+        loadedInfo = "Options successfully loaded!"
+    } else {
+        loadedInfo = "Failed to load options!"
+    }
+} else {
+    loadedInfo = "Failed to create URL!"
+}
+
+log.message(loadedInfo)
+log.message("The app's start point...", .info)
 
 // MARK: - Construct the app's top elements
-
-log.message("The app's start point...", .info)
 
 let app = NSApplication.shared
 

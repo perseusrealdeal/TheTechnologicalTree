@@ -2,17 +2,15 @@
  Localizable.strings (English)
  T3Project
 
- Created by Mikhail Zhigulin in 7531.
+ Created by Mikhail A. Zhigulin of Novosibirsk.
 
- Copyright © 7531 - 7532 Mikhail Zhigulin of Novosibirsk
-
- The year starts from the creation of the world in the Star temple
- according to a Slavic calendar. September, the 1st of Slavic year.
-
- See LICENSE for details. All rights reserved.
+ Unlicensed Free Software.
 */
 
 /* The name of executable file is > target > build settings > product name */
 
 "Product Name" = "Branch macOS";
 "Greetings" = "Hello world!";
+"Exit" = "Exit";
+"Settings..." = "Settings...";
+"Preferences..." = "Preferences...";

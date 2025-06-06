@@ -8,16 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		2E5E3FBF2CA2AC1C00D024AB /* swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 2E5E3FBE2CA2AC1C00D024AB /* swiftlint.yml */; };
-		2EA79F092C9AF20100E46D01 /* PerseusUISystemKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2EA79F082C9AF20100E46D01 /* PerseusUISystemKit */; };
+		2E8F23D92E04773000521044 /* LogReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8F23D82E04773000521044 /* LogReport.swift */; };
+		2EAA4CB62DF2B12400E8E81A /* PerseusDarkMode in Frameworks */ = {isa = PBXBuildFile; productRef = 2EAA4CB52DF2B12400E8E81A /* PerseusDarkMode */; };
+		2EAA4CB82DF2B45600E8E81A /* PDMSupportingStar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAA4CB72DF2B45600E8E81A /* PDMSupportingStar.swift */; };
+		2EDC61052E03D8EE00515AA5 /* CPLConfig.json in Resources */ = {isa = PBXBuildFile; fileRef = 2EDC61042E03D8EE00515AA5 /* CPLConfig.json */; };
 		2EE403BE2CC0BDC30071F4C8 /* ConsolePerseusLogger in Frameworks */ = {isa = PBXBuildFile; productRef = 2EE403BD2CC0BDC30071F4C8 /* ConsolePerseusLogger */; };
 		4B1483E52912892C0013B76E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1483E42912892C0013B76E /* AppDelegate.swift */; };
 		4B1483E72912892C0013B76E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1483E62912892C0013B76E /* ViewController.swift */; };
 		4B1483E92912892F0013B76E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B1483E82912892F0013B76E /* Assets.xcassets */; };
 		4B1483EC2912892F0013B76E /* MainWindowController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B1483EA2912892F0013B76E /* MainWindowController.storyboard */; };
 		4B1483F82912892F0013B76E /* BundleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1483F72912892F0013B76E /* BundleTests.swift */; };
-		4B52C536292CD05C00C7792A /* DarkModeSwitching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B52C535292CD05C00C7792A /* DarkModeSwitching.swift */; };
 		4B5921C42B64959C00D312B9 /* TranslationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5921C32B64959C00D312B9 /* TranslationTests.swift */; };
-		4B5921C62B64960F00D312B9 /* PerseusLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5921C52B64960F00D312B9 /* PerseusLogger.swift */; };
+		4B5921C62B64960F00D312B9 /* CPLStar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5921C52B64960F00D312B9 /* CPLStar.swift */; };
 		4B5921CC2B65A65200D312B9 /* LocalizedExpectationGift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5921CB2B65A65200D312B9 /* LocalizedExpectationGift.swift */; };
 		4B5921D02B6648BC00D312B9 /* JsonDataPrettyPrintedGift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5921CF2B6648BC00D312B9 /* JsonDataPrettyPrintedGift.swift */; };
 		4B5921D22B6648CA00D312B9 /* JsonDataDictionaryGift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5921D12B6648CA00D312B9 /* JsonDataDictionaryGift.swift */; };
@@ -31,7 +33,7 @@
 		4B6F987C2927F08D00ADB03A /* LocalizationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6F987B2927F08D00ADB03A /* LocalizationTests.swift */; };
 		4B6F987E2928259E00ADB03A /* REQUIREMENTS.md in Resources */ = {isa = PBXBuildFile; fileRef = 4B6F987D2928259E00ADB03A /* REQUIREMENTS.md */; };
 		4B9DEDF72B6C7A9A003EE547 /* CurrentSystemLanguageGift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9DEDF62B6C7A9A003EE547 /* CurrentSystemLanguageGift.swift */; };
-		4B9DEDF92B6C7F04003EE547 /* AppAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9DEDF82B6C7F04003EE547 /* AppAppearance.swift */; };
+		4B9DEDF92B6C7F04003EE547 /* CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9DEDF82B6C7F04003EE547 /* CustomColors.swift */; };
 		4B9DEDFB2B6C851A003EE547 /* AppLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9DEDFA2B6C851A003EE547 /* AppLinks.swift */; };
 		4BBE905E29128FB1008F734D /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBE905D29128FB1008F734D /* MainWindowController.swift */; };
 		4BBE9062291290BD008F734D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BBE9061291290BD008F734D /* MainMenu.xib */; };
@@ -60,7 +62,11 @@
 
 /* Begin PBXFileReference section */
 		2E5E3FBE2CA2AC1C00D024AB /* swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; name = swiftlint.yml; path = .github/workflows/swiftlint.yml; sourceTree = "<group>"; };
+		2E8F23D82E04773000521044 /* LogReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogReport.swift; sourceTree = "<group>"; };
+		2EAA4CB72DF2B45600E8E81A /* PDMSupportingStar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDMSupportingStar.swift; sourceTree = "<group>"; };
+		2EAA4CB92DF2E14200E8E81A /* APPROBATION.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = APPROBATION.md; sourceTree = "<group>"; };
 		2EB587422C9FB16A00D7B55B /* TestPlanStarted.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = TestPlanStarted.xctestplan; sourceTree = "<group>"; };
+		2EDC61042E03D8EE00515AA5 /* CPLConfig.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = CPLConfig.json; sourceTree = "<group>"; };
 		4B1483E12912892C0013B76E /* Perseus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Perseus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B1483E42912892C0013B76E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B1483E62912892C0013B76E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -71,9 +77,8 @@
 		4B1483F32912892F0013B76E /* PerseusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PerseusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B1483F72912892F0013B76E /* BundleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleTests.swift; sourceTree = "<group>"; };
 		4B1483F92912892F0013B76E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4B52C535292CD05C00C7792A /* DarkModeSwitching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeSwitching.swift; sourceTree = "<group>"; };
 		4B5921C32B64959C00D312B9 /* TranslationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationTests.swift; sourceTree = "<group>"; };
-		4B5921C52B64960F00D312B9 /* PerseusLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerseusLogger.swift; sourceTree = "<group>"; };
+		4B5921C52B64960F00D312B9 /* CPLStar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPLStar.swift; sourceTree = "<group>"; };
 		4B5921C82B6498C900D312B9 /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
 		4B5921CB2B65A65200D312B9 /* LocalizedExpectationGift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedExpectationGift.swift; sourceTree = "<group>"; };
 		4B5921CF2B6648BC00D312B9 /* JsonDataPrettyPrintedGift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonDataPrettyPrintedGift.swift; sourceTree = "<group>"; };
@@ -90,7 +95,7 @@
 		4B6F987B2927F08D00ADB03A /* LocalizationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationTests.swift; sourceTree = "<group>"; };
 		4B6F987D2928259E00ADB03A /* REQUIREMENTS.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = REQUIREMENTS.md; sourceTree = "<group>"; };
 		4B9DEDF62B6C7A9A003EE547 /* CurrentSystemLanguageGift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentSystemLanguageGift.swift; sourceTree = "<group>"; };
-		4B9DEDF82B6C7F04003EE547 /* AppAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAppearance.swift; sourceTree = "<group>"; };
+		4B9DEDF82B6C7F04003EE547 /* CustomColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColors.swift; sourceTree = "<group>"; };
 		4B9DEDFA2B6C851A003EE547 /* AppLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLinks.swift; sourceTree = "<group>"; };
 		4BBE905D29128FB1008F734D /* MainWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
 		4BBE9061291290BD008F734D /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
@@ -113,7 +118,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2EE403BE2CC0BDC30071F4C8 /* ConsolePerseusLogger in Frameworks */,
-				2EA79F092C9AF20100E46D01 /* PerseusUISystemKit in Frameworks */,
+				2EAA4CB62DF2B12400E8E81A /* PerseusDarkMode in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,12 +135,13 @@
 		4B1483D82912892C0013B76E = {
 			isa = PBXGroup;
 			children = (
-				4BBE907029137B5D008F734D /* main.yml */,
-				2E5E3FBE2CA2AC1C00D024AB /* swiftlint.yml */,
-				4BBE906A291293F0008F734D /* LICENSE */,
 				4BBE906C291293F6008F734D /* README.md */,
 				4B5921C82B6498C900D312B9 /* CHANGELOG.md */,
+				2EAA4CB92DF2E14200E8E81A /* APPROBATION.md */,
 				4B6F987D2928259E00ADB03A /* REQUIREMENTS.md */,
+				4BBE906A291293F0008F734D /* LICENSE */,
+				4BBE907029137B5D008F734D /* main.yml */,
+				2E5E3FBE2CA2AC1C00D024AB /* swiftlint.yml */,
 				4BBE9068291293E7008F734D /* .gitignore */,
 				4B6F98612927D95500ADB03A /* .swiftlint.yml */,
 				4B1483E32912892C0013B76E /* T3Project */,
@@ -157,6 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				4BBE90662912931A008F734D /* main.swift */,
+				4BC7F11429F66F8100851FEA /* AppGlobals.swift */,
 				4B1483E42912892C0013B76E /* AppDelegate.swift */,
 				4B6F98752927E7C600ADB03A /* FirstPartyCode */,
 				4B14840229128A930013B76E /* Configuration */,
@@ -170,8 +177,7 @@
 			children = (
 				2EB587422C9FB16A00D7B55B /* TestPlanStarted.xctestplan */,
 				4BBE90642912911D008F734D /* TestingAppDelegate.swift */,
-				4B1483F92912892F0013B76E /* Info.plist */,
-				4B6F98782927EEF400ADB03A /* GiftsAndHelpers */,
+				4B6F98782927EEF400ADB03A /* Configuration */,
 				4B14840329128AA90013B76E /* UnitTests */,
 			);
 			path = PerseusTests;
@@ -185,9 +191,9 @@
 				4B1483E82912892F0013B76E /* Assets.xcassets */,
 				4B1483ED2912892F0013B76E /* Info.plist */,
 				4B1483EE2912892F0013B76E /* T3Product.entitlements */,
-				4BC7F11429F66F8100851FEA /* AppGlobals.swift */,
-				4B9DEDF82B6C7F04003EE547 /* AppAppearance.swift */,
+				4B9DEDF82B6C7F04003EE547 /* CustomColors.swift */,
 				4B9DEDFA2B6C851A003EE547 /* AppLinks.swift */,
+				2EDC61042E03D8EE00515AA5 /* CPLConfig.json */,
 			);
 			path = Configuration;
 			sourceTree = "<group>";
@@ -227,16 +233,9 @@
 				4B6F98762927E81000ADB03A /* LocalizationExtentions.swift */,
 				4B5921D12B6648CA00D312B9 /* JsonDataDictionaryGift.swift */,
 				4B9DEDF62B6C7A9A003EE547 /* CurrentSystemLanguageGift.swift */,
+				2E8F23D82E04773000521044 /* LogReport.swift */,
 			);
 			path = Gifts;
-			sourceTree = "<group>";
-		};
-		4B5921CE2B6648A200D312B9 /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				4B52C535292CD05C00C7792A /* DarkModeSwitching.swift */,
-			);
-			path = Helpers;
 			sourceTree = "<group>";
 		};
 		4B6F98632927DDA300ADB03A /* Localization */ = {
@@ -252,19 +251,20 @@
 			isa = PBXGroup;
 			children = (
 				4B5921CD2B66488D00D312B9 /* Gifts */,
-				4B5921CE2B6648A200D312B9 /* Helpers */,
+				2EAA4CB72DF2B45600E8E81A /* PDMSupportingStar.swift */,
 			);
 			path = FirstPartyCode;
 			sourceTree = "<group>";
 		};
-		4B6F98782927EEF400ADB03A /* GiftsAndHelpers */ = {
+		4B6F98782927EEF400ADB03A /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
+				4B1483F92912892F0013B76E /* Info.plist */,
 				4B6F98792927EF0E00ADB03A /* LocalizedInfoPlistGift.swift */,
 				4B5921CB2B65A65200D312B9 /* LocalizedExpectationGift.swift */,
-				4B5921C52B64960F00D312B9 /* PerseusLogger.swift */,
+				4B5921C52B64960F00D312B9 /* CPLStar.swift */,
 			);
-			path = GiftsAndHelpers;
+			path = Configuration;
 			sourceTree = "<group>";
 		};
 		4BBE9063291290C5008F734D /* Main */ = {
@@ -307,8 +307,8 @@
 			);
 			name = T3Project;
 			packageProductDependencies = (
-				2EA79F082C9AF20100E46D01 /* PerseusUISystemKit */,
 				2EE403BD2CC0BDC30071F4C8 /* ConsolePerseusLogger */,
+				2EAA4CB52DF2B12400E8E81A /* PerseusDarkMode */,
 			);
 			productName = XcodeTemplateProject;
 			productReference = 4B1483E12912892C0013B76E /* Perseus.app */;
@@ -339,7 +339,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
-				LastUpgradeCheck = 1010;
+				LastUpgradeCheck = 1420;
 				ORGANIZATIONNAME = "Mikhail Zhigulin";
 				TargetAttributes = {
 					4B1483E02912892C0013B76E = {
@@ -362,8 +362,8 @@
 			);
 			mainGroup = 4B1483D82912892C0013B76E;
 			packageReferences = (
-				2EA79F072C9AF20100E46D01 /* XCRemoteSwiftPackageReference "PerseusUISystemKit" */,
 				2EE403BC2CC0BDC30071F4C8 /* XCRemoteSwiftPackageReference "ConsolePerseusLogger" */,
+				2EAA4CB42DF2B12400E8E81A /* XCRemoteSwiftPackageReference "PerseusDarkMode" */,
 			);
 			productRefGroup = 4B1483E22912892C0013B76E /* Products */;
 			projectDirPath = "";
@@ -391,6 +391,7 @@
 				4B1483EC2912892F0013B76E /* MainWindowController.storyboard in Resources */,
 				4BBE9062291290BD008F734D /* MainMenu.xib in Resources */,
 				4BFA5FDA2989A12800AC09F5 /* OptionsWindowController.storyboard in Resources */,
+				2EDC61052E03D8EE00515AA5 /* CPLConfig.json in Resources */,
 				4BBE906B291293F0008F734D /* LICENSE in Resources */,
 				4B6F986E2927E11700ADB03A /* Translation_ru.plist in Resources */,
 				4B6F98662927DF1400ADB03A /* InfoPlist.strings in Resources */,
@@ -435,15 +436,16 @@
 			files = (
 				4BFA5FDE2989A1F000AC09F5 /* OptionsViewController.swift in Sources */,
 				4B5921D22B6648CA00D312B9 /* JsonDataDictionaryGift.swift in Sources */,
-				4B52C536292CD05C00C7792A /* DarkModeSwitching.swift in Sources */,
 				4BBE90672912931A008F734D /* main.swift in Sources */,
 				4BFA5FDC2989A16400AC09F5 /* OptionsWindowController.swift in Sources */,
-				4B9DEDF92B6C7F04003EE547 /* AppAppearance.swift in Sources */,
+				4B9DEDF92B6C7F04003EE547 /* CustomColors.swift in Sources */,
 				4BC7F11529F66F8100851FEA /* AppGlobals.swift in Sources */,
 				4B9DEDFB2B6C851A003EE547 /* AppLinks.swift in Sources */,
 				4BFA5FE02989A69E00AC09F5 /* TheMenu.swift in Sources */,
+				2E8F23D92E04773000521044 /* LogReport.swift in Sources */,
 				4B1483E72912892C0013B76E /* ViewController.swift in Sources */,
 				4B9DEDF72B6C7A9A003EE547 /* CurrentSystemLanguageGift.swift in Sources */,
+				2EAA4CB82DF2B45600E8E81A /* PDMSupportingStar.swift in Sources */,
 				4B5921D02B6648BC00D312B9 /* JsonDataPrettyPrintedGift.swift in Sources */,
 				4B1483E52912892C0013B76E /* AppDelegate.swift in Sources */,
 				4BBE905E29128FB1008F734D /* MainWindowController.swift in Sources */,
@@ -456,7 +458,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B1483F82912892F0013B76E /* BundleTests.swift in Sources */,
-				4B5921C62B64960F00D312B9 /* PerseusLogger.swift in Sources */,
+				4B5921C62B64960F00D312B9 /* CPLStar.swift in Sources */,
 				4B5921C42B64959C00D312B9 /* TranslationTests.swift in Sources */,
 				4B6F987A2927EF0E00ADB03A /* LocalizedInfoPlistGift.swift in Sources */,
 				4B6F987C2927F08D00ADB03A /* LocalizationTests.swift in Sources */,
@@ -532,6 +534,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -540,6 +543,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -595,6 +599,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -603,6 +608,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -629,8 +635,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = T3Project/Configuration/T3Product.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
 				INFOPLIST_FILE = T3Project/Configuration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -648,8 +656,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = T3Project/Configuration/T3Product.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
 				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = T3Project/Configuration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -670,7 +680,8 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = PerseusTests/Info.plist;
+				DEAD_CODE_STRIPPING = YES;
+				INFOPLIST_FILE = PerseusTests/Configuration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -691,8 +702,9 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
 				ENABLE_TESTABILITY = YES;
-				INFOPLIST_FILE = PerseusTests/Info.plist;
+				INFOPLIST_FILE = PerseusTests/Configuration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -739,29 +751,29 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		2EA79F072C9AF20100E46D01 /* XCRemoteSwiftPackageReference "PerseusUISystemKit" */ = {
+		2EAA4CB42DF2B12400E8E81A /* XCRemoteSwiftPackageReference "PerseusDarkMode" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/perseusrealdeal/PerseusUISystemKit.git";
+			repositoryURL = "https://github.com/perseusrealdeal/PerseusDarkMode";
 			requirement = {
 				kind = exactVersion;
-				version = 1.1.4;
+				version = 2.0.3;
 			};
 		};
 		2EE403BC2CC0BDC30071F4C8 /* XCRemoteSwiftPackageReference "ConsolePerseusLogger" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/perseusrealdeal/ConsolePerseusLogger";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
+				kind = exactVersion;
+				version = 1.5.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		2EA79F082C9AF20100E46D01 /* PerseusUISystemKit */ = {
+		2EAA4CB52DF2B12400E8E81A /* PerseusDarkMode */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 2EA79F072C9AF20100E46D01 /* XCRemoteSwiftPackageReference "PerseusUISystemKit" */;
-			productName = PerseusUISystemKit;
+			package = 2EAA4CB42DF2B12400E8E81A /* XCRemoteSwiftPackageReference "PerseusDarkMode" */;
+			productName = PerseusDarkMode;
 		};
 		2EE403BD2CC0BDC30071F4C8 /* ConsolePerseusLogger */ = {
 			isa = XCSwiftPackageProductDependency;

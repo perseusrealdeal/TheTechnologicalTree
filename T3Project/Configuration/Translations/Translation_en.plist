@@ -6,5 +6,11 @@
 	<string>Branch macOS</string>
 	<key>Greetings</key>
 	<string>Hello world!</string>
+	<key>Exit</key>
+	<string>Exit</string>
+	<key>Settings...</key>
+	<string>Settings...</string>
+	<key>Preferences...</key>
+	<string>Preferences...</string>
 </dict>
 </plist>
