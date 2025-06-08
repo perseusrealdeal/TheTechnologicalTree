@@ -2,21 +2,50 @@
 //  main.swift
 //  T3Project
 //
-//  Created by Mikhail Zhigulin in 7531.
+//  Created by Mikhail A. Zhigulin of Novosibirsk.
 //
-//  Copyright © 7531 - 7533 Mikhail A. Zhigulin of Novosibirsk
-//
-//  The year starts from the creation of the world according to a Slavic calendar.
-//  September, the 1st of Slavic year.
-//
-//  See LICENSE for details. All rights reserved.
+//  Unlicensed Free Software.
 //
 
 import UIKit
+import ConsolePerseusLogger
+
+import class PerseusDarkMode.PerseusLogger
+
+// swiftlint:disable type_name
+typealias applog = ConsolePerseusLogger.PerseusLogger // For test bundle, log for main.
+typealias dmlog = PerseusDarkMode.PerseusLogger
+// swiftlint:enable type_name
+
+// MARK: - Log Report
+
+typealias LogLevel = ConsolePerseusLogger.PerseusLogger.Level
+
+func report(_ text: String, _ type: LogLevel, _ localTime: LocalTime, _ owner: PIDandTID) {
+    report.lastMessage = "[\(localTime.date)] [\(localTime.time)]\r\n> \(text)"
+}
+
+let report = LogReport()
+log.customActionOnMessage = report(_:_:_:_:)
 
 // MARK: - Logger
 
-log.level = .info
+// log.turned = .off
+// dmlog.turned = .off
+
+var loadedInfo = ""
+
+if let path = Bundle.main.url(forResource: "CPLConfig", withExtension: "json") {
+    if log.loadConfig(path), dmlog.loadConfig(path) {
+        loadedInfo = "Options successfully loaded!"
+    } else {
+        loadedInfo = "Failed to load options!"
+    }
+} else {
+    loadedInfo = "Failed to create URL!"
+}
+
+log.message(loadedInfo)
 log.message("The app's start point...", .info)
 
 // MARK: - Make the app run

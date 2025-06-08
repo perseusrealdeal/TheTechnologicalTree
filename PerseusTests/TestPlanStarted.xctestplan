@@ -1,0 +1,39 @@
+{
+  "configurations" : [
+    {
+      "id" : "5FCA69C1-082F-464E-A638-EEDA21F49C4D",
+      "name" : "English",
+      "options" : {
+        "language" : "en",
+        "region" : "US"
+      }
+    },
+    {
+      "id" : "16BC5354-9C6B-47E4-98E9-C25DBF5FB34B",
+      "name" : "Russian",
+      "options" : {
+        "language" : "ru",
+        "region" : "RU"
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "environmentVariableEntries" : [
+      {
+        "key" : "OS_ACTIVITY_MODE",
+        "value" : "disable"
+      }
+    ],
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:T3Project.xcodeproj",
+        "identifier" : "4B5A9BA4291393CE002062AC",
+        "name" : "PerseusTests"
+      }
+    }
+  ],
+  "version" : 1
+}

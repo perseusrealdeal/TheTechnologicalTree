@@ -2,14 +2,9 @@
 //  LocalizationTests.swift
 //  PerseusTests
 //
-//  Created by Mikhail Zhigulin in 7531.
+//  Created by Mikhail A. Zhigulin of Novosibirsk.
 //
-//  Copyright © 7531 - 7533 Mikhail A. Zhigulin of Novosibirsk
-//
-//  The year starts from the creation of the world according to a Slavic calendar.
-//  September, the 1st of Slavic year.
-//
-//  See LICENSE for details. All rights reserved.
+//  Unlicensed Free Software.
 //
 //  Before start unit tests, make sure that previous app's installation is removed.
 //
@@ -44,11 +39,11 @@ class LocalizationTests: XCTestCase {
 
     func test_Dark_Mode_group_title_should_be_localized() {
 
-        let expected = "Dark Mode".localizedFromSettings
-        let requirement = "Dark Mode".localizedFromRequirements
+        let expected = "Appearance Mode".localizedFromSettings
+        let requirement = "Appearance Mode".localizedFromRequirements
 
         let tell_not_equal =
-        "\"Dark Mode\" group title is not correct with the expected value."
+        "\"Appearance Mode\" group title is not correct with the expected value."
 
         XCTAssertEqual(requirement, expected, tell_not_equal)
     }

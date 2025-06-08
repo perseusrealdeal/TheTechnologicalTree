@@ -2,14 +2,9 @@
 //  SettingsBundleTestHelper.swift
 //  PerseusTests
 //
-//  Created by Mikhail Zhigulin in 7531.
+//  Created by Mikhail A. Zhigulin of Novosibirsk.
 //
-//  Copyright © 7531 - 7533 Mikhail A. Zhigulin of Novosibirsk
-//
-//  The year starts from the creation of the world according to a Slavic calendar.
-//  September, the 1st of Slavic year.
-//
-//  See LICENSE for details. All rights reserved.
+//  Unlicensed Free Software.
 //
 
 import Foundation
@@ -75,7 +70,7 @@ private func getPreferencesFromSettingsBundle() -> [[String: Any]]? {
             from: settingsData,
             options: [],
             format: nil) as? [String: Any],
-        let settingsPreferences = settingsPlist?[bundle_PreferencesItems] as? [[String: Any]]
+        let settingsPreferences = settingsPlist[bundle_PreferencesItems] as? [[String: Any]]
     else { return nil}
 
     return settingsPreferences

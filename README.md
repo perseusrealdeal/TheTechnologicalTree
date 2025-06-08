@@ -1,87 +1,121 @@
-# <App's Name> — Xcode 10.1+
+# <App's Name> — Xcode 14.2+
 
-> This is the iOS app custom project template.
+> This is the custom project template for a great iOS app.
 
-[![Actions Status](https://github.com/perseusrealdeal/XcodeTemplateProject/actions/workflows/main.yml/badge.svg)](https://github.com/perseusrealdeal/XcodeTemplateProject/actions)
+[![Actions Status](https://github.com/perseusrealdeal/thetechnologicaltree/actions/workflows/main.yml/badge.svg)](https://github.com/perseusrealdeal/thetechnologicaltree/actions/workflows/main.yml)
+[![Style](https://github.com/perseusrealdeal/thetechnologicaltree/actions/workflows/swiftlint.yml/badge.svg)](https://github.com/perseusrealdeal/thetechnologicaltree/actions/workflows/swiftlint.yml)
 ![Version](https://img.shields.io/badge/Version-0.0.1-green.svg)
-[![Platform iOS 9](https://img.shields.io/badge/Platform-iOS%209.3+-blue.svg)](https://en.wikipedia.org/wiki/IOS_9)
-[![Xcode 10.1](https://img.shields.io/badge/Xcode-10.1+-red.svg)](https://en.wikipedia.org/wiki/Xcode)
-[![Swift 4.2](https://img.shields.io/badge/Swift-4.2-orange.svg)](https://docs.swift.org/swift-book/RevisionHistory/RevisionHistory.html)
-[![SDK UIKit](https://img.shields.io/badge/SDK-UIKit%20-blueviolet.svg)](https://developer.apple.com/documentation/uikit)
-[![CI Script](http://img.shields.io/:CI-Script-blue.svg)](/.github/workflows/main.yml)
-[![License](http://img.shields.io/:License-MIT-blue.svg)](/LICENSE)
+[![Platforms](https://img.shields.io/badge/Platform-iOS%2012.4+-orange.svg)](https://en.wikipedia.org/wiki/IOS_12)
+[![Xcode](https://img.shields.io/badge/Xcode-14.2+-red.svg)](https://en.wikipedia.org/wiki/Xcode)
+[![Swift](https://img.shields.io/badge/Swift-5-orange.svg)](https://docs.swift.org/swift-book/RevisionHistory/RevisionHistory.html)
+[![SDK](https://img.shields.io/badge/SDK-UIKit%20-blueviolet.svg)](https://developer.apple.com/documentation/uikit)
+[![License](http://img.shields.io/:License-Unlicense-green.svg)](/LICENSE)
 
 ## Dependencies
 
-[![PerseusDarkMode](http://img.shields.io/:PerseusDarkMode-1.1.5-green.svg)](https://github.com/perseusrealdeal/PerseusDarkMode/tree/1.1.5)
-[![PerseusUISystemKit](http://img.shields.io/:PerseusUISystemKit-1.1.4-green.svg)](https://github.com/perseusrealdeal/PerseusUISystemKit/tree/1.1.4)
+> Swift Package Manager.
 
-## In brief > Idea to use, the Why
+[![ConsolePerseusLogger](http://img.shields.io/:ConsolePerseusLogger-1.5.0-green.svg)](https://github.com/perseusrealdeal/ConsolePerseusLogger.git)
+[![PerseusDarkMode](http://img.shields.io/:PerseusDarkMode-2.0.3-green.svg)](https://github.com/perseusrealdeal/PerseusDarkMode.git)
 
-> Great start for developing iOS app.<br/>
+> May be interesting to add: 
 
-> TODO: preview material
+[![PerseusGeoKit](http://img.shields.io/:PerseusGeoKit-1.0.3-green.svg)](https://github.com/perseusrealdeal/PerseusGeoKit.git)
+
+# In brief > Idea to use, the Why
+
+> Initial point of development process.
+
+> [!IMPORTANT]
+> Preview Material.
 
 ## Approbation Matrix
 
-> [Apple Apps Approbation](https://docs.google.com/document/d/1K2jOeIknKRRpTEEIPKhxO2H_1eBTof5uTXxyOm5g6nQ/edit?usp=sharing) environment. [CHANGELOG](/CHANGELOG.md) for details.
+> [`A3 Environment and Approbation`](/APPROBATION.md). [`CHANGELOG`](/CHANGELOG.md) for details.
 
-| iOS    | Simulator | Device                | Result  | Details |
-| ------ | --------- | --------------------- | :-----: | ------- |
-| iOS 9  |           |                       | ??      | - |
-| iOS 10 |           |                       | ??      | - |
-| iOS 11 |           |                       | ??      | - |
-| iOS 12 | -         | iPad Air / iOS 12.5.7 | ok      | - |
-| iOS 13 |           |                       | ??      | - |
-| iOS 14 |           |                       | ??      | - |
-| iOS 15 |           |                       | ??      | - |
-| iOS 16 |           |                       | ??      | - |
-| iOS 17 |           |                       | ??      | - |
-| iOS 18 |           |                       | ??      | - |
+## Build system requirements
 
-# Build system requirements
+- [macOS Monterey 12.7.6+](https://apps.apple.com/by/app/macos-monterey/id1576738294) / [Xcode 14.2+](https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_14.2/Xcode_14.2.xip)
 
-- [macOS 10.13.6+](https://apps.apple.com/us/app/macos-high-sierra/id1246284741?ls=1)
-- [Xcode 10.1+](https://stackoverflow.com/questions/10335747/how-to-download-xcode-dmg-or-xip-file)
-- Swift 4.2+
-- iOS: 9.3+ (12.0 by default), UIKit SDK
+## Templated Software Requirements
 
-# Software requirements
-
-- [Functional specification](/REQUIREMENTS.md)
+- [`Functional Specification`](/REQUIREMENTS.md)
 - Translations [EN](/T3Project/Configuration/Translations/Translation_en.plist), [RU](/T3Project/Configuration/Translations/Translation_ru.plist)
+
+# Gifts
+
+| Type  | Name                                                                                        | License                            |
+| ----- | ------------------------------------------------------------------------------------------- | ---------------------------------- |
+| Class | [LogReport.swift](https://gist.github.com/PerseusRealDeal/9a4118301b59d43969d8edf5ebc3a571) | [Unlicense](https://unlicense.org) |
 
 # First-party software
 
-- [Perseus Dark Mode](https://github.com/perseusrealdeal/PerseusDarkMode.git) / [1.1.5](https://github.com/perseusrealdeal/perseusdarkmode/releases/tag/1.1.5)
-- [Perseus UI System Kit](https://github.com/perseusrealdeal/PerseusUISystemKit.git) / [1.1.4](https://github.com/perseusrealdeal/perseusuisystemkit/releases/tag/1.1.4)
-- [Dark Mode switching functions](https://gist.github.com/perseusrealdeal/11b1bab47f13134832b859f49d9af706)
-- [PerseusLogger](https://gist.github.com/perseusrealdeal/df456a9825fcface44eca738056eb6d5)
+| Type    | Name                                                                                                                                                                  | License |
+| ------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
+| Package | [ConsolePerseusLogger](https://github.com/perseusrealdeal/ConsolePerseusLogger) / [1.5.0](https://github.com/perseusrealdeal/ConsolePerseusLogger/releases/tag/1.5.0) | MIT     |
+| Package | [PerseusDarkMode](https://github.com/perseusrealdeal/PerseusDarkMode) / [2.0.3](https://github.com/perseusrealdeal/PerseusDarkMode/releases/tag/2.0.3)                | MIT     |
 
 # Third-party software
 
-- [SwiftLint](https://github.com/realm/SwiftLint) / [0.31.0: Busy Laundromat](https://github.com/realm/SwiftLint/releases/tag/0.31.0) for macOS High Sierra
+| Type   | Name                                                                                                                              | License                            |
+| ------ | --------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------- |
+| Style  | [SwiftLint](https://github.com/realm/SwiftLint) / [v0.57.0 for Monterey+](https://github.com/realm/SwiftLint/releases/tag/0.57.0) | MIT                                |
+| Action | [mxcl/xcodebuild@v3](https://github.com/mxcl/xcodebuild)                                                                          | [Unlicense](https://unlicense.org) |
+| Action | [cirruslabs/swiftlint-action@v1](https://github.com/cirruslabs/swiftlint-action/)                                                 | MIT                                |
 
 # Points taken into account
 
-- Explicit start point placed in [main.swift](/XcodeTemplateProject/main.swift)
-- Explicit app globals within [AppGlobals.swift](/XcodeTemplateProject/Configuration/AppGlobals.swift)
-- Explicit user preferences logic within [UserPreferences.swift](/XcodeTemplateProject/Configuration/UserPreferences.swift)
-- Explicit app delegate within test bundle [TestingAppDelegate.swift](XcodeTemplateProjectTests/Configuration/TestingAppDelegate.swift)
-- Settings bundle with Dark Mode option and release number sections
-- Localization test schemes for EN and RU as well
-- SwiftLint shell script as a build phase
-- Software requirements
+- Explicit start point placed in [main.swift](/T3Project/main.swift)
+- Explicit app delegate [TestingAppDelegate.swift](/PerseusTests/TestingAppDelegate.swift) with test bundle
+- Explicit app globals placed in [AppGlobals.swift](/T3Project/Configuration/AppGlobals.swift)
+- Localization based on Localizable.strings approach
+- [Test Plan](/PerseusTests/TestPlanStarted.xctestplan) configured for EN and RU as well
+- [Changelog Template](/CHANGELOG.md)
+- [A3 Environment Specification Template](/APPROBATION.md)
+- [Software Requirements Template](/REQUIREMENTS.md)
+- [GitHub CI build & test](/main.yml)
+- [GitHub CI SwiftLint](/swiftlint.yml)
+- [SwiftLint Rules](/.swiftlint.yml)
+- [Git Config](/.gitignore)
+- [CPL Config](/T3Project/Configuration/CPLConfig.json)
 
-# License MIT
+# Unlicensed Free Software
 
-Copyright © 7531 - 7533 Mikhail A. Zhigulin of Novosibirsk
+- [License](/LICENSE)
 
-- The year starts from the creation of the world in the Star temple according to a Slavic calendar.
-- September, the 1st of Slavic year.
+## Required License Notices
 
-[LICENSE](/LICENSE) for details.
+© Mikhail A. Zhigulin of Novosibirsk **for** ConsolePerseusLogger, PerseusDarkMode, PerseusGeoKit</br>
+© PerseusRealDeal **for** ConsolePerseusLogger, PerseusDarkMode, PerseusGeoKit</br>
+© 2025 The SwiftLint Contributors **for** SwiftLint</br>
+© GitHub **for** GitHub Action cirruslabs/swiftlint-action@v1</br>
+
+# Credits
+
+<table>
+<tr>
+    <td>Balance and Control</td>
+    <td>kept by</td>
+    <td>Persons</td>
+</tr>
+<tr>
+    <td>Source Code</td>
+    <td>written by</td>
+    <td>Persons</td>
+</tr>
+<tr>
+    <td>Documentation</td>
+    <td>prepared by</td>
+    <td>Persons</td>
+</tr>
+<tr>
+    <td>Product Approbation</td>
+    <td>tested by</td>
+    <td>Persons</td>
+</tr>
+</table>
 
 # Editors, prepared by
 
-> Mikhail A. Zhigulin of Novosibirsk
+> © Mikhail A. Zhigulin of Novosibirsk
+
