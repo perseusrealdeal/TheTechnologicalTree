@@ -2,14 +2,9 @@
 //  LocalizationTestHelper.swift
 //  PerseusTests
 //
-//  Created by Mikhail Zhigulin in 7531.
+//  Created by Mikhail A. Zhigulin of Novosibirsk.
 //
-//  Copyright © 7531 - 7533 Mikhail A. Zhigulin of Novosibirsk
-//
-//  The year starts from the creation of the world according to a Slavic calendar.
-//  September, the 1st of Slavic year.
-//
-//  See LICENSE for details. All rights reserved.
+//  Unlicensed Free Software.
 //
 
 import Foundation
@@ -63,7 +58,7 @@ extension String {
             as? [String: String]
         else { print("Not possible to serialize the property list."); return "?" }
 
-        guard let value = result?[self]
+        guard let value = result[self]
         else { print("No such value according to the key: \(self)."); return "?" }
 
         return value

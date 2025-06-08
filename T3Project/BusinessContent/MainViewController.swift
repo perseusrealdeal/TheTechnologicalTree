@@ -2,24 +2,20 @@
 //  ViewController.swift, MainViewController.storyboard
 //  T3Project
 //
-//  Created by Mikhail Zhigulin in 7531.
+//  Created by Mikhail A. Zhigulin of Novosibirsk.
 //
-//  Copyright © 7531 - 7533 Mikhail A. Zhigulin of Novosibirsk
-//
-//  The year starts from the creation of the world according to a Slavic calendar.
-//  September, the 1st of Slavic year.
-//
-//  See LICENSE for details. All rights reserved.
+//  Unlicensed Free Software.
 //
 
 import UIKit
 
+import ConsolePerseusLogger
+import PerseusDarkMode
+
 class MainViewController: UIViewController {
 
-    deinit { log.message("\(type(of: self)).deinit") }
-
     @IBOutlet private(set) weak var greetingsLabel: UILabel!
-    @IBOutlet private weak var actualDarkModeValueLabel: UILabel!
+    @IBOutlet private(set) weak var actualDarkModeValueLabel: UILabel!
 
     class func storyboardInstance() -> MainViewController {
 
@@ -37,22 +33,25 @@ class MainViewController: UIViewController {
 
         guard value(forKey: "storyboardIdentifier") != nil else { return }
 
-        AppearanceService.register(stakeholder: self, selector: #selector(makeUp))
         localizeContent()
+
+        // Dark Mode setup
+        DarkModeAgent.register(stakeholder: self, selector: #selector(makeUp))
     }
 
     override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
         super.traitCollectionDidChange(previousTraitCollection)
 
         if #available(iOS 13.0, *) {
-            AppearanceService.processTraitCollectionDidChange(previousTraitCollection)
+            DarkModeAgent.processTraitCollectionDidChange(previousTraitCollection)
         }
     }
 
     @objc private func makeUp() {
+
         log.message("[\(type(of: self))].\(#function)")
 
-        actualDarkModeValueLabel.text = "^_^ \(AppearanceService.DarkModeUserChoice)"
+        actualDarkModeValueLabel.text = "^_^ \(DarkModeAgent.DarkModeUserChoice)"
 
         // self.view.backgroundColor = DarkMode.style == .light ? .yellow : .gray
         self.view.backgroundColor = UIColor.perseusBlue

@@ -2,17 +2,15 @@
 //  AppDelegate.swift
 //  T3Project
 //
-//  Created by Mikhail Zhigulin in 7531.
+//  Created by Mikhail A. Zhigulin of Novosibirsk.
 //
-//  Copyright © 7531 - 7533 Mikhail A. Zhigulin of Novosibirsk
-//
-//  The year starts from the creation of the world according to a Slavic calendar.
-//  September, the 1st of Slavic year.
-//
-//  See LICENSE for details. All rights reserved.
+//  Unlicensed Free Software.
 //
 
 import UIKit
+
+import ConsolePerseusLogger
+import PerseusDarkMode
 
 // MARK: - The Business Matter Application Delegate
 
@@ -45,21 +43,17 @@ extension AppDelegate: UIApplicationDelegate {
 
         window!.makeKeyAndVisible()
 
-        AppearanceService.makeUp()
+        DarkModeAgent.force(DarkModeUserChoice)
 
         return true
     }
 
     func applicationDidBecomeActive(_ application: UIApplication) {
-
         log.message("[\(type(of: self))].\(#function)")
 
-        // Update Dark Mode from Settings
-        if let choice = isDarkModeSettingsChanged() {
-            // Change Dark Mode value in Perseus Dark Mode library
-            AppearanceService.DarkModeUserChoice = choice
-            // Update appearance in accoring with changed Dark Mode Style
-            AppearanceService.makeUp()
+        // Actualize Dark Mode style to Settings Bundle
+        if let choice = DarkModeAgent.isDarkModeSettingsKeyChanged() {
+            DarkModeAgent.force(choice)
         }
     }
 

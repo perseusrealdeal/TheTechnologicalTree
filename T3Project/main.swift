@@ -2,17 +2,19 @@
 //  main.swift
 //  T3Project
 //
-//  Created by Mikhail Zhigulin in 7531.
+//  Created by Mikhail A. Zhigulin of Novosibirsk.
 //
-//  Copyright © 7531 - 7533 Mikhail A. Zhigulin of Novosibirsk
-//
-//  The year starts from the creation of the world according to a Slavic calendar.
-//  September, the 1st of Slavic year.
-//
-//  See LICENSE for details. All rights reserved.
+//  Unlicensed Free Software.
 //
 
 import UIKit
+import ConsolePerseusLogger
+
+import class PerseusDarkMode.PerseusLogger
+
+// swiftlint:disable type_name
+typealias dmlog = PerseusDarkMode.PerseusLogger
+// swiftlint:enable type_name
 
 // MARK: - Logger
 
