@@ -8,7 +8,6 @@
 //
 
 import XCTest
-
 @testable import Perseus
 
 // MARK: - The Testing Application Delegate
@@ -16,7 +15,6 @@ import XCTest
 @objc(TestingAppDelegate)
 class TestingAppDelegate: NSResponder, NSApplicationDelegate {
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        applog.turned = .off
 
         var loadedInfo = ""
 

@@ -8,7 +8,6 @@
 //
 
 import Cocoa
-import ConsolePerseusLogger
 
 struct AppGlobals {
 

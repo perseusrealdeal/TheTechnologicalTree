@@ -9,9 +9,6 @@
 
 import Cocoa
 
-import PerseusDarkMode
-import ConsolePerseusLogger
-
 class AppDelegate: NSObject, NSApplicationDelegate {
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {

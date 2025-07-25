@@ -9,9 +9,6 @@
 
 import Cocoa
 
-import PerseusDarkMode
-import ConsolePerseusLogger
-
 class OptionsViewController: NSViewController {
 
     @IBOutlet weak var segmentedControl: NSSegmentedControl!

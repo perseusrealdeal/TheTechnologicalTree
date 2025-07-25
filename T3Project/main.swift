@@ -8,18 +8,10 @@
 //
 
 import Cocoa
-import ConsolePerseusLogger
-
-import class PerseusDarkMode.PerseusLogger
-
-// swiftlint:disable type_name
-typealias applog = ConsolePerseusLogger.PerseusLogger // For test bundle, log is for main.
-typealias dmlog = PerseusDarkMode.PerseusLogger
-// swiftlint:enable type_name
 
 // MARK: - Log Report
 
-typealias LogLevel = ConsolePerseusLogger.PerseusLogger.Level
+typealias LogLevel = PerseusLogger.Level
 
 func report(_ text: String, _ type: LogLevel, _ localTime: LocalTime, _ owner: PIDandTID) {
     report.lastMessage = "[\(localTime.date)] [\(localTime.time)]\r\n> \(text)"
@@ -36,7 +28,7 @@ log.customActionOnMessage = report(_:_:_:_:)
 var loadedInfo = ""
 
 if let path = Bundle.main.url(forResource: "CPLConfig", withExtension: "json") {
-    if log.loadConfig(path), dmlog.loadConfig(path) {
+    if log.loadConfig(path) {
         loadedInfo = "Options successfully loaded!"
     } else {
         loadedInfo = "Failed to load options!"

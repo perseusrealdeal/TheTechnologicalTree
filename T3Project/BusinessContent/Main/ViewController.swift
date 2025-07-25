@@ -9,9 +9,6 @@
 
 import Cocoa
 
-import PerseusDarkMode
-import ConsolePerseusLogger
-
 class ViewController: NSViewController {
 
     @IBOutlet private(set) weak var buttonExit: NSButton!
